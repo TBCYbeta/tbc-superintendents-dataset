@@ -1,0 +1,50 @@
+body, td {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10pt;
+background: #fff;
+color: #000;
+}
+
+a { text-decoration: none; color: #000; }
+
+h1 { font-size: 1.5em; }
+h2 { font-size: 1.4em; }
+h3 { font-size: 1.3em; }
+h4 { font-size: 1.2em; }
+h5 { font-size: 1.1em; }
+h6 { font-size: 1em; }
+
+
+
+
+#title h1 a span { 
+height: 100px;
+width: 760px;
+
+}
+
+/* Added this 4/1/08 due to the print feature not working when there
+were multiple pages.  Simplified the printing and this resolved it. LS */ 
+
+#logo, #title, #leftNav, #topNav, #breadcrumbs { display: none; }
+/*
+     FILE ARCHIVED ON 06:58:49 Oct 21, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:20:32 Nov 16, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 109.296
+  exclusion.robots: 0.143
+  exclusion.robots.policy: 0.13
+  RedisCDXSource: 1.305
+  esindex: 0.012
+  LoadShardBlock: 81.547 (3)
+  PetaboxLoader3.datanode: 110.047 (4)
+  CDXLines.iter: 21.957 (3)
+  load_resource: 131.71
+  PetaboxLoader3.resolve: 44.538
+*/

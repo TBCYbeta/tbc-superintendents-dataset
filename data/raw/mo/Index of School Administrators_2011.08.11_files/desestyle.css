@@ -1,0 +1,363 @@
+/* Base DESE styles - last updated by Lainie Strange 10/23/08 */
+
+body {
+	height: 100%;
+	width: 760px;
+	margin: 0 auto;
+	font: .7em Verdana, Arial, Helvetica, sans-serif;
+	color: #000;
+}
+
+a {
+	font-style: normal;
+	font-variant: normal;
+	text-decoration: none;
+	color: #00337f;
+}
+
+
+/*a:link, a:visited,
+{
+text-decoration: none;
+}
+
+ a:hover {
+text-decoration: underline
+}
+*/
+h2, h3 {
+	padding-left: 2px;
+	border-left: thick solid #ba8748;
+   border-bottom: 1px dashed #ba8748;
+	color: #439639;
+	margin: 5px 0px 15px 0px; 
+	}
+
+h1 { font-size: 1.6em; }
+h2 {
+	font-size: 1.4em;
+}
+
+h3 { 
+font-size: 1.2em; 
+
+}
+h4 { 
+font-size: .9em; 
+margin: 5px 0px 5px 0px;
+}
+h5 { 
+font-size: 1em; 
+}
+h6 { 
+font-size: 1em; 
+font-style: oblique; 
+}
+
+
+	
+hr { 
+border: none 0; 
+border-top: 1px dashed #9fa617;/*the border*/
+height: 1px;/*whatever the total width of the border-top and border-bottom equal*/
+color:#9fa617;
+background-color: #9fa617;
+/*margin: 2px 0 4px;*/
+}
+
+
+ 
+ 	
+/** IDs   **/	
+#pageContainer {
+}
+
+/*Logo in upper left*/
+#logo {
+	width: 760px;
+	height: 100px;
+	margin-bottom: 20px;
+ 	background: url(/web/20111021065847im_/http://dese.mo.gov/images/logo.jpg) no-repeat;
+	float: left;
+}
+
+#title h1 { 
+height: 0;
+width: 0;
+position: absolute; /* for the benefit of IE5 Mac */
+}
+#title h1 a { /* link on logo */
+display: block;
+width: 200px;
+height: 80px;
+}
+
+
+/*Navigation in upper right-hand corner*/
+#topNav {
+	position: relative;
+	width: 499px;
+	padding-top: 1px;
+	margin-left: 261px;
+	color: #fff;
+
+}
+/*This holds the left navigation.  The flyout menu css is controlled via left_menu_dese.css
+The left menu javascript is located in menu.js*/
+#leftNav {
+float: left;
+width: 160px;
+margin-right: -40px;
+margin-top: 2px;
+/* This is an IE hack so that the left nav doesn't jump when minimizing and maximizing*/
+height: 1%;
+
+position:relative;
+}
+
+#leftNav h4 {
+font-size: 1.2em; 
+color: #6573D1;
+margin: 0px 0px -7px 0px;
+}
+
+/*Breadcrumb navigation used on all pages except the homepage. This is located directly 
+above the content area*/
+#breadcrumbs { 
+	float: left;
+	margin: 0px 0px 10px 10px; 
+	width: 350px;
+	voice-family: inherit; /* Hide from IE5.x/Win hack */
+	width: 390px;
+}
+
+/*Content container extends the width of the content and rightNav */
+#contentContainer{
+	float: right;
+	width: 580px;	
+}
+
+
+/*Page content goes here*/
+#content {
+	float: left;
+	font-size: 1.1em;
+	padding: 0px 2px 25px 10px; 
+	width: 350px;
+	voice-family: inherit; /* Hide from IE5.x/Win hack */
+	width: 390px;
+	line-height: 150%;
+}
+
+/*No right navigation*/
+#content.noRelativeContent {
+	float: left;
+	width: 560px;
+}
+
+/*One column - no right or left navigation - added 12/19/07 - LS*/
+#content.noNavigation {
+	float: left;
+	width: 748px;
+}
+
+/* Added 2/10/11 - to automate addition of file identification*/
+#content a.pdf, #rightNav a.pdf { background: transparent url("/web/20111021065847im_/http://dese.mo.gov/images/smallpdf.gif") 100% 50% no-repeat; padding-right: 20px;}
+#content a.doc, #rightNav a.doc { background: transparent url("/web/20111021065847im_/http://dese.mo.gov/images/smallmsword.gif") 100% 50% no-repeat; padding-right: 20px;}
+#content a.xls, #rightNav a.xls { background: transparent url("/web/20111021065847im_/http://dese.mo.gov/images/smallmsxls.gif") 100% 50% no-repeat; padding-right: 20px;}
+#content a.ppt, #rightNav a.ppt { background: transparent url("/web/20111021065847im_/http://dese.mo.gov/images/smallpp.jpg") 100% 50% no-repeat; padding-right: 20px;}
+
+/*This includes the search and "How Do I" areas on the DESE Website*/
+#rightNav {
+	/*position: relative;*/
+	float: right;
+	width: 160px;
+	padding: 0px 5px 0px 5px;
+	margin: 3px 0px 4px 0px;
+	/*added 2/10/11 - to accomodate for the height of the pdf/excel/word icon */
+	font-size: 1em;
+	
+}
+
+tentContainer ul li, #content ul li, #rightNav ul li {
+	margin: 4px 0px 4px -25px;
+	line-height: 1.6em;
+	list-style-image: url(/web/20111021065847im_/http://dese.mo.gov/images/arrow_bronze.gif);
+}
+
+
+
+/*Added 2/17/11 - LS */
+
+#contentContainer ul li.listBullet, #content ul li.listBullet, #rightNav ul li.listBullet {
+
+	list-style-image: url(/web/20111021065847im_/http://dese.mo.gov/images/green-bullet.gif);
+
+}
+
+
+
+#contentContainer a:visited {
+	color: #00337f;
+}
+
+
+
+/*#rightNav a:link, #rightNav a:visited, #spotlight a:link, #spotlight a:visited
+{
+text-decoration: none;
+}
+*/
+
+#footer {
+	clear:both;
+	text-align: center;
+	line-height: 150%;
+	width: 760px; 
+	border: solid #004b8d; /*voice-family: inherit; /* Hide from IE5.x/Win hack */
+	border-width: 1px;
+}
+
+
+#contactInfo {
+	text-align: center;
+	background-color: #439639;
+	padding: 5px 0 5px 0;
+	float: left;
+	width: 758px;
+
+	color: #fff;
+}
+
+#spotlight
+{
+	background: url(/web/20111021065847im_/http://dese.mo.gov/images/spotlight.gif) no-repeat;
+	padding: 9px 0px 0px 45px;
+
+}
+
+#spotlight li
+{
+	list-style-image: url(/web/20111021065847im_/http://dese.mo.gov/images/arrow2.gif);
+}
+#disclaimer {
+	background-color:#439639;
+	color: #fff;
+	padding: 5px 0 5px 0;
+}
+
+#disclaimer a:link, #disclaimer a:visited, #topNav a:link, #topNav a:visited, #contactInfo a:link, #contactInfo a:visited {
+color: #fff;
+
+}
+
+#search a:hover, #contentContainer a:hover, #disclaimer a:hover, #topNav a:hover, #rightNav a:hover, #spotlight a:hover, #breadcrumbs a:hover, #footer a:hover {
+text-decoration: underline
+}
+
+/*.faq a {
+border: 1px solid #999; 
+padding: 3px 20px 4px 20px;
+background-color:#F1E0D7;
+text-decoration: none;
+}
+*/
+
+/* Added 2/9/11 LS */
+
+.superscript {     
+font-size: 70%;     
+/*line-height: 0.5em;    */ 
+vertical-align: super;     
+/*position: relative;  */
+} 
+
+/* Per discussion 2/17 with Michele/Mallory, removing the red option
+.redText {
+color: 	Red;
+	}
+	
+.redTextBold {
+color: 	Red;
+font-weight: bold;
+	}
+*/
+	
+.textBold {
+font-weight: bold;
+	}
+	
+.textItalic {
+	font-style: italic;
+}
+
+.textItalicBold {
+	font-weight: bold;
+	font-style: italic;
+}
+
+/* this style is added to provide ADA Accessibility for labeling in a data table with both row and column headings. (LM - 1/26/04) */
+.hidden, #title h1 a span {
+	/* show any descriptive text in a link only in speech browsers, hide in all visual browsers. */
+   height: 0;
+	width: 0;
+	overflow: hidden;
+	position: absolute; /* for the benefit of IE5 Mac */
+	left: -104px;
+	top: -13px;
+
+}
+
+/* Added this per Dana Keilholz request - 10/23/08 */
+.subHeading {
+	font-size: 1.4em;
+	font-weight: Bold;
+}
+
+/* Added this per Dana Keilholz request - 10/24/08 */
+.pullQuote {
+	font-size: 1.4em;
+	line-height: 150%;
+}
+
+/* Added this per Dana Keilholz request - 10/24/08 */
+.pullquoteBold {
+	font-size: 1.4em;
+	font-weight: Bold;
+	line-height: 150%;
+}
+
+/* Added this per request to have a no underline alternative - 11/9/10 */
+.heading2Nounderline {
+	font-weight: bold;
+	color: #A8313F;
+	margin: 5px 0px 15px 0px; 
+	font-size: 1.4em;
+	}
+
+#box { width: /*300px;*/ 231px; height: 200px; border: 1px dotted #004B8D; /*background: #439639/*#E6E6FF*/; overflow: auto; padding: 0px 4px 5px 4px; font-size: 11px; 
+}
+
+#news { position: relative; width: /*300px;*/ 370px; height: 220px; border: 1px dotted #004B8D; margin: 0px 0 10px 0; /*background: #439639/*#E6E6FF*/; padding: 0px 5px 5px 5px; font-size: 12px; background: #439639; 
+}
+/*
+     FILE ARCHIVED ON 06:58:47 Oct 21, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:20:32 Nov 16, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 92.451
+  exclusion.robots: 0.088
+  exclusion.robots.policy: 0.08
+  RedisCDXSource: 4.74
+  esindex: 0.008
+  LoadShardBlock: 64.748 (3)
+  PetaboxLoader3.datanode: 125.501 (4)
+  CDXLines.iter: 18.866 (3)
+  load_resource: 129.959
+  PetaboxLoader3.resolve: 29.517
+*/

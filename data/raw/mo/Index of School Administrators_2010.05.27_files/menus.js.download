@@ -1,0 +1,231 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+/*
+Menu bar for SOS IntraNet Application(s)
+*/
+
+/* a few sniffs to circumvent known browser bugs */
+var sUserAgent = navigator.userAgent.toLowerCase();
+var isIE=document.all?true:false;
+var isNS4=document.layers?true:false;
+var isOp=(sUserAgent.indexOf('opera')!=-1)?true:false;
+var isMac=(sUserAgent.indexOf('mac')!=-1)?true:false;
+var isMoz=(sUserAgent.indexOf('mozilla/5')!=-1&&sUserAgent.indexOf('opera')==-1&&sUserAgent.indexOf('msie')==-1)?true:false;
+var isNS6=(sUserAgent.indexOf('netscape6')!=-1&&sUserAgent.indexOf('opera')==-1&&sUserAgent.indexOf('msie')==-1)?true:false;
+var dom=document.getElementById?true:false;
+
+/* sets time until menus disappear in milliseconds */
+var iMenuTimeout=500;
+
+var aMenus=new Array;
+var oMenuTimeout;
+var iMainMenusLength=0;
+
+/* the following boolean controls the z-index property if needed */
+/* if is only necessary if you have multiple mainMenus in one file that are overlapping */
+/* set bSetZIndeces to true (either here or in the HTML) and the main menus will have a z-index set in descending order so that preceding ones can overlap */
+/* the integer iStartZIndexAt controls z-index of the first main menu */
+var bSetZIndeces=true;
+var iStartZIndexAt=1000;
+var aMainMenus=new Array;
+
+/* load up the submenus */
+function loadMenus(){
+	if(!dom)return;
+	var aLists=document.getElementsByTagName('ul');
+	for(var i=0;i<aLists.length;i++){
+		if(aLists[i].className=='navMenu')aMenus[aMenus.length]=aLists[i];
+	}
+	var aAnchors=document.getElementsByTagName('a');
+	var aItems = new Array;
+	for(var i=0;i<aAnchors.length;i++){
+		if(aAnchors[i].className=='navItem')aItems[aItems.length] = aAnchors[i];
+	}
+	var sMenuId=null;
+	var oParentMenu=null;
+	var aAllElements=document.body.getElementsByTagName("*");
+	if(isIE)aAllElements=document.body.all;
+	/* loop through navItem and navMenus and dynamically assign their IDs */
+	/* each relies on it's parent's ID being set before it */
+	for(var i=0;i<aAllElements.length;i++){
+		if(aAllElements[i].className.indexOf('mainMenu')!=-1){
+			/* load up main menus collection */
+			if(bSetZIndeces)aMainMenus[aMainMenus.length]=aAllElements[i];
+		}
+		if(aAllElements[i].className=='navItem'){
+			oParentMenu = aAllElements[i].parentNode.parentNode;
+			if(!oParentMenu.childMenus) oParentMenu.childMenus = new Array;
+			oParentMenu.childMenus[oParentMenu.childMenus.length]=aAllElements[i];
+			if(aAllElements[i].id==''){
+				if(oParentMenu.className=='mainMenu'){
+					aAllElements[i].id='navItem_'+iMainMenusLength;
+					//alert(aAllElements[i].id);
+					iMainMenusLength++;
+				}else{
+					aAllElements[i].id=oParentMenu.id.replace('Menu','Item')+'.'+oParentMenu.childMenus.length;
+				}
+			}
+		} else if(aAllElements[i].className=='navMenu'){
+			oParentItem = aAllElements[i].parentNode.firstChild;
+			aAllElements[i].id = oParentItem.id.replace('Item','Menu');
+		}
+	}
+	/* dynamically set z-indeces of main menus so they won't underlap */
+	for(var i=aMainMenus.length-1;i>=0;i--){
+		aMainMenus[i].style.zIndex=iStartZIndexAt-i;
+	}
+	/* set menu item properties */
+	for(var i=0;i<aItems.length;i++){
+		sMenuId=aItems[i].id;
+		sMenuId='navMenu_'+sMenuId.substring(8,sMenuId.lastIndexOf('.'));
+		/* assign event handlers */
+		/* eval() used here to avoid syntax errors for function literals in Netscape 3 */
+		eval('aItems[i].onmouseover=function(){modClass(true,this,"activeItem");window.clearTimeout(oMenuTimeout);showMenu("'+sMenuId+'");};');
+		eval('aItems[i].onmouseout=function(){modClass(false,this,"activeItem");window.clearTimeout(oMenuTimeout);oMenuTimeout=window.setTimeout("hideMenu(\'all\')",iMenuTimeout);}');
+		eval('aItems[i].onfocus=function(){this.onmouseover();}');
+		eval('aItems[i].onblur=function(){this.onmouseout();}');
+		//aItems[i].addEventListener("keydown",function(){keyNav(this,event);},false);
+	}
+	var sCatId=0;
+	var oItem;
+	for(var i=0;i<aMenus.length;i++){
+		/* assign event handlers */
+		/* eval() used here to avoid syntax errors for function literals in Netscape 3 */
+		eval('aMenus[i].onmouseover=function(){window.clearTimeout(oMenuTimeout);}');
+		eval('aMenus[i].onmouseout=function(){window.clearTimeout(oMenuTimeout);oMenuTimeout=window.setTimeout("hideMenu(\'all\')",iMenuTimeout);}');
+		sCatId=aMenus[i].id;
+		sCatId=sCatId.substring(8,sCatId.length);
+		oItem=document.getElementById('navItem_'+sCatId);
+		if(oItem){
+			if(!isOp && !(isMac && isIE) && oItem.parentNode)modClass(true,oItem.parentNode,"hasSubMenu");
+			else modClass(true,oItem,"hasSubMenu");
+			/* assign event handlers */
+			eval('oItem.onmouseover=function(){window.clearTimeout(oMenuTimeout);showMenu("navMenu_'+sCatId+'");}');
+			eval('oItem.onmouseout=function(){window.clearTimeout(oMenuTimeout);oMenuTimeout=window.clearTimeout(oMenuTimeout);oMenuTimeout=window.setTimeout(\'hideMenu("navMenu_'+sCatId+'")\',iMenuTimeout);}');
+			eval('oItem.onfocus=function(){window.clearTimeout(oMenuTimeout);showMenu("navMenu_'+sCatId+'");}');
+			eval('oItem.onblur=function(){window.clearTimeout(oMenuTimeout);oMenuTimeout=window.clearTimeout(oMenuTimeout);oMenuTimeout=window.setTimeout(\'hideMenu("navMenu_'+sCatId+'")\',iMenuTimeout);}');
+			//oItem.addEventListener("keydown",function(){keyNav(this,event);},false);
+		}
+	}
+}
+
+/* this will append the loadMenus function to any previously assigned window.onload event */
+/* if you reassign this onload event, you'll need to include this or execute it after all the menus are loaded */
+function newOnload(){
+	if(typeof previousOnload=='function')previousOnload();
+	loadMenus();
+}
+var previousOnload;
+if(window.onload!=null)previousOnload=window.onload;
+window.onload=newOnload;
+
+/* show menu and hide all others except ancestors of the current menu */
+function showMenu(sWhich){
+	var oWhich=document.getElementById(sWhich);
+	if(!oWhich){
+		hideMenu('all');
+		return;
+	}
+	var aRootMenus=new Array;
+	aRootMenus[0]=sWhich
+	var sCurrentRoot=sWhich;
+	var bHasParentMenu=false;
+	if(sCurrentRoot.indexOf('.')!=-1){
+		bHasParentMenu=true;
+	}
+	/* make array of this menu and ancestors so we know which to leave exposed */
+	/* ex. from ID string "navMenu_12.3.7.4", extracts menu levels ["12.3.7.4", "12.3.7", "12.3", "12"] */
+	while(bHasParentMenu){
+		if(sCurrentRoot.indexOf('.')==-1)bHasParentMenu=false;
+		aRootMenus[aRootMenus.length]=sCurrentRoot;
+		sCurrentRoot=sCurrentRoot.substring(0,sCurrentRoot.lastIndexOf('.'));
+	}
+	for(var i=0;i<aMenus.length;i++){
+		var bIsRoot=false;
+		for(var j=0;j<aRootMenus.length;j++){
+			var oThisItem=document.getElementById(aMenus[i].id.replace('navMenu_','navItem_'));
+			if(aMenus[i].id==aRootMenus[j])bIsRoot=true;
+		}
+		if(bIsRoot && oThisItem)modClass(true,oThisItem,'hasSubMenuActive');
+		else modClass(false,oThisItem,'hasSubMenuActive');
+		if(!bIsRoot && aMenus[i].id!=sWhich)modClass(false,aMenus[i],'showMenu');
+	}
+	modClass(true,oWhich,'showMenu');
+	var oItem=document.getElementById(sWhich.replace('navMenu_','navItem_'));
+	if(oItem)modClass(true,oItem,'hasSubMenuActive');
+}
+
+function hideMenu(sWhich){
+	if(sWhich=='all'){
+		/* loop backwards b/c WinIE6 has a bug with hiding display of an element when it's parent is already hidden */
+		for(var i=aMenus.length-1;i>=0;i--){
+			var oThisItem=document.getElementById(aMenus[i].id.replace('navMenu_','navItem_'));
+			if(oThisItem)modClass(false,oThisItem,'hasSubMenuActive');
+			modClass(false,aMenus[i],'showMenu');
+		}
+	}else{
+		var oWhich=document.getElementById(sWhich);
+		if(oWhich)modClass(false,oWhich,'showMenu');
+		var oThisItem=document.getElementById(sWhich.replace('navMenu_','navItem_'));
+		if(oThisItem)modClass(false,oThisItem,'hasSubMenuActive');
+	}
+}
+
+/* add or remove element className */
+function modClass(bAdd,oElement,sClassName){
+	if(bAdd){/* add class */
+		if(oElement.className.indexOf(sClassName)==-1)oElement.className+=' '+sClassName;
+	}else{/* remove class */
+		if(oElement.className.indexOf(sClassName)!=-1){
+			if(oElement.className.indexOf(' '+sClassName)!=-1)oElement.className=oElement.className.replace(' '+sClassName,'');
+			else oElement.className=oElement.className.replace(sClassName,'');
+		}
+	}
+	return oElement.className; /* return new className */
+}
+
+//document.body.addEventListener("keydown",function(){keyNav(event);},true); 
+
+function setBubble(oEvent){
+	oEvent.bubbles = true;	
+}
+
+function keyNav(oElement,oEvent){
+	alert(oEvent.keyCode);
+	window.status=oEvent.keyCode;
+	return false;
+}
+
+
+}
+/*
+     FILE ARCHIVED ON 08:32:25 May 27, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:19:32 Nov 16, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 165.254
+  exclusion.robots: 0.247
+  exclusion.robots.policy: 0.228
+  RedisCDXSource: 8.108
+  esindex: 0.008
+  LoadShardBlock: 125.66 (3)
+  PetaboxLoader3.datanode: 241.706 (4)
+  CDXLines.iter: 19.401 (3)
+  PetaboxLoader3.resolve: 145.893 (2)
+  load_resource: 287.991
+*/

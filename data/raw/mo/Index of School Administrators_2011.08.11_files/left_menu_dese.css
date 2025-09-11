@@ -1,0 +1,153 @@
+/* vertical menu styles - last updated 10/25/07 - LS */
+
+/* this empty block is needed for an IE bug, without it, 
+shift-tab does not display the selected link color */
+.mainMenu a:link:active, .mainMenu a:visited:active {}
+
+
+/*makes flyout menu line up correctly*/
+.mainNav .navMenu, * html .mainNav .navMenu .navMenu { top: -1px; }
+
+
+* html .mainNav .navMenu {top: 0;}
+
+.navMenu {
+	display: none;
+	position: absolute;
+	top:-1px;
+	left: 125px;
+	/*added this to display properly in non-IE browsers*/
+	background-color: transparent;
+
+}
+
+.navMenu li {
+
+}
+
+.navMenu .navItem {
+	border: 1px solid #999;
+	color: #fff;
+	/* this spaced my submenu items the same as other non-IE browsers*/
+	height: 1%;
+}
+
+html>body .navMenu {width:163px;
+/*margin: 0;*/
+}
+	
+.mainMenu li {
+	color:#fff;
+	background-color:#004b8d;
+	list-style-type:none;
+	/*display: block;*/
+	position: relative;
+	margin-top: -4;
+	padding:0;	
+	width:165px;
+	voice-family:"\"";
+	width:163px;
+	}
+	
+.mainMenu li.mainNav {
+   margin: 2px 0 0px -40px;
+	border: 1px solid #999;
+	border-left: thick solid #ba8748;
+	/*this needs to stay in order for dropdown menu to position correctly*/
+	position: relative;
+
+}
+
+
+/* changed color and added font-weight bold, 10-25-07 - LS*/
+.mainMenu li a:link, .mainMenu li a:visited {
+	color:#fff;
+	background-color: transparent;
+	text-decoration:none;
+	font-weight:bold;
+	padding: 3px 2px 4px 4px;
+	/*display: block;*/
+	}
+	
+.mainMenu li.mainNav a:link, .mainMenu li.mainNav a:visited {
+/* changed left padding from 4 to 3px, 10-25-07 - LS*/
+	padding: 4px 2px 4px 3px;
+		background-color: transparent;
+}
+
+/* hide from MacIE5 \*/
+.mainMenu li a:link, .mainMenu li a:visited {
+	display:inline;
+	/*width:100%;*/
+
+	display:block;
+/*width:auto*/
+	}
+/* end hide from MacIE5 */
+
+
+	
+.mainMenu li a:hover, .mainMenu li a:active, .mainMenu li a:focus, .mainMenu li a.activeItem {
+	color:#fff;
+	background-color:#94664b !important;
+
+	}
+.mainMenu li.mainNav a:hover, .mainMenu li.mainNav a:active, .mainMenu li.mainNav a:focus, .mainMenu li.mainNav a.activeItem {
+	color:#fff;
+	background-color:#94664b !important;
+
+	}
+/* It doesn't really float left, but this fixes a NS 6.x bug */
+/* It causes an new Opera bug too, so this selector hides it from Opera */
+
+/*html[xmlns] div.navLeft {
+	float:left;
+	}
+	*/
+.menuEnd {
+	clear:both;
+	}
+
+/* IE7 hacks */
+/**:first-child+html .mainMenu li.mainNav { padding-left: 0px; }*/
+/*commenting this out fixed my flyout menus not displaying right in IE PC 6 and 7)
+:first-child+html li.mainNav a:link { width: 158px; }
+:first-child+html .navMenu a.navItem:link { width: 158px; }*/
+
+/* functional classes */
+/* used by the scripts, not set in the markup */
+.hasSubMenu {
+	color:#000;
+	background-color:#cc9;
+	}
+.hasSubMenuActive {
+	color:#fff;
+	background-color:#cc9; !important;
+	}
+.showMenu {
+	display:block !important;
+	}
+/* end functional classes */
+
+
+/*
+     FILE ARCHIVED ON 06:58:45 Oct 21, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:20:32 Nov 16, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  esindex: 0.013
+  CDXLines.iter: 24.203 (3)
+  captures_list: 97.04
+  LoadShardBlock: 53.978 (3)
+  PetaboxLoader3.datanode: 56.84 (4)
+  exclusion.robots.policy: 0.142
+  cdx.remote: 0.084
+  exclusion.robots: 0.153
+  load_resource: 144.458
+  PetaboxLoader3.resolve: 98.446
+*/
