@@ -1,0 +1,340 @@
+cols,col
+% Time,pct_time
+Active/Leave/Other,active
+Annual Salary,sal
+Annual Salary,sal
+AnnualSalary,sal
+AnnualSalary,sal
+AnnualSalary,sal
+AnnualSalary,sal
+AnnualSalary,sal
+AnnualSalary,sal
+AnnualSalary,sal
+AnnualSalary,sal
+AssignCd,assign_code
+AssignCd,assign_code
+AssignCd,assign_code
+AssignCd,assign_code
+AssignCd,assign_code
+AssignCd,assign_code
+AssignCd,assign_code
+AssignCd,assign_code
+AssignCd,assign_code
+Assignment,assignment
+Assignment Code,assign_code
+Assignment Date,assign_date
+Assignment Description,assignment
+Assignment Description,assignment
+Assignment Description,assignment
+Assignment Description,assignment
+Assignment Description,assignment
+Assignment Description,assignment
+Assignment Location,assign_loc
+AssignmentDesc,assignment
+AssignmentDescription,assignment
+AUN,aun
+AUN,aun
+AUN,aun
+AUN,aun
+AUN,aun
+AUN,aun
+AUN,aun
+AUN,aun
+AUN,aun
+AUN,aun
+Category Description,cat_desc
+Category Description 2017-,cat_desc
+Category Description 2017-,cat_desc
+Category Description 2017-,cat_desc
+Category Description 2017-,cat_desc
+Category Description 2017-,cat_desc
+CategoryDescription,cat_desc
+CategoryDescription,cat_desc
+CategoryDescription,cat_desc
+Certificated Assignment,assign_code
+Certificated Assignment Description,assignment
+County,county
+data element,data_element
+data element,data_element
+data element,data_element
+Degree Code,deg_code
+Degree Description,degree
+DegreeCode,deg_code
+DegreeCode,deg_code
+DegreeCode,deg_code
+DegreeCode,deg_code
+DegreeCode,deg_code
+DegreeCode,deg_code
+DegreeCode,deg_code
+DegreeCode,deg_code
+DegreeDescription,degree
+DegreeDescription,degree
+DegreeDescription,degree
+DegreeDescription,degree
+DegreeDescription,degree
+DegreeDescription,degree
+DegreeDescription,degree
+DegreeDescription,degree
+description,desc
+description,desc
+description,desc
+EDF,edf
+EDF,edf
+EDF Category,edf_cat
+EDF Category,edf_cat
+EDF Category,edf_cat
+EDF Category,edf_cat
+EDF Category,edf_cat
+EDF.,edf
+EDF.,edf
+EDFactsDescription,edf_desc
+EDFactsDescription,edf_desc
+EdFactsDescription,edf_desc
+EDFCd,edf_code
+EDFCd,edf_code
+EDFNum,edf_num
+EDFNum,edf_num
+Education Level,deg_code
+Education Level Description,degree
+First Name,first
+First Name,first
+First Name,first
+First Name,first
+First Name,first
+First Name,first
+First Name,first
+First Name,first
+First Name,first
+FirstName,first
+FT/PT,full_part_time
+FT/PT,full_part_time
+FT/PT,full_part_time
+FT/PT,full_part_time
+FT/PT,full_part_time
+FT/PT,full_part_time
+FT/PT,full_part_time
+FT/PT,full_part_time
+FT/PT,full_part_time
+FTE%,pct_time
+FTE%,pct_time
+FTE%,pct_time
+FTE%,pct_time
+FTE%,pct_time
+FTE%,pct_time
+FTE%,pct_time
+FTE%,pct_time
+Full-time Status,full_part_time
+Gender,gender
+Gender,gender
+Gender,gender
+Gender,gender
+Gender,gender
+Gender,gender
+Gender,gender
+Gender,gender
+Gender,gender
+Gender,gender
+Generation,suffix
+Highest Degree Code,deg_code
+IU,iu
+IU,iu
+IU,iu
+IU,iu
+IU,iu
+IU,iu
+IU,iu
+IU.,iu
+IU.,iu
+IUName,iu_name
+IUName,iu_name
+IUName,iu_name
+IUNum,iu
+JobClass,jobclass
+JobClass,jobclass
+JobClass,jobclass
+JobClass,jobclass
+JobClass,jobclass
+JobClass,jobclass
+JobClass,jobclass
+JobClass,jobclass
+Last Name,last
+Last Name,last
+Last Name,last
+Last Name,last
+Last Name,last
+Last Name,last
+Last Name,last
+Last Name,last
+Last Name,last
+LastName,last
+LEA,lea_name
+LEA Name,lea_name
+LEA Name,lea_name
+LEA Type,lea_type
+LEA Years of Service,tot_yrs_lea
+LEACounty,county
+LEACounty,county
+LEACounty,county
+LEACounty,county
+LEACounty,county
+LEACounty,county
+LEACounty.,county
+LEACountyCd,county_code
+LEACountyCd,county_code
+LEACountyCd,county_code
+LEACountyCd,county_code
+LEACountyCd,county_code
+LEACountyCd,county_code
+LEACountyCd,county_code
+LEAName,lea_name
+LEAName,lea_name
+LEAName,lea_name
+LEAName,lea_name
+LEAName,lea_name
+LEAName,lea_name
+LEAName,lea_name
+LEAType,lea_name
+LEATypeDescription,lea_type_desc
+LEATypeDescription,lea_type_desc
+LEATypeDescription,lea_type_desc
+LEATypeDescription,lea_type_desc
+LEATypeDescription,lea_type_desc
+LEATypeDescription,lea_type_desc
+LEATypeDescription,lea_type_desc
+Loc.,location
+LocID,location_id
+Middle,middle
+Middle Name,middle
+Middle Name,middle
+Middle Name,middle
+Middle Name,middle
+MiddleName,middle
+MiddleName,middle
+MiddleName,middle
+MiddleName,middle
+MiddleName,middle
+order,order
+order,order
+Percent of Time Assigned,pct_time
+Pos 2017-,position
+Pos 2017-,position
+Pos 2017-,position
+Pos 2017-,position
+Pos.,position
+Pos. 2012-,position
+Pos. 2017-,position
+Position,position
+Position,position
+Position Code,position
+Position Description 2017-,position_desc
+Position Description 2017-,position_desc
+Position Description 2017-,position_desc
+Position Description 2017-,position_desc
+Position Description 2017-,position_desc
+Position.,position
+PositionCd,position_code
+PositionCd,position_code
+PositionDescription,position_desc
+PositionDescription,position_desc
+PositionDescription,position_desc
+Primary Assignment,primary_assign
+Primary Assignment,primary_assign
+Primary Assignment,primary_assign
+Primary Assignment,primary_assign
+Primary Location Name,location
+PrimaryAssignment,primary_assign
+Public ID,pub_id
+PublicID,pub_id
+PublicID,pub_id
+PublicID,pub_id
+PublicID,pub_id
+PublicID,pub_id
+PublicID,pub_id
+PublicID,pub_id
+PublicID,pub_id
+Salary,sal
+SchNum,schnum
+SchNum,schnum
+SchNum,schnum
+SchNum,schnum
+SchNum,schnum
+SchNum,schnum
+SchNum,schnum
+School,school
+School,school
+School,school
+School,school
+School,school
+School,school
+School,school
+School,school
+School Year,SY
+School Year,SY
+School.,school
+SchoolCounty,school_county
+SchoolCounty,school_county
+SchoolCounty,school_county
+SchoolCounty,school_county
+SchoolCounty.,school_county
+SchoolCountyCd,school_county
+SchoolCountyCode,school_county_code
+SchoolCountyCode,school_county_code
+SchoolCountyCode,school_county_code
+SchoolYear,SY
+source,source
+source,source
+Staff Snapshot Date,snap_date
+Staff Snapshot Date,snap_date
+Staff Snapshot Date,snap_date
+Staff Snapshot Date,snap_date
+Staff Snapshot Date,snap_date
+Staff Snapshot Date,snap_date
+Staff Snapshot Date,snap_date
+Staff Snapshot Date,snap_date
+StaffSnapshotDate,snap_date
+Status,status
+Status,status
+Status,status
+Status,status
+Status,status
+Status,status
+Status_,status
+Suffix,suffix
+Suffix,suffix
+Suffix,suffix
+Suffix,suffix
+Suffix,suffix
+Suffix,suffix
+Suffix,suffix
+Suffix,suffix
+Suffix,suffix
+SY,SY
+SY,SY
+SY,SY
+SY,SY
+SY,SY
+SY,SY
+SY,SY
+table,table
+table,table
+Tot Yrs Exp,tot_yrs_exp
+Total Years of Service,tot_yrs_exp
+Years at LEA,tot_yrs_lea
+Years in Ed,tot_yrs_exp
+YearsInEd,tot_yrs_exp
+YearsInEd,tot_yrs_exp
+YearsInEd,tot_yrs_exp
+YearsInEd,tot_yrs_exp
+YearsInED,tot_yrs_exp
+YearsInED,tot_yrs_exp
+YearsInED,tot_yrs_exp
+YearsInEd,tot_yrs_exp
+YearsInLEA,tot_yrs_lea
+YearsInLEA,tot_yrs_lea
+YearsInLEA,tot_yrs_lea
+YearsInLEA,tot_yrs_lea
+YearsInLEA,tot_yrs_lea
+YearsInLEA,tot_yrs_lea
+YearsInLEA,tot_yrs_lea
+YearsInLEA,tot_yrs_lea
+Yrs LEA Exp,tot_yrs_lea
