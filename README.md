@@ -43,7 +43,7 @@ The dataset contains eight variables.
 
 ## Code
 
-To generate the dataset yourself from the raw data, open "us_superintendents_data.Rproj" and run "scripts/00_master.R." By default, this will use processed data files included in the package; to re-generate these from scratch, in line 1 of "scripts/00_master.R," set the toggle variable to 1. This has a normal run time of 20-30 minutes. 
+To generate the dataset yourself from the raw data, open "us_superintendents_data.Rproj" and run "scripts/00_master.R." By default, this will use processed data files included in the package; to re-generate these from scratch, in line 1 of "scripts/00_master.R," set the toggle variable to 1 and unzip the two data files in data/raw/ga/. This has a normal run time of 20-30 minutes. 
 
 The code proceeds as follows: 
 1. Download and organize files from state-level sources.
