@@ -6,7 +6,7 @@
 
 # Overview
 
-Sam Stemper and the Broad Center at the Yale School of Management have compiled a panel dataset of superintendents in more than nine thousand U.S. public school districts across 23 states. These files update and expand those used in Stemper (2022).
+Sam Stemper and the Broad Center at the Yale School of Management have compiled a panel dataset of superintendents in more than 10 thousand U.S. public school districts across 23 states. These files update and expand those used in Stemper (2022).
 
 We plan to update these data once per year. When updating, we will maintain copies of all previous dataset editions on this site. 
 
