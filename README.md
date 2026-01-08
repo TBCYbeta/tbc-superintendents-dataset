@@ -38,7 +38,7 @@ The dataset contains eight variables.
 -name_clean: name data in standardized format
 -year: the fall of the academic year in which the superintendent data was recorded. 
 -salary: superintendent salary in dollars. Not available for all states. 
--super_id: within-state superintendent individual identifier. This identifier is obtained by matching superintendents by name within states. 
+-super_id: within-state superintendent individual identifier. This identifier is obtained by matching superintendents by name within states. Note this may contain false positives.
 
 
 ## Code
