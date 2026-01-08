@@ -1,0 +1,126 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/global//global/global}
+    \entry{stemper}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=55b243c0893af7c2130a0623345af6f8}{%
+           family={Stemper},
+           familyi={S\bibinitperiod},
+           given={Sam},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{55b243c0893af7c2130a0623345af6f8}
+      \strng{fullhash}{55b243c0893af7c2130a0623345af6f8}
+      \strng{bibnamehash}{55b243c0893af7c2130a0623345af6f8}
+      \strng{authorbibnamehash}{55b243c0893af7c2130a0623345af6f8}
+      \strng{authornamehash}{55b243c0893af7c2130a0623345af6f8}
+      \strng{authorfullhash}{55b243c0893af7c2130a0623345af6f8}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Doing More with Less: School Management and Education Production}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://samstemper.com/files/stemper_jmp.pdf
+      \endverb
+      \verb{url}
+      \verb https://samstemper.com/files/stemper_jmp.pdf
+      \endverb
+    \endentry
+    \entry{superintendentlab}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cdce1e8c27ae196acf85f2f538b8ae02}{%
+           family={{The Superintendent Lab}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{cdce1e8c27ae196acf85f2f538b8ae02}
+      \strng{fullhash}{cdce1e8c27ae196acf85f2f538b8ae02}
+      \strng{bibnamehash}{cdce1e8c27ae196acf85f2f538b8ae02}
+      \strng{authorbibnamehash}{cdce1e8c27ae196acf85f2f538b8ae02}
+      \strng{authornamehash}{cdce1e8c27ae196acf85f2f538b8ae02}
+      \strng{authorfullhash}{cdce1e8c27ae196acf85f2f538b8ae02}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2025‑08‑08}
+      \field{title}{{NLSD Data Visualizations}}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://thesuperintendentlab.com/communicating-our-work/nlsd-data-visualizations/
+      \endverb
+      \verb{url}
+      \verb https://thesuperintendentlab.com/communicating-our-work/nlsd-data-visualizations/
+      \endverb
+    \endentry
+    \entry{white}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d14b15e2793d73aa0f5efaa527cd4bd7}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={Rachel\bibnamedelima S.},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{d14b15e2793d73aa0f5efaa527cd4bd7}
+      \strng{fullhash}{d14b15e2793d73aa0f5efaa527cd4bd7}
+      \strng{bibnamehash}{d14b15e2793d73aa0f5efaa527cd4bd7}
+      \strng{authorbibnamehash}{d14b15e2793d73aa0f5efaa527cd4bd7}
+      \strng{authornamehash}{d14b15e2793d73aa0f5efaa527cd4bd7}
+      \strng{authorfullhash}{d14b15e2793d73aa0f5efaa527cd4bd7}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0013-189X, 1935-102X}
+      \field{journaltitle}{{Educational Researcher}}
+      \field{month}{6}
+      \field{number}{5}
+      \field{title}{{Ceilings Made of Glass and Leaving En Masse? Examining Superintendent Gender Gaps and Turnover Over Time Across the United States}}
+      \field{volume}{52}
+      \field{year}{2023}
+      \field{pages}{272\bibrangedash 285}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.3102/0013189X231163139
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

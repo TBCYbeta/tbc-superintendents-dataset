@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.1)  5 SEP 2025 12:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.1)  31 OCT 2025 10:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -930,7 +930,7 @@ Package logreq Info: Writing requests to 'TBC_supt_memo_Sep_5_2025.run.xml'.
 Here is how much of TeX's memory you used:
  20969 strings out of 478268
  370959 string characters out of 5846347
- 1158655 words of memory out of 5000000
+ 1160655 words of memory out of 5000000
  38876 multiletter control sequences out of 15000+600000
  479836 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -943,7 +943,7 @@ sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
 /local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/l
 ocal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/lo
 cal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on TBC_supt_memo_Sep_5_2025.pdf (11 pages, 1673726 bytes).
+Output written on TBC_supt_memo_Sep_5_2025.pdf (11 pages, 1770375 bytes).
 PDF statistics:
  177 PDF objects out of 1000 (max. 8388607)
  135 compressed objects within 2 object streams
