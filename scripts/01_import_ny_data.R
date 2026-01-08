@@ -343,13 +343,15 @@ table(unmatched$year)
 
 all_ny_lea$name_raw <- all_ny_lea$administrator
 all_ny_lea$name_clean <- clean_names(all_ny_lea$name_raw)
-
 all_ny_lea$state <- "NY"
-all_ny_lea$id <- paste0("ny",1:nrow(all_ny_lea))
+all_ny_lea <- all_ny_lea %>% distinct(leaid, year, name_clean, .keep_all = TRUE)
+all_ny_lea <- all_ny_lea %>% arrange(leaid, year)
+all_ny_lea$id <- paste0("ny",str_pad(1:nrow(all_ny_lea), width = 5, side = "left", pad = "0"))
+all_ny_lea <- all_ny_lea %>% rename(charter = agency_charter_indicator)
 
 #Create table with names, district IDs, and years
-all_supers <- all_ny_lea %>% select(id, state, leaid, name_raw, name_clean, year, leaid)
-
+all_supers <- all_ny_lea %>% select(id, state, leaid, leaid_name = dist_name, name_raw, name_clean, year, leaid, charter)
+all_supers$leaid_name <- str_to_title(all_supers$leaid_name)
 summary(as.factor(all_supers$year))
 
 # drop missing 
@@ -357,9 +359,9 @@ all_supers <- all_supers %>% filter(!is.na(name_clean)) %>%
   filter(name_clean!="")
 
 # drop duplicate year leaids 
-all_supers <- all_supers %>% filter(id!="ny3970") %>%
-                              filter(id!="ny3972")
-  
+all_supers <- all_supers %>% filter(id!="ny03970") %>%
+                              filter(id!="n0y3972")
+
 
 # Save the processed data
 save(all_supers, file = file.path(clean_path, "all_supers_ny.Rda"))

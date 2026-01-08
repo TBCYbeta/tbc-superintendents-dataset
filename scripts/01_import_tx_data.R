@@ -2,258 +2,245 @@
 closeAllConnections()
 rm(list = ls())
 source(here::here("scripts/00_setup.R"))
-library(pdftools)
-library(stringr)
+
+library(tidyverse)
+library(here)
+library(purrr)
+library(readr)
 library(dplyr)
+library(stringr)
+library(tigris)
+library(readxl)
+library(janitor)
 
-# Define Texas data directory
+####################################
+# Process 1990-2010 data
+####################################
+
 tx_dir_path <- here("data", "raw", "tx")
-files <- paste0("tx_",2007:2022,".pdf")
+files_9010 <- list.files(
+  path = tx_dir_path,
+  pattern = "^Supers (199\\d|20\\d{2})-\\d{4}\\.csv$",
+  full.names = TRUE
+)
+stopifnot(length(files_9010) > 0)
 
-# Updated extract function 
-extract_table_from_text <- function(text_lines, area = NULL) {
-  # Remove empty lines
-  text_lines <- text_lines[nchar(trimws(text_lines)) > 0]
-  
-  # Split each line into columns based on multiple spaces or tabs
-  table_data <- lapply(text_lines, function(line) {
-    # Split on multiple spaces (2 or more) or tabs
-    cols <- str_split(line, "\\s{2,}|\\t")[[1]]
-    # Remove empty strings and trim whitespace
-    cols <- trimws(cols[nchar(trimws(cols)) > 0])
-    return(cols)
-  })
-  
-  # Filter out lines that don't have at least 5 columns (changed from 6)
-  # This will capture both 5-column (2018-2019) and 6-column (other years) formats
-  table_data <- table_data[sapply(table_data, length) >= 5]
-  
-  # Convert to matrix, handling both formats
-  if(length(table_data) > 0) {
-    # If we have 5-column format, we need to split the phone/county column
-    table_data <- lapply(table_data, function(row) {
-      if(length(row) == 5) {
-        # Split the phone/county column (column 2)
-        phone_county <- row[2]
-        
-        # Extract phone number (in parentheses) and county-district number
-        phone_match <- str_extract(phone_county, "\\([0-9]{3}\\) [0-9]{3}-[0-9]{4}")
-        
-        # Remove phone number first, then extract county-district
-        if(!is.na(phone_match)) {
-          # Remove phone number and any leading/trailing spaces
-          remaining <- str_replace(phone_county, "\\([0-9]{3}\\) [0-9]{3}-[0-9]{4}", "")
-          remaining <- trimws(remaining)
-          # Extract county-district number: exactly 3 digits, dash, exactly 3 digits at the start
-          # This ensures we don't match zip codes like 79431-0120 (which have 5 digits before dash)
-          county_match <- str_extract(remaining, "^[0-9]{3}-[0-9]{3}(?=\\s|$)")
-        } else {
-          county_match <- NA
-        }
-        
-        if(!is.na(phone_match) && !is.na(county_match)) {
-          # Reconstruct as 6 columns
-          new_row <- c(row[1], phone_match, county_match, row[3], row[4], row[5])
-          return(new_row)
-        }
-      }
-      return(row)
-    })
-    
-    # Now standardize to 6 columns
-    max_cols <- 6
-    table_matrix <- do.call(rbind, lapply(table_data, function(row) {
-      if(length(row) < max_cols) {
-        c(row, rep("", max_cols - length(row)))
-      } else {
-        row[1:max_cols]
-      }
-    }))
-    return(list(table_matrix))
-  } else {
-    return(list())
-  }
-}
+tx_90_10 <- map_dfr(files_9010, read_csv, show_col_types = FALSE, .id = "file_id") |>
+  mutate(source_file = basename(files_9010[as.integer(file_id)])) |>
+  select(-file_id)
 
-###########################################################################
-# Extract tables and save them 
-for(f in files){
-  print(f)
-  file_path <- file.path(tx_dir_path, f)
-  
-  # Check if file exists
-  if(!file.exists(file_path)) {
-    print(paste("File does not exist:", file_path))
-    next
-  }
-  
-  pages <- pdf_info(file_path)$pages
-  
-  for(p in 1:pages){
-    # Extract text from the specific page
-    page_text <- pdf_text(file_path)[p]
-    
-    # Split text into lines
-    text_lines <- str_split(page_text, "\n")[[1]]
-    
-    # Extract table data (you may need to adjust this based on your PDF structure)
-    table_list <- extract_table_from_text(text_lines)
-    
-    # Create Tables directory if it doesn't exist
-    tables_dir <- file.path(tx_dir_path, "Tables")
-    if(!dir.exists(tables_dir)) {
-      dir.create(tables_dir, recursive = TRUE)
-    }
-    
-    # Save the extracted table
-    save(table_list, file = file.path(tables_dir, paste0(f,"_",p,"_tables.Rda")))
-  }
-}
+# Use state charter classification
+#tx_90_10 <- tx_90_10 %>%
+#  rename(charter_status = charter) %>%
+#  mutate(charter_status = case_when(
+#    charter_status == "OPEN ENROLLMENT CHARTER" ~ "All charter schools",
+#    charter_status == "TRADITIONAL  ISD/CSD"    ~ "No charter schools",
+#    TRUE ~ charter_status
+#  ))
 
-# Process the extracted tables (equivalent to your second loop)
-tx_out <- data.frame()
-for(f in files){
-  print(f)
-  file_path <- file.path(tx_dir_path, f)
-  
-  # Check if file exists
-  if(!file.exists(file_path)) {
-    print(paste("File does not exist:", file_path))
-    next
-  }
-  
-  pages <- pdf_info(file_path)$pages
-  
-  for(p in 1:pages){
-    table_file <- file.path(tx_dir_path, "Tables", paste0(f,"_",p,"_tables.Rda"))
-    
-    if(file.exists(table_file)) {
-      load(table_file)
-      
-      if(length(table_list) > 0 && nrow(table_list[[1]]) > 0){
-        df <- data.frame(table_list[[1]])
-        
-        # Ensure we have the expected number of columns
-        expected_cols <- 6
-        if(ncol(df) < expected_cols) {
-          # Add missing columns
-          for(i in (ncol(df) + 1):expected_cols) {
-            df[paste0("X", i)] <- ""
-          }
-        }
-        
-        # Rename columns to match your original format
-        if(ncol(df) >= expected_cols) {
-          names(df)[1:expected_cols] <- paste0("X", 1:expected_cols)
-        }
-        
-        df$file <- f
-        df$page <- p
-        tx_out <- bind_rows(tx_out, df)
-      } else{
-        print(paste0("No table on page ", p, " of ", pages))
-      }
-    } else {
-      print(paste0("Table file not found for page ", p, " of ", f))
-    }
-  }
-}
-
-# Clean file 
-tx_out$emptyrow <- ifelse(rowSums(tx_out=="")==6,1,0)
-tx_out$headerrow <- ifelse(tx_out$X1=="School district" | 
-                             tx_out$X2=="Phone",1,0)
-tx_clean_old <- tx_out %>% filter(emptyrow==0, headerrow==0) %>% select(-emptyrow, -headerrow)
-
-# Only rename columns if we have the expected number
-if(ncol(tx_clean_old) >= 8) {
-  colnames(tx_clean_old) <- c("dist_name","dist_phone","cty_distno",
-                          "address","zip","name_raw","file","page")
-}
-
-# Add years
-# Convert spring years to fall by subtracting 1
-tx_clean_old$year <- parse_number(str_sub(tx_clean_old$file, 4, 7)) - 1
+names(tx_90_10) <- tolower(names(tx_90_10))
 
 
-# fix zip + name column mix 
-tx_clean_old <- tx_clean_old %>%
-  mutate(
-    # Extract the numeric part (zip code) - keep numbers, dashes, and spaces only
-    zip_fixed = str_extract(zip, "^[0-9\\-\\s]+"),
-    
-    # Extract the non-numeric part (name that got mixed in)
-    name_from_zip = str_extract(zip, "(?<=[0-9\\-\\s])[A-Za-z].*$"),
-    
-    # Update zip column to only contain the numeric part
-    zip = str_trim(zip_fixed),
-    
-    # Update name_raw: if name_raw is empty/NA and we found a name in zip, use that
-    # Otherwise, if name_raw has content and we found additional name in zip, combine them
-    name_raw = case_when(
-      # If name_raw is empty or NA, use the name from zip
-      (is.na(name_raw) | name_raw == "") & !is.na(name_from_zip) ~ str_trim(name_from_zip),
-      # If both have content, combine them
-      !is.na(name_raw) & name_raw != "" & !is.na(name_from_zip) ~ str_trim(paste(name_raw, name_from_zip)),
-      # Otherwise keep original name_raw
-      TRUE ~ name_raw
+tx_90_10_clean <- tx_90_10 %>%
+  transmute(
+    year        = as.integer(str_sub(as.character(year), 1, 4)),
+    district_id = paste0("TX-",sprintf("%06d", as.integer(district))),
+    leaid_name  = str_to_title(distname),
+    salary      = suppressWarnings(as.integer(calc_full_fte_pay)),
+    name_raw    = paste(str_to_title(fname), str_to_title(lname))
+  ) 
+
+####################################
+# Process 2011-2017 data
+####################################
+
+tx_dir_path <- here("data", "raw", "tx")  
+years <- 2011:2017
+
+tx_11_17 <- purrr::map_dfr(years, function(y) {
+  
+  dir_y <- here("data", "raw", "tx", paste0("Nonteachers ", y, "-", y + 1))
+  files_y <- list.files(dir_y, pattern = "\\.csv$", full.names = TRUE)
+  stopifnot(length(files_y) > 0)
+  
+  purrr::map_dfr(
+    files_y,
+    ~ readr::read_csv(
+      .x,
+      col_types = readr::cols(.default = readr::col_character()),
+      show_col_types = FALSE
     )
   ) %>%
-  # Remove the temporary columns
-  select(-zip_fixed, -name_from_zip)
+    rename_with(tolower) %>%
+    mutate(year = as.integer(y))
+})
 
-summary(as.factor(tx_clean_old$file))
+# Use state charter classification
+#tx_11_17 <- tx_11_17 %>%
+#  rename(charter = dist_charttypex) %>%
+#  mutate(charter = case_when(
+#    charter == "OPEN ENROLLMENT CHARTER" ~ "All charter schools",
+#    charter == "TRADITIONAL  ISD/CSD"    ~ "No charter schools",
+#    TRUE ~ charter
+#  ))
 
-###########################################################################
-# read in 2022-2024 from excel sheets 
+tx_11_17_clean <- tx_11_17 %>%
+  filter(
+    !is.na(rolex),
+    str_detect(rolex, regex("SUPERINTENDENT", ignore_case = TRUE))
+  ) %>%
+  transmute(
+    year              = as.integer(year),
+    district_id       = paste0("TX-",sprintf("%06d", as.integer(district))),
+    leaid_name        = str_to_title(distname),
+    salary            = as.integer(totalpay),
+    name_raw          = paste(str_to_title(fname),str_to_title(lname))
+  )
 
-# Initialize empty dataframe
-tx_clean_new <- data.frame()
+tx_11_17_clean <- tx_11_17_clean %>%
+  mutate(
+    salary            = na_if(salary, 0),
+    name_raw          = if_else(name_raw == "Not Reported", NA_character_, name_raw),
+  )
 
-# Loop through years 2023-2025
-for(year in 2023:2025) {
-  # Construct filename
-  filename <- paste0("TSD-", year, "-final.xlsx")
-  filepath <- file.path(tx_dir_path, filename)
+####################################
+# Process 2018-2022 data
+####################################
+
+tx_dir_path <- here("data", "raw", "tx")  
+years2 <- 2018:2022
+
+tx_18_22 <- purrr::map_dfr(years2, function(y) {
   
-  # Print progress
-  print(paste("Processing:", filename))
+  # file name like "2018-19 NonTeachers.csv"
+  f_y <- file.path(tx_dir_path, paste0(y, "-", substr(y + 1, 3, 4), " NonTeachers.csv"))
+  stopifnot(file.exists(f_y))
   
-  # Check if file exists before trying to read
-  if(file.exists(filepath)) {
-    # Read excel file
-    df <- read_excel(filepath, sheet = "Index of Districts and Charters")
+  readr::read_csv(
+    f_y,
+    col_types = readr::cols(.default = readr::col_character()),
+    show_col_types = FALSE
+  ) %>%
+    rename_with(tolower) %>%
+    mutate(year = as.integer(y))
+})
+
+# Use state charter classification
+#tx_18_22 <- tx_18_22 %>%
+#  rename(charter = dist_charttypex) %>%
+#  mutate(charter = case_when(
+#    charter == "OPEN ENROLLMENT CHARTER" ~ "All charter schools",
+#    charter == "TRADITIONAL  ISD/CSD"    ~ "No charter schools",
+#    TRUE ~ charter
+#  ))
+
+tx_18_22_clean <- tx_18_22 %>%
+  filter(
+    !is.na(rolex),
+    str_detect(rolex, regex("SUPERINTENDENT", ignore_case = TRUE))
+  ) %>%
+  transmute(
+    year       = as.integer(year),
     
-    # Keep only columns 1, 3, 6 and rename them
-    df_clean <- df %>%
-      select(1, 3, 6) %>%
-      rename(dist_name = 1, cty_distno = 2, name_raw = 3)
+    # keep raw pieces for the district-id fix
+    county     = as.character(county),
+    district_id = paste0("TX-",sprintf("%06d", as.integer(district))),
+    distname   = distname,
+    fname      = fname,
+    lname      = lname,
+    totalpay   = totalpay
+  ) %>%
+  mutate(
+    # title-case names and build name_raw
+    fname    = str_to_title(fname),
+    lname    = str_to_title(lname),
+    name_raw = paste(fname, lname),
     
-    # Add file and year columns
-    df_clean$file <- filename
-    df_clean$year <- year - 1
-    df_clean <- df_clean %>% filter(dist_name != "School district")
+    # salary
+    salary   = suppressWarnings(as.integer(totalpay)),
+    salary   = na_if(salary, 0L),
     
-    # Append to main df
-    tx_clean_new <- bind_rows(tx_clean_new, df_clean)
+    # handle "Not Reported"
+    name_raw = if_else(name_raw == "Not Reported", NA_character_, name_raw),
     
-  } else {
-    print(paste("File not found:", filename))
-  }
+    # standardize district name
+    leaid_name = str_to_title(distname)
+  ) %>%
+  select(
+    year,
+    district_id,
+    leaid_name,
+    salary,
+    name_raw #, 
+    #charter
+  )
+
+####################################
+# Process 2023-2024 data
+####################################
+
+clean_super_name <- function(x) {
+  x %>%
+    str_squish() %>%                            # trim + collapse whitespace
+    str_remove(regex("^(DR|MR|MRS|MS)\\.?\\s+", ignore_case = TRUE)) %>%  # drop leading titles
+    str_to_title()
 }
+tx_dir_path <- here::here("data", "raw", "tx")
 
-#Bind all years 
-tx_clean <- bind_rows(tx_clean_old, tx_clean_new)
+tx_2023_basic <- read_excel(
+  path  = file.path(tx_dir_path, "TSD-2024-final.xlsx"),
+  sheet = "Index of Districts and Charters",
+  skip  = 1
+) %>%
+  dplyr::select(
+    leaid_name = 1,
+    district_id = 3,
+    name_raw = 6
+  )
+tx_2023_basic$district_id <- paste0("TX-", str_replace_all(tx_2023_basic$district_id, "\\D", ""))
+tx_2023_basic$year = 2023
+tx_2023_basic$salary = NA
+tx_2023_basic <- tx_2023_basic %>%
+  mutate(name_raw = clean_super_name(name_raw))
 
-summary(as.factor(tx_clean$year))
-summary(as.factor(tx_clean_old$year))
+tx_2024_basic <- read_excel(
+  path  = file.path(tx_dir_path, "TSD-2025-final.xlsx"),
+  sheet = "Index of Districts and Charters",
+  skip  = 1
+) %>%
+  dplyr::select(
+    leaid_name = 1,
+    district_id = 3,
+    name_raw = 6
+  )
+tx_2024_basic$district_id <- paste0("TX-", str_replace_all(tx_2024_basic$district_id, "\\D", ""))
+tx_2024_basic$year = 2024
+tx_2024_basic$salary = NA
+tx_2024_basic <- tx_2024_basic %>%
+  mutate(name_raw = clean_super_name(name_raw))
 
+tx_23_24_clean <- bind_rows(tx_2023_basic, tx_2024_basic)
 
-################################################################################
-# Map district IDs to LEAIDs
-# Initialize an empty data frame
+####################################
+# Combine all years
+####################################
+
+tx_raw <- bind_rows(
+  tx_90_10_clean,
+  tx_11_17_clean,
+  tx_18_22_clean,
+  tx_23_24_clean
+)
+
+#write.csv(tx_raw, "tx_raw.csv"))
+
+####################################
+# Merge Urban Institute data
+####################################
+
+dist_chars_path <- here("data", "raw", "urban_inst")
 tx_distids <- data.frame()
-years <- 2006:2024
+years <- 1990:2024
 
 # Loop through years to load and process data
 for(y in years){
@@ -267,7 +254,12 @@ for(y in years){
   temp <- df %>% 
     filter(fips == "Texas") %>% 
     select(year, leaid, state_leaid, nces_lea_name = lea_name, agency_charter_indicator, enrollment) %>% 
-    mutate(leaid = as.character(leaid))
+    mutate(leaid = if(is.character(leaid)) {
+      parse_number(leaid)
+    } else {
+      as.numeric(leaid)  # If already numeric, just ensure it's numeric
+    }, 
+    state_leaid_n = as.numeric(str_remove_all(state_leaid, "TX-")))
   
   tx_distids <- bind_rows(tx_distids, temp)
   
@@ -275,39 +267,78 @@ for(y in years){
   rm(list = paste0("chars_", y))
 }
 
-# Clean state_ids
-tx_distids$len <- nchar(tx_distids$state_leaid)
-tx_distids$cty_distno <- paste0(str_sub(tx_distids$state_leaid,tx_distids$len-5,tx_distids$len-3), 
-                                "-",
-                                str_sub(tx_distids$state_leaid,tx_distids$len-2,tx_distids$len))
+# Merge with `tx_raw`
+tx_raw <- tx_raw %>%
+  mutate(
+    state_leaid_n = as.integer(str_replace_all(district_id, "\\D", ""))  # strips TX- and leading zeros
+  )
+tx_lea <- left_join(tx_raw, tx_distids, by = c("state_leaid_n","year"))
+tx_lea <- tx_lea %>% rename(charter = agency_charter_indicator)
 
-tx_clean_lea <- inner_join(tx_clean, tx_distids, by = c("cty_distno", "year"))
+mean(!is.na(tx_lea$charter))
+mean(!is.na(tx_lea$leaid))
+tx_lea %>%
+  filter(!is.na(leaid)) %>%
+  summarize(present = mean(!is.na(charter)))
 
-# Inspect unmatched
-unmatched <- anti_join(tx_clean, tx_distids, by = c("cty_distno", "year")) %>% 
-  # Remove non-named superintendents
-  filter(name_raw!="")
-sort(table(unmatched$dist_name))
+tx_distids %>%
+  summarize(present = mean(!is.na(agency_charter_indicator)))
 
-# Clean names
-tx_clean_lea$name_clean <- clean_names(tx_clean_lea$name_raw)
+tx_distids %>%
+  group_by(year) %>%
+  summarize(
+    n = n(),
+    present = mean(!is.na(agency_charter_indicator))
+  ) %>%
+  arrange(year)
+
+# Add state and ID fields
+tx_lea <- tx_lea %>% distinct(leaid, year, name_raw, .keep_all = TRUE)
+tx_lea <- tx_lea %>% arrange(leaid, year)
+tx_lea <- tx_lea %>%
+  mutate(state = "tx",
+         id = paste0("tx", str_pad(1:nrow(tx_lea), width = 5, side = "left", pad = "0")),
+         name_clean = clean_names(name_raw))
+tx_lea <- tx_lea |>
+  dplyr::select(
+    id,
+    state,
+    leaid,
+    leaid_name = nces_lea_name,
+    name_raw,
+    name_clean,
+    year,
+    charter,
+    salary,
+  )
+tx_lea <- tx_lea |>
+  mutate(leaid_name = str_to_title(str_squish(leaid_name)))
+
+# Create table with relevant columns
+all_supers <- tx_lea %>% select(id, state, leaid, leaid_name, name_raw, name_clean, year, charter, salary)
+all_supers$leaid_name <- str_to_title(all_supers$leaid_name)
+
+# Delete rows where LEAID is missing (i.e., charter/non-standard districts) or name_clean
+all_supers <- all_supers[!is.na(all_supers$leaid), ]
+all_supers <- all_supers[!is.na(all_supers$name_clean), ]
 
 
-tx_clean_lea$state <- "TX"
-tx_clean_lea$id <- paste0("tx",1:nrow(tx_clean_lea))
-
-#Create table with names, district IDs, and years
-all_supers <- tx_clean_lea %>% select(id, state, leaid, name_raw, name_clean, year, leaid)
-
-summary(as.factor(all_supers$year))
-summary(as.factor(unmatched$year))
-
-# drop missing 
-all_supers <- all_supers %>% filter(!is.na(name_clean)) %>%
-                             filter(name_clean!="")
+# Deduplicate 240 pairs by keeping the observation with the highest or non-missing salary
+all_supers <- all_supers %>%
+  arrange(year, leaid, desc(!is.na(salary)), desc(salary)) %>%
+  group_by(year, leaid) %>%
+  slice(1) %>%
+  ungroup()
 
 # Save the processed data
 save(all_supers, file = file.path(clean_path, "all_supers_tx.Rda"))
 
-# data checks
+# data checks 
 data_checks(all_supers)
+
+duplicates <- all_supers %>%
+  group_by(year, leaid) %>%
+  filter(n() > 1) %>%
+  arrange(year, leaid)
+#write.csv(all_supers, "all_supers_tx.csv")
+#write.csv(duplicates, "duplicates.csv")

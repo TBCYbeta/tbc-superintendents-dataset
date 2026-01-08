@@ -77,14 +77,18 @@ non_merged <- anti_join(ar_raw, ar_distids, by = c("dist_raw" = "state_leaid_n",
 # This district shows up in CCD/Urban Inst. data starting in 2019+
 
 # Add state and ID fields
+all_ar_lea <- all_ar_lea %>% distinct(leaid, year, administrator, .keep_all = TRUE)
+all_ar_lea <- all_ar_lea %>% arrange(leaid, year)
 all_ar_lea <- all_ar_lea %>%
   mutate(state = "AR",
-         id = paste0("ar", 1:nrow(all_ar_lea)),
+         id = paste0("ar", str_pad(1:nrow(all_ar_lea), width = 5, side = "left", pad = "0")),
          name_raw = administrator,
          name_clean = clean_names(name_raw))
+all_ar_lea <- all_ar_lea %>% rename(charter = agency_charter_indicator)
 
 # Create table with relevant columns
-all_supers <- all_ar_lea %>% select(id, state, leaid, name_raw, name_clean, year)
+all_supers <- all_ar_lea %>% select(id, state, leaid, leaid_name = nces_lea_name, name_raw, name_clean, year, charter)
+all_supers$leaid_name <- str_to_title(all_supers$leaid_name)
 
 # Save the processed data
 save(all_supers, file = file.path(clean_path, "all_supers_ar.Rda"))

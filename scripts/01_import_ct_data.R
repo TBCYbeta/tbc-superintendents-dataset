@@ -69,9 +69,10 @@ dist_map <- read_excel(file.path(ct_dir_path, "CT_District_Map.xlsx"))
 
 all_ct_lea <- left_join(names_files, dist_map, by = "file")
 
-
 all_ct_lea$state <- "CT"
-all_ct_lea$id <- paste0("ct",1:nrow(all_ct_lea))
+all_ct_lea <- all_ct_lea %>% distinct(leaid, year, name, .keep_all = TRUE)
+all_ct_lea <- all_ct_lea %>% arrange(leaid, year)
+all_ct_lea$id <- paste0("ct",str_pad(1:nrow(all_ct_lea), width = 5, side = "left", pad = "0"))
 summary(is.na(all_ct_lea$leaid))
 
 # Extend LEAID to observations with the same district name 
@@ -107,14 +108,64 @@ sum(!is.na(all_ct_lea$name) & is.na(all_ct_lea$leaid))
 #   filter(is.na(leaid) & !is.na(name))
 # write_xlsx(missing_leaid_data, "missing_leaid_observations.xlsx")
 
+
 # Clean names
 all_ct_lea$name_raw <- all_ct_lea$name
 all_ct_lea$name_clean <- clean_names(all_ct_lea$name_raw)
 
+
+# Map district IDs to LEAIDs
+# Initialize an empty data frame
+ct_distids <- data.frame()
+years <- 2007:2024
+
+# Loop through years to load and process data
+for(y in years){
+  print(y)
+  
+  # Load Rda file
+  load(file.path(dist_chars_path, paste0("chars_", y, ".Rda")))
+  df <- get(paste0("chars_", y))
+  
+  # Process the data
+  temp <- df %>% 
+    filter(fips == "Connecticut") %>% 
+    select(year, leaid, state_leaid, nces_lea_name = lea_name, agency_charter_indicator, enrollment) %>% 
+    mutate(leaid = as.character(leaid))
+  
+  ct_distids <- bind_rows(ct_distids, temp)
+  
+  # Remove the loaded object
+  rm(list = paste0("chars_", y))
+}
+#ct_distids <- ct_distids %>% rename(charter = agency_charter_indicator)
+
+#ct_distids$state_leaid_n <- as.numeric(str_remove_all(ct_distids$state_leaid, "ct-"))
+
+#ct_distids <- ct_distids %>% filter(is.na(state_leaid_n)==0)
+
+ct_distids$leaid <- substr(ct_distids$leaid, 2, nchar(ct_distids$leaid))
+
+head(all_ct_lea)
+head(ct_distids)
+length(intersect(all_ct_lea$leaid, ct_distids$leaid))
+
+
+##
+all_ct_lea <- inner_join(all_ct_lea, ct_distids, by = c("leaid", "year"))
+
+# Check unmatched
+unmatched <- anti_join(all_ct_lea, ct_distids, by = c("leaid", "year"))
+table(unmatched$year)
+
+
 # Create table with names, district IDs, and years
 all_supers <- all_ct_lea %>% 
   filter(is.na(name_raw)==0) %>% 
-  select(id, state, leaid, name_raw, name_clean, year, leaid)
+  select(id, state, leaid, leaid_name = nces_lea_name, name_raw, name_clean, year, leaid, charter = agency_charter_indicator)
+
+all_supers$leaid_name <- str_to_title(all_supers$leaid_name)
+
 
 save(all_supers, file = file.path(clean_path, "all_supers_ct.Rda"))
 

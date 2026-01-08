@@ -83,19 +83,23 @@ non_merged <- anti_join(ca_raw, ca_distids, by = c("dist_raw" = "state_leaid_n",
 # (e.g. Upper Lake Unified in 2015, Bonsall Unified in 2013)
 
 all_ca_lea$state <- "ca"
-all_ca_lea$id <- paste0("ca",1:nrow(all_ca_lea))
-
 all_ca_lea$name_raw <- paste(all_ca_lea$first, all_ca_lea$last)
 all_ca_lea$name_clean <- clean_names(all_ca_lea$name_raw)
+all_ca_lea <- all_ca_lea %>% distinct(leaid, year, name_raw, .keep_all = TRUE)
+all_ca_lea <- all_ca_lea %>% arrange(leaid, year)
+all_ca_lea$id <- paste0("ca",str_pad(1:nrow(all_ca_lea), width = 5, side = "left", pad = "0"))
+all_ca_lea <- all_ca_lea %>% rename(charter = agency_charter_indicator)
+
 
 #Create table with names, district IDs, and years (for School Boards project)
-all_supers <- all_ca_lea %>% select(id, state, leaid, name_raw, name_clean, year, leaid)
+all_supers <- all_ca_lea %>% select(id, state, leaid, leaid_name = nces_lea_name, name_raw, name_clean, year, leaid, charter)
+all_supers$leaid_name <- str_to_title(all_supers$leaid_name)
 
 print(table(non_merged$year, useNA = "always"))
 
 save(all_supers, file = file.path(clean_path, "all_supers_ca.Rda"))
 
-write.csv(all_supers, file = file.path(clean_path, "all_supers_ca.csv"), row.names = FALSE)
+#write.csv(all_supers, file = file.path(clean_path, "all_supers_ca.csv"), row.names = FALSE)
 
 # data checks 
 data_checks(all_supers)

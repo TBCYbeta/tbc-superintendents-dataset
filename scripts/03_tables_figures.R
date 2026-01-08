@@ -14,17 +14,24 @@ getwd()
 load(file.path("data", "processed", "combined_superintendents.Rda"))
 
 # load all CCD data 
-for (year in 2000:2024) {
+for (year in 1990:2024) {
   load(file.path("data", "raw", "urban_inst", paste0("chars_", year, ".Rda")))
 }
 
 # Start with the first year
-load(file.path("data", "raw", "urban_inst", "chars_2000.Rda"))
-ccd <- chars_2000 %>% 
+load(file.path("data", "raw", "urban_inst", "chars_1990.Rda"))
+ccd <- chars_1990 %>% 
   select(state_mailing, leaid, lea_name, city_mailing, enrollment, year, agency_type, highest_grade_offered)
 
+ccd <- ccd %>%
+  mutate(
+    agency_type = as.character(agency_type),
+    highest_grade_offered = as.character(highest_grade_offered),
+    leaid = as.character(leaid)
+  )
+
 # Loop through remaining years and select same variables
-for (year in 2001:2024) {
+for (year in 1991:2024) {
   load(file.path("data", "raw", "urban_inst", paste0("chars_", year, ".Rda")))
   
   if (year == 2024) {
@@ -40,20 +47,33 @@ for (year in 2001:2024) {
       select(state_mailing, leaid, lea_name, city_mailing, enrollment, year, agency_type, highest_grade_offered) 
   }
   
-  if (year >= 2022 & year <= 2024) {
-    temp_data <- temp_data %>%
-      mutate(
-        # Convert agency_type from int to factor with proper labels
-        agency_type = case_when(
-          agency_type == 1 ~ "Regular local school district",
-          TRUE ~ as.character(agency_type)
-        ),
-        agency_type = as.factor(agency_type),
-        # Convert highest_grade_offered from int to character
-        highest_grade_offered = as.character(highest_grade_offered)
-      )
-  }
-  
+  #if (year >= 2022 & year <= 2024) {
+    #temp_data <- temp_data %>%
+     # mutate(
+      #  # Convert agency_type from int to factor with proper labels
+       # agency_type = case_when(
+        #  agency_type == 1 ~ "Regular local school district",
+         # TRUE ~ as.character(agency_type)
+        #),
+        #agency_type = as.factor(agency_type),
+        ## Convert highest_grade_offered from int to character
+        #highest_grade_offered = as.character(highest_grade_offered)
+      #)
+  #}
+  temp_data <- temp_data %>%
+    mutate(
+      agency_type = case_when(
+        year >= 2022 & year <= 2024 & agency_type == 1 ~ "Regular local school district",
+        TRUE ~ as.character(agency_type)
+      ),
+      highest_grade_offered = as.character(highest_grade_offered)
+    )
+  temp_data <- temp_data %>%
+    mutate(
+      agency_type = as.character(agency_type),
+      highest_grade_offered = as.character(highest_grade_offered),
+      leaid = as.character(leaid)
+    )
   ccd <- bind_rows(ccd, temp_data)
 }
 
@@ -62,6 +82,14 @@ summary(as.factor(ccd$state_mailing))
 
 # save ccd version with all obs before cleaning further (like dropping non-`regular public school dist')
 ccd_all <- ccd
+
+# helper to turn state names or codes into 2-letter lowercase codes
+to_state_abbrev <- function(x) {
+  u <- toupper(trimws(x))
+  map_name_to_abb <- setNames(state.abb, toupper(state.name))
+  out <- ifelse(u %in% state.abb, u, map_name_to_abb[u])
+  tolower(out)
+}
 
 # clean enrollment 
 ccd <- ccd %>%
@@ -73,7 +101,15 @@ ccd <- ccd %>%
   mutate(leaid = ifelse(nchar(leaid) == 6, paste0("0", leaid), leaid))
 summary(as.factor(nchar(ccd$leaid)))
 
-
+# Ensure 1990-1999 are not silently excluded
+table(ccd$year)[1:15]                 # should show 1990s present
+table(ccd$agency_type, useNA="ifany")
+ccd <- ccd %>%
+  mutate(
+    agency_type = if_else(agency_type %in% c("1", 1),
+                          "Regular local school district",
+                          as.character(agency_type))
+  )
 # keep regular districts, open districts, and districts in k-12 
 ccd <- ccd %>%
   filter(agency_type == "Regular local school district") %>%
@@ -84,7 +120,8 @@ ccd <- ccd %>%
   filter(highest_grade_offered != "Pre-K") %>%
   filter(highest_grade_offered != "PK") %>%
   filter(highest_grade_offered != "Not applicable") 
-   
+table(ccd$year)[1:15]                 # should show 1990s present
+table(ccd$agency_type, useNA="ifany")
 
 summary(as.factor(ccd$highest_grade_offered))
 
@@ -189,6 +226,8 @@ demo_table <- all_supers_clean %>%
   ) %>%
   mutate(state = toupper(state))  # Capitalize state abbreviations
 
+unique(demo_table$state)
+
 # Calculate total row
 total_row <- all_supers_clean %>%
   filter(year == 2023) %>%
@@ -201,7 +240,7 @@ total_row <- all_supers_clean %>%
 demo_table <- bind_rows(demo_table, total_row)
 
 # Combine with Rachel White (2024-2025) data
-demo_table[3] <- read.csv("output/figures/white_demographics_2024_25.csv")[2]
+demo_table[3] <- read.csv("output/figures/white_demographics_2024_25.csv", header = FALSE)[2]
 cor(demo_table[[2]],demo_table[[3]])
 
 # Create matrix for stargazer
@@ -276,6 +315,7 @@ data <- data %>% mutate(state = State,
                         existing_years = `Years Cleaned`,
                         extension_years = `Extension Years`,
                         salary_years = Salary)  # Add salary column
+write.csv(data, "data.csv")
 
 # Function to parse year ranges (e.g., "2010-2015" or "2007-2009, 2016-2025")
 parse_years <- function(year_string) {
@@ -409,7 +449,7 @@ p <- ggplot(plot_data, aes(y = state)) +
     legend.text = element_text(color = "black"),
     legend.title = element_text(color = "black")
   ) +
-  scale_x_continuous(breaks = seq(2001, 2025, by = 2), limits = c(2001, 2025)) +
+  scale_x_continuous(breaks = seq(1990, 2025, by = 2), limits = c(1990, 2025)) +
   scale_y_discrete(limits = rev)
 
 # Display the plot
@@ -675,15 +715,16 @@ all_combinations <- expand.grid(
 
 # Left join to fill in missing combinations with NA
 complete_data <- all_combinations %>%
-  left_join(district_counts, by = c("state", "year"))
+  left_join(district_counts, by = c("state", "year")) %>%
+  mutate(state = factor(state, levels = rev(sort(unique(state)))))
 
 # Create the heatmap
-p <- ggplot(complete_data, aes(x = year, y = reorder(state, state), fill = district_count)) +
+p <- ggplot(complete_data, aes(x = year, y = state, fill = district_count)) +
   geom_tile(color = "white", size = 0.5) +
   geom_text(aes(label = ifelse(is.na(district_count), "", district_count)), 
             color = "black", size = 3, fontface = "bold") +
   scale_fill_gradient(low = "lightgray", high = "lightgray", na.value = "white") +
-  scale_x_continuous(breaks = seq(min(complete_data$year), max(complete_data$year), 1)) +
+  scale_x_continuous(breaks = seq(min(complete_data$year), max(complete_data$year), 2)) +
   labs(
     title = "",
     x = "Year",
@@ -700,7 +741,6 @@ p <- ggplot(complete_data, aes(x = year, y = reorder(state, state), fill = distr
     plot.background = element_rect(fill = "white", color = NA),
     panel.background = element_rect(fill = "white", color = NA)
   ) 
-  
 
 # Display the plot
 print(p)
@@ -748,7 +788,8 @@ all_combinations <- expand.grid(
 
 # Left join to fill in missing combinations with NA
 complete_data_balanced <- all_combinations %>%
-  left_join(balanced_district_counts, by = c("state", "year"))
+  left_join(district_counts, by = c("state", "year")) %>%
+  mutate(state = factor(state, levels = rev(sort(unique(state)))))
 
 # Create the heatmap for balanced panel
 p_balanced <- ggplot(complete_data_balanced, aes(x = year, y = reorder(state, state), fill = district_count)) +
@@ -756,7 +797,7 @@ p_balanced <- ggplot(complete_data_balanced, aes(x = year, y = reorder(state, st
   geom_text(aes(label = ifelse(is.na(district_count), "", district_count)), 
             color = "black", size = 3, fontface = "bold") +
   scale_fill_gradient(low = "lightgray", high = "lightgray", na.value = "white") +
-  scale_x_continuous(breaks = seq(min(complete_data_balanced$year), max(complete_data_balanced$year), 1)) +
+  scale_x_continuous(breaks = seq(min(complete_data_balanced$year), max(complete_data_balanced$year), 2)) +
   labs(
     title = "",
     x = "Year",
@@ -806,6 +847,7 @@ turnover_data <- all_supers_clean %>%
     )
   ) %>%
   ungroup() %>%
+
   # Remove observations where turnover can't be determined
   filter(!is.na(turnover))
 

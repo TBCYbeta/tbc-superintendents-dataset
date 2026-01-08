@@ -88,8 +88,9 @@ state_names <- c("Alabama"                        ,
                   "Not applicable"               ,                                                                 
                   "Suppressed data")
 
-for(year in 2022:2023) {
-  
+
+for(year in 1990:1998) {
+  # change year range to update Urban Institute API search
   
   data <- get_education_data(level = "school-districts",
                              source = "ccd",

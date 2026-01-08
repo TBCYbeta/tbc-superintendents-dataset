@@ -63,7 +63,7 @@ mo_distids$state_leaid_clean <- as.numeric(mo_distids$state_leaid_clean)
 
 mo_lea <- left_join(mo_raw, mo_distids, by = c("dist_code_num"="state_leaid_clean","year"))
 
-mo_clean <- mo_lea %>% select(dist_name, leaid, year, administrator, salary)
+mo_clean <- mo_lea %>% select(dist_name, leaid, year, administrator, salary, agency_charter_indicator)
 
 
 mo_clean$name_raw <- mo_clean$administrator
@@ -77,14 +77,18 @@ for(s in suffixes_to_remove){
 }
 
 mo_clean$name_clean <- clean_names(mo_clean$name_interm)
-
 mo_clean$state <- "MO"
-mo_clean$id <- paste0("mo",1:nrow(mo_clean))
+mo_clean <- mo_clean %>% distinct(leaid, year, name_clean, .keep_all = TRUE)
+mo_clean <- mo_clean %>% arrange(leaid, year)
+mo_clean$id <- paste0("mo",str_pad(1:nrow(mo_clean), width = 5, side = "left", pad = "0"))
+mo_clean <- mo_clean %>% rename(charter = agency_charter_indicator)
+
 
 #Create table with names, district IDs, and years
 all_supers <- mo_clean %>% 
               ungroup() %>%
-              select(id, state, leaid, name_raw, name_clean, year, leaid, salary)
+              select(id, state, leaid, leaid_name = dist_name, name_raw, name_clean, year, leaid, salary, charter)
+all_supers$leaid_name <- str_to_title(all_supers$leaid_name)
 
 # drop NA rows 
 all_supers <- all_supers %>% filter(!is.na(leaid))

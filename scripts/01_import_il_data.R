@@ -132,7 +132,7 @@ il_distids <- il_distids %>% group_by(year, state_id) %>%
   filter(enrollment > 0) %>% 
   mutate(rank_enr = rank(-enrollment, ties.method = "first")) %>% 
   filter(rank_enr==1) %>% 
-  select(year, leaid, state_id, nces_lea_name)
+  select(year, leaid, state_id, nces_lea_name, agency_charter_indicator)
 
 all_dirs_dist_02_11 <- all_dirs_dist %>% filter(year %in% 2002:2011) %>% 
   select(-nces_id) %>% 
@@ -153,15 +153,17 @@ all_dirs_dist_12_20 <- all_dirs_dist %>% filter(year %in% 2012:2023) %>%
   filter(is.na(leaid)==0)
 
 all_dirs_leas <- bind_rows(all_dirs_dist_02_11, all_dirs_dist_12_20)
-
 all_dirs_leas$name_raw <- all_dirs_leas$administrator
 all_dirs_leas$name_clean <- clean_names(all_dirs_leas$name_raw)
-
 all_dirs_leas$state <- "IL"
-all_dirs_leas$id <- paste0("il",1:nrow(all_dirs_leas))
+all_dirs_leas <- all_dirs_leas %>% distinct(leaid, year, name_clean, agency_charter_indicator, .keep_all = TRUE)
+all_dirs_leas <- all_dirs_leas %>% arrange(leaid, year)
+all_dirs_leas$id <- paste0("il",str_pad(1:nrow(all_dirs_leas), width = 5, side = "left", pad = "0"))
+all_dirs_leas <- all_dirs_leas %>% rename(charter = agency_charter_indicator)
 
 # Create table with names, district IDs, and years
-all_supers <- all_dirs_leas %>% select(id, state, leaid, name_raw, name_clean, year, leaid)
+all_supers <- all_dirs_leas %>% select(id, state, leaid, leaid_name = nces_lea_name, name_raw, name_clean, year, leaid, charter)
+all_supers$leaid_name <- str_to_title(all_supers$leaid_name)
 
 # Save the processed data
 save(all_supers, file = file.path(clean_path, "all_supers_il.Rda"))

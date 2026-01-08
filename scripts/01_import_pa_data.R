@@ -104,9 +104,11 @@ unmatched <- anti_join(all_pa_supers, pa_distids, by = c("aun"="state_leaid_clea
 all_pa_supers_lea$name_raw <- paste0(all_pa_supers_lea$first, " ", all_pa_supers_lea$last)
 all_pa_supers_lea$name_clean <- clean_names(all_pa_supers_lea$name_raw)
 all_pa_supers_lea$state <- "PA"
-all_pa_supers_lea$id <- paste0("pa",1:nrow(all_pa_supers_lea))
-
-all_supers <- all_pa_supers_lea %>% ungroup() %>%  select(id, state, leaid, name_raw, name_clean, year, leaid, salary)
+all_pa_supers_lea <- all_pa_supers_lea %>% distinct(leaid, year, name_clean, .keep_all = TRUE)
+all_pa_supers_lea <- all_pa_supers_lea %>% arrange(leaid, year)
+all_pa_supers_lea$id <- paste0("pa",str_pad(1:nrow(all_pa_supers_lea), width = 5, side = "left", pad = "0"))
+all_pa_supers_lea <- all_pa_supers_lea %>% rename(charter = agency_charter_indicator)
+all_supers <- all_pa_supers_lea %>% ungroup() %>%  select(id, state, leaid, leaid_name = lea_name, name_raw, name_clean, year, leaid, salary, charter)
 
 summary(as.factor(all_supers$year))
 

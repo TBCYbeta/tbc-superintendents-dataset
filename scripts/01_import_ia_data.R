@@ -92,14 +92,22 @@ ia_lea$leaid <- ifelse(ia_lea$`District Name`%in%c("Mormon Trail","Mormon Trail 
 ia_lea$leaid <- ifelse(ia_lea$`District Name`%in%c("Starmont","StarmontComm School District") & is.na(ia_lea$leaid),1927270,ia_lea$leaid)
 ia_lea$leaid <- ifelse(ia_lea$`District Name`%in%c("Turkey Valley","Turkey Valley Comm School District","Turkey ValleyComm School District") & is.na(ia_lea$leaid),1928110,ia_lea$leaid)
 
-ia_clean <- ia_lea %>% select(dist_name=`District Name`, leaid, year, administrator = Administrator) %>% 
+ia_clean <- ia_lea %>% select(dist_name=`District Name`, leaid, year, administrator = Administrator, agency_charter_indicator) %>% 
   distinct()
 
 ia_clean <- ia_clean %>% group_by(leaid) %>% mutate(n = n())
 table(ia_clean$n)
 
+
+duplicates <- ia_clean %>%
+  group_by(year, leaid) %>%
+  filter(n() > 1) %>%
+  arrange(year, leaid)
+
+duplicates
+
 # 3 LEAs have two rows in 2009
-# Remove them manually
+# Remove them manually (confirmed  by web search on 11/3/2025): 
 ia_clean$drop <- 0
 ia_clean$drop <- ifelse(ia_clean$dist_name=="Van Buren Comm School District" & 
                           ia_clean$leaid==1928980 & 
@@ -121,10 +129,14 @@ ia_clean$name_raw <- ia_clean$administrator
 ia_clean$name_clean <- clean_names(ia_clean$name_raw)
 
 ia_clean$state <- "IA"
-ia_clean$id <- paste0("ia",1:nrow(ia_clean))
+ia_clean <- ia_clean %>% distinct(leaid, year, name_clean, agency_charter_indicator,.keep_all = TRUE)
+ia_clean <- ia_clean %>% arrange(leaid, year)
+ia_clean$id <- paste0("ia",str_pad(1:nrow(ia_clean), width = 5, side = "left", pad = "0"))
+ia_clean <- ia_clean %>% rename(charter = agency_charter_indicator)
 
 #Create table with names, district IDs, and years
-all_supers <- ia_clean %>% select(id, state, leaid, name_raw, name_clean, year, leaid)
+all_supers <- ia_clean %>% select(id, state, leaid, leaid_name = dist_name, name_raw, name_clean, year, leaid, charter)
+all_supers$leaid_name <- str_to_title(all_supers$leaid_name)
 
 # drop missing name obs and duplicates 
 all_supers <- all_supers %>% filter(name_clean!="vacant") %>%

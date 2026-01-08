@@ -63,14 +63,18 @@ unmatched <- anti_join(ks_combined, ks_distids, by = c("year","USD"="state_id"))
 table(unmatched$year)
 
 ks_combined_lea$state <- "KS"
-ks_combined_lea$id <- paste0("ks",1:nrow(ks_combined_lea))
-
+ks_combined_lea <- ks_combined_lea %>% distinct(leaid, year, NAME, .keep_all = TRUE)
+ks_combined_lea <- ks_combined_lea %>% arrange(leaid, year)
+ks_combined_lea$id <- paste0("ks", str_pad(1:nrow(ks_combined_lea), width = 5, side = "left", pad = "0"))
 ks_combined_lea$name_raw <- ks_combined_lea$NAME
 ks_combined_lea$name_clean <- clean_names(ks_combined_lea$name_raw)
+ks_combined_lea <- ks_combined_lea %>% rename(charter = agency_charter_indicator)
+
 
 # Create table with names, district IDs, and years
 all_supers <- ks_combined_lea %>% filter(is.na(leaid)==0) %>% 
-  select(id, state, leaid, name_raw, name_clean, year, leaid) %>% ungroup()
+  select(id, state, leaid, leaid_name = nces_lea_name, name_raw, name_clean, year, leaid, charter) %>% ungroup()
+all_supers$leaid_name <- str_to_title(all_supers$leaid_name)
 
 summary(as.factor(all_supers$year))
 

@@ -14,7 +14,6 @@ library(educationdata)
 library(stargazer)
 
 
-
 # Define paths relative to project root
 dist_chars_path <- here("data", "raw", "urban_inst")
 clean_path <- here("data", "processed")

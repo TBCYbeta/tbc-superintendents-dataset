@@ -125,13 +125,16 @@ all_nj_lea <- inner_join(nj_raw, nj_distids, by = c("dist_raw" = "state_leaid_cl
 unmatched <- anti_join(nj_raw, nj_distids, by = c("dist_raw" = "state_leaid_clean", "year"))
 
 all_nj_lea$state <- "NJ"
-all_nj_lea$id <- paste0("nj",1:nrow(all_nj_lea))
-
+all_nj_lea <- all_nj_lea %>% distinct(leaid, year, administrator, .keep_all = TRUE)
+all_nj_lea <- all_nj_lea %>% arrange(leaid, year)
+all_nj_lea$id <- paste0("nj",str_pad(1:nrow(all_nj_lea), width = 5, side = "left", pad = "0"))
 all_nj_lea$name_raw <- all_nj_lea$administrator
 all_nj_lea$name_clean <- clean_names(all_nj_lea$name_raw)
+all_nj_lea <- all_nj_lea %>% rename(charter = agency_charter_indicator)
 
 #Create table with names, district IDs, and years
-all_supers <- all_nj_lea %>% select(id, state, leaid, name_raw, name_clean, year, leaid)
+all_supers <- all_nj_lea %>% select(id, state, leaid, leaid_name = dist_name, name_raw, name_clean, year, leaid, charter)
+all_supers$leaid_name <- str_to_title(all_supers$leaid_name)
 
 summary(as.factor(all_supers$year))
 

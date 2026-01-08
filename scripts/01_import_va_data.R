@@ -73,20 +73,27 @@ va_clean <- inner_join(va_combined, va_distids, by = c("name_lower","year"))
 table(is.na(va_clean$leaid))
 
 va_clean$state <- "VA"
-va_clean$id <- paste0("va",1:nrow(va_clean))
+va_clean <- va_clean %>% distinct(leaid, year, name_lower, .keep_all = TRUE)
+va_clean <- va_clean %>% arrange(leaid, year)
+va_clean$id <- paste0("va", str_pad(1:nrow(va_clean), width = 5, side = "left", pad = "0"))
 
 va_clean$name_raw <- va_clean$name
-va_clean$name_clean <- clean_names(va_clean$name_raw)
+va_clean$name_clean <- str_to_title(clean_names(va_clean$name_raw))
+va_clean <- va_clean %>% rename(charter = agency_charter_indicator)
+
 
 # Create table with names, district IDs, and years
 all_supers <- va_clean %>% filter(name_raw!="Position Vacant", 
                                   name_raw!="Superintendent", 
                                   is.na(leaid)==0) %>% 
-  select(id, state, leaid, name_raw, name_clean, year, leaid) %>% ungroup()
+  select(id, state, leaid, leaid_name = nces_lea_name_clean, name_raw, name_clean, year, leaid, charter) %>% ungroup()
+all_supers$leaid_name <- str_to_title(all_supers$leaid_name)
 
 # drop missing 
 all_supers <- all_supers %>% filter(!is.na(name_clean)) %>%
   filter(name_clean!="")
+
+write.csv(all_supers, "allsupersva.csv")
 
 # Save the processed data
 save(all_supers, file = file.path(clean_path, "all_supers_va.Rda"))

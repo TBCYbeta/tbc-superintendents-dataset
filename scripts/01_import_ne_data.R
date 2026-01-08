@@ -108,7 +108,10 @@ ne_lea$name_raw <- ne_lea$administrator
 ne_lea$name_clean <- clean_names(ne_lea$name_raw)
 
 ne_lea$state <- "NE"
-ne_lea$id <- paste0("ne",1:nrow(ne_lea))
+ne_lea <- ne_lea %>% distinct(leaid, year, name_clean, .keep_all = TRUE)
+ne_lea <- ne_lea %>% arrange(leaid, year)
+ne_lea$id <- paste0("ne",str_pad(1:nrow(ne_lea), width = 5, side = "left", pad = "0"))
+ne_lea <- ne_lea %>% rename(charter = agency_charter_indicator)
 
 # drop if LEAID missing (usually non-public school) or name missing 
 ne_lea <- ne_lea %>%
@@ -117,7 +120,8 @@ ne_lea <- ne_lea %>%
 #Create table with names, district IDs, and years
 all_supers <- ne_lea %>% 
               ungroup() %>%
-              select(id, state, leaid, name_raw, name_clean, year, leaid)
+              select(id, state, leaid, leaid_name = nces_lea_name, name_raw, name_clean, year, leaid, charter)
+all_supers$leaid_name <- str_to_title(all_supers$leaid_name)
 
 # Save the processed data
 save(all_supers, file = file.path(clean_path, "all_supers_ne.Rda"))

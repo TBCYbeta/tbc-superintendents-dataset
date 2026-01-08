@@ -81,11 +81,20 @@ all_wi_supers_lea <- inner_join(all_wi_supers, wi_distids, by = c("district_n" =
 unmatched <- anti_join(all_wi_supers, wi_distids, by = c("district_n" = "state_leaid", "year"))
 
 all_wi_supers_lea$name_raw <- paste0(all_wi_supers_lea$first_raw, " ", all_wi_supers_lea$last_raw)
-all_wi_supers_lea$name_clean <- clean_names(all_wi_supers_lea$name_raw)
+all_wi_supers_lea$name_clean <- str_to_title(clean_names(all_wi_supers_lea$name_raw))
 all_wi_supers_lea$state <- "WI"
-all_wi_supers_lea$id = paste0("wi", 1:nrow(all_wi_supers_lea))
 
-all_supers <- all_wi_supers_lea %>% ungroup() %>% select(id, state, leaid, name_raw, name_clean, year, salary)
+all_wi_supers_lea <- all_wi_supers_lea %>% distinct(leaid, year, name_clean, .keep_all = TRUE)
+all_wi_supers_lea <- all_wi_supers_lea %>% arrange(leaid, year)
+all_wi_supers_lea$id = paste0("wi", str_pad(1:nrow(all_wi_supers_lea), width = 5, side = "left", pad = "0"))
+
+all_wi_supers_lea <- all_wi_supers_lea %>% rename(charter = agency_charter_indicator)
+all_wi_supers_lea$nces_lea_name <- str_to_title(all_wi_supers_lea$nces_lea_name)
+
+#Create table with names, district IDs, and years
+all_supers <- all_wi_supers_lea %>% ungroup() %>% select(id, state, leaid, leaid_name = nces_lea_name, name_raw, name_clean, year, salary, charter)
+
+write.csv(all_supers, "allsuperswi.csv")
 
 summary(as.factor(all_supers$year))
 summary(as.factor(unmatched$year))

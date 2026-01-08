@@ -65,10 +65,13 @@ or_clean$name_raw <- or_clean$administrator
 or_clean$name_clean <- clean_names(or_clean$name_raw)
 
 or_clean$state <- "OR"
-or_clean$id <- paste0("or",1:nrow(or_clean))
+or_clean <- or_clean %>% distinct(leaid, year, name_clean, .keep_all = TRUE)
+or_clean <- or_clean %>% arrange(leaid, year)
+or_clean$id <- paste0("or",str_pad(1:nrow(or_clean), width = 5, side = "left", pad = "0"))
+or_clean <- or_clean %>% rename(charter = agency_charter_indicator)
 
 #Create table with names, district IDs, and years
-all_supers <- or_clean %>% select(id, state, leaid, name_raw, name_clean, year, leaid)
+all_supers <- or_clean %>% select(id, state, leaid, leaid_name = dist_name, name_raw, name_clean, year, leaid, charter)
 
 summary(as.factor(all_supers$year))
 

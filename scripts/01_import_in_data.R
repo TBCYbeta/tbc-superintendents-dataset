@@ -111,15 +111,17 @@ unmatched <- anti_join(in_raw, in_distids, by = c("Corp" = "state_leaid_clean", 
 table(unmatched$year)
 
 check <- unmatched %>% filter(!str_detect(tolower(Name), "diocese"))
-
+all_in_lea <- all_in_lea %>% distinct(leaid, year, administrator, .keep_all = TRUE)
+all_in_lea <- all_in_lea %>% arrange(leaid, year)
 all_in_lea$state <- "in"
-all_in_lea$id <- paste0("in",1:nrow(all_in_lea))
-
+all_in_lea$id <- paste0("in", str_pad(1:nrow(all_in_lea), width = 5, side = "left", pad = "0"))
 all_in_lea$name_raw <- all_in_lea$administrator
 all_in_lea$name_clean <- clean_names(all_in_lea$name_raw)
+all_in_lea <- all_in_lea %>% rename(charter = agency_charter_indicator)
 
 #Create table with names, district IDs, and years
-all_supers <- all_in_lea %>% select(id, state, leaid, name_raw, name_clean, year, leaid)
+all_supers <- all_in_lea %>% select(id, state, leaid, leaid_name = nces_lea_name, name_raw, name_clean, year, leaid, charter)
+all_supers$leaid_name <- str_to_title(all_supers$leaid_name)
 
 summary(all_supers$year)
 

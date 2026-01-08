@@ -13,9 +13,10 @@ install.packages("gender")
 install.packages("wru")
 install.packages("educationdata")
 install.packages("stargazer")
+install.packages("zoo")
 
 # 2. (Optional) By default, these scripts use processed .Rda files. If you would like to generate the data "from scratch," change "read_PDFs <- 1" in the following line.    
-read_PDFs <- 0
+read_PDFs <- 1
 
 if (!require("here")) install.packages("here")
 library(here)

@@ -85,13 +85,16 @@ unmatched <- anti_join(ok_raw, ok_distids, by = c("dist_raw" = "state_leaid_clea
 table(unmatched$year)
 
 all_ok_lea$state <- "OK"
-all_ok_lea$id <- paste0("ok",1:nrow(all_ok_lea))
-
+all_ok_lea <- all_ok_lea %>% distinct(leaid, year, administrator, .keep_all = TRUE)
+all_ok_lea <- all_ok_lea %>% arrange(leaid, year)
+all_ok_lea$id <- paste0("ok",str_pad(1:nrow(all_ok_lea), width = 5, side = "left", pad = "0"))
 all_ok_lea$name_raw <- all_ok_lea$administrator
 all_ok_lea$name_clean <- clean_names(all_ok_lea$name_raw)
+all_ok_lea <- all_ok_lea %>% rename(charter = agency_charter_indicator)
 
 #Create table with names, district IDs, and years
-all_supers <- all_ok_lea %>% select(id, state, leaid, name_raw, name_clean, year, leaid)
+all_supers <- all_ok_lea %>% select(id, state, leaid, leaid_name = nces_lea_name, name_raw, name_clean, year, leaid, charter)
+all_supers$leaid_name <- str_to_title(all_supers$leaid_name)
 
 summary(as.factor(all_supers$year))
 # Save the processed data
