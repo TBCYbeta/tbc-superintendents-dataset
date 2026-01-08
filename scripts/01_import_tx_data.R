@@ -108,22 +108,22 @@ tx_11_17_clean <- tx_11_17_clean %>%
 ####################################
 
 tx_dir_path <- here("data", "raw", "tx")  
-years2 <- 2018:2022
 
-tx_18_22 <- purrr::map_dfr(years2, function(y) {
+# Overwrite source files to keep raw data files under 100 MB for git upload
+tx_18 <- read.csv(file.path(tx_dir_path, "2018-19 NonTeachers.csv"), stringsAsFactors = FALSE)[, c("YEAR","DISTRICT","DISTNAME","FNAME","LNAME", "ROLEX","TOTALPAY")]
+#write.csv(tx_18, "data/raw/tx/2018-19 NonTeachers.csv")
+tx_19 <- read.csv(file.path(tx_dir_path, "2019-20 NonTeachers.csv"), stringsAsFactors = FALSE)[, c("YEAR","DISTRICT","DISTNAME","FNAME","LNAME", "ROLEX","TOTALPAY")]
+#write.csv(tx_19, "data/raw/tx/2019-20 NonTeachers.csv")
+tx_20 <- read.csv(file.path(tx_dir_path, "2020-21 NonTeachers.csv"), stringsAsFactors = FALSE)[, c("YEAR","DISTRICT","DISTNAME","FNAME","LNAME", "ROLEX","TOTALPAY")]
+#write.csv(tx_20, "data/raw/tx/2020-21 NonTeachers.csv")
+tx_21 <- read.csv(file.path(tx_dir_path, "2021-22 NonTeachers.csv"), stringsAsFactors = FALSE)[, c("YEAR","DISTRICT","DISTNAME","FNAME","LNAME", "ROLEX","TOTALPAY")]
+#write.csv(tx_21, "data/raw/tx/2021-22 NonTeachers.csv")
+tx_22 <- read.csv(file.path(tx_dir_path, "2022-23 NonTeachers.csv"), stringsAsFactors = FALSE)[, c("YEAR","DISTRICT","DISTNAME","FNAME","LNAME", "ROLEX","TOTALPAY")]
+#write.csv(tx_22, "data/raw/tx/2022-23 NonTeachers.csv")
   
-  # file name like "2018-19 NonTeachers.csv"
-  f_y <- file.path(tx_dir_path, paste0(y, "-", substr(y + 1, 3, 4), " NonTeachers.csv"))
-  stopifnot(file.exists(f_y))
-  
-  readr::read_csv(
-    f_y,
-    col_types = readr::cols(.default = readr::col_character()),
-    show_col_types = FALSE
-  ) %>%
-    rename_with(tolower) %>%
-    mutate(year = as.integer(y))
-})
+tx_18_22 <- rbind(tx_18, tx_19, tx_20, tx_21, tx_22)
+names(tx_18_22) <- tolower(names(tx_18_22))
+tx_18_22$year <- as.integer(substr(tx_18_22$year, 1, 4))
 
 # Use state charter classification
 #tx_18_22 <- tx_18_22 %>%
@@ -140,10 +140,7 @@ tx_18_22_clean <- tx_18_22 %>%
     str_detect(rolex, regex("SUPERINTENDENT", ignore_case = TRUE))
   ) %>%
   transmute(
-    year       = as.integer(year),
-    
-    # keep raw pieces for the district-id fix
-    county     = as.character(county),
+    year       = year,
     district_id = paste0("TX-",sprintf("%06d", as.integer(district))),
     distname   = distname,
     fname      = fname,
