@@ -788,7 +788,7 @@ all_combinations <- expand.grid(
 
 # Left join to fill in missing combinations with NA
 complete_data_balanced <- all_combinations %>%
-  left_join(district_counts, by = c("state", "year")) %>%
+  left_join(balanced_district_counts, by = c("state", "year")) %>%
   mutate(state = factor(state, levels = rev(sort(unique(state)))))
 
 # Create the heatmap for balanced panel
