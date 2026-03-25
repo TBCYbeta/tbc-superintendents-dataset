@@ -174,9 +174,9 @@ async def run_pipeline(
             logger.info(f"STEP 2: Retry attempt {attempt}/{max_retries}")
             logger.info("=" * 60)
 
-            errors_csv = work_dir / f"{stem}_errors.csv"
-            retry_csv = work_dir / f"{stem}_retry.csv"
-            merged_csv = work_dir / f"{stem}_merged.csv"
+            errors_csv = work_dir / f"{stem}_errors_{attempt}.csv"
+            retry_csv = work_dir / f"{stem}_retry_{attempt}.csv"
+            merged_csv = work_dir / f"{stem}_merged_{attempt}.csv"
 
             error_count = extract_errors(current_csv, errors_csv)
             if error_count == 0:
@@ -215,12 +215,16 @@ async def run_pipeline(
                     get_store().clear()
 
             merge_results(current_csv, retry_csv, merged_csv)
+            old_csv = current_csv
             current_csv = merged_csv
 
             remaining = _count_errors(current_csv)
             logger.info(f"Errors remaining after retry {attempt}: {remaining}")
 
+            # Clean up intermediate files (but not current_csv)
             _cleanup(errors_csv, retry_csv)
+            if old_csv != initial_csv:
+                _cleanup(old_csv)
 
             if remaining == 0:
                 logger.info(f"All errors resolved after {attempt} retry(s).")
@@ -265,18 +269,22 @@ async def run_pipeline(
     logger.info("STEP 4: Writing unified output")
     logger.info("=" * 60)
 
+    # Sanity check before writing — don't overwrite good data with bad
+    if len(all_rows) < len(cases):
+        logger.error(
+            f"BUG: only {len(all_rows)} rows but expected {len(cases)}. "
+            f"Keeping intermediate file at {current_csv} for recovery."
+        )
+        return
+
     _write_unified_csv(output_path, all_rows, critic_lookup)
     logger.info(f"Output: {output_path} ({len(all_rows)} rows)")
 
-    # Cleanup intermediate files
+    # Cleanup intermediate files only after successful write
     if current_csv != output_path:
         _cleanup(current_csv)
     if initial_csv != current_csv:
         _cleanup(initial_csv)
-    # Clean up any leftover merged file
-    merged_leftover = work_dir / f"{stem}_merged.csv"
-    if merged_leftover != current_csv:
-        _cleanup(merged_leftover)
 
     # Summary
     preds: dict[str, int] = {}
