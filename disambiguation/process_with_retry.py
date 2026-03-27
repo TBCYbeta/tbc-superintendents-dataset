@@ -316,7 +316,7 @@ def _cleanup(*paths: Path) -> None:
 @click.command()
 @click.argument("input_csv", type=click.Path(exists=True, path_type=Path))
 @click.argument("output_csv", type=click.Path(path_type=Path))
-@click.option("--max-retries", default=2, show_default=True, type=int)
+@click.option("--max-retries", default=10, show_default=True, type=int, help="Max retry rounds (stops early if no improvement)")
 @click.option("--model", "-m", default=DEFAULT_MODEL, show_default=True)
 @click.option("-v", "--verbose", is_flag=True, help="Enable verbose logging")
 @click.option("--unique-districts", type=int, default=None)
