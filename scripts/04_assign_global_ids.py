@@ -97,6 +97,14 @@ def main():
     for sid in all_super_ids:
         uf.find(sid)
 
+    def find_sid(name: str, leaid: str) -> str | None:
+        """Look up super_id, trying both raw and 0-padded LEAID."""
+        sid = lookup.get((name, leaid))
+        if sid:
+            return sid
+        # Try 0-padded (disambiguation uses 6-digit, main dataset uses 7-digit)
+        return lookup.get((name, "0" + leaid))
+
     matched = 0
     skipped = 0
     for row in matches:
@@ -104,8 +112,8 @@ def main():
         leaid1 = row["leaid1"].strip()
         leaid2 = row["leaid2"].strip()
 
-        sid1 = lookup.get((name, leaid1))
-        sid2 = lookup.get((name, leaid2))
+        sid1 = find_sid(name, leaid1)
+        sid2 = find_sid(name, leaid2)
 
         if sid1 and sid2:
             uf.union(sid1, sid2)
@@ -175,11 +183,18 @@ def main():
         for row in csv.DictReader(f):
             gid_lookup[(row["name_clean"].strip(), row["leaid"].strip())] = row["global_id"]
 
+    def find_gid(name: str, leaid: str) -> str | None:
+        """Look up global_id, trying both raw and 0-padded LEAID."""
+        gid = gid_lookup.get((name, leaid))
+        if gid:
+            return gid
+        return gid_lookup.get((name, "0" + leaid))
+
     mismatches = 0
     for row in matches:
         name = row["name"].strip()
-        gid1 = gid_lookup.get((name, row["leaid1"].strip()))
-        gid2 = gid_lookup.get((name, row["leaid2"].strip()))
+        gid1 = find_gid(name, row["leaid1"].strip())
+        gid2 = find_gid(name, row["leaid2"].strip())
         if gid1 and gid2 and gid1 != gid2:
             mismatches += 1
             logger.warning(f"  MISMATCH: {name} -> {gid1} vs {gid2}")
