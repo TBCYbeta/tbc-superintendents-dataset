@@ -18,7 +18,7 @@ logger = logging.getLogger(__name__)
 
 ROOT = Path(__file__).resolve().parent.parent
 MAIN_CSV = ROOT / "data" / "processed" / "combined_superintendents.csv"
-MATCHES_CSV = ROOT / "disambiguation" / "output" / "critic_2026-03-05_084008_passed.csv"
+MATCHES_CSV = ROOT / "disambiguation" / "output" / "critic_2026-03-29_145255_passed.csv"
 OUTPUT_CSV = ROOT / "data" / "processed" / "combined_superintendents_global.csv"
 
 
