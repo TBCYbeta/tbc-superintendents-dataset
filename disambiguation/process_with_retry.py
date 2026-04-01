@@ -237,54 +237,60 @@ async def run_pipeline(
     all_rows = _read_all_rows(current_csv)
     critic_lookup: dict[tuple, CriticResult] = {}
 
-    if not no_critic:
+    try:
+        if not no_critic:
+            logger.info("=" * 60)
+            logger.info("STEP 3: Running critic on high-confidence matches")
+            logger.info("=" * 60)
+
+            evaluated = await run_critic_on_rows(all_rows, model_id=model, matches_only=True)
+
+            # Build lookup for merging into output
+            for row, cr in evaluated:
+                if cr is not None:
+                    critic_lookup[row_key(row)] = cr
+
+            # Write critic reports
+            if evaluated:
+                timestamp = datetime.now().strftime("%Y-%m-%d_%H%M%S")
+                report_dir = Path("quality_reports")
+                report_dir.mkdir(exist_ok=True)
+                report_path = report_dir / f"critic_{timestamp}.md"
+
+                write_report(report_path, evaluated)
+                write_companion_csv(report_path.with_suffix(".csv"), evaluated)
+                write_passed_csv(report_path.with_name(report_path.stem + "_passed.csv"), evaluated)
+
+                confirmed = sum(1 for _, cr in evaluated if cr and cr.grade == "CONFIRMED")
+                logger.info(f"Critic report: {report_path}")
+                logger.info(f"Confirmed matches: {confirmed}/{len(evaluated)}")
+
+        # --- Step 4: Write unified output ---
         logger.info("=" * 60)
-        logger.info("STEP 3: Running critic on high-confidence matches")
+        logger.info("STEP 4: Writing unified output")
         logger.info("=" * 60)
 
-        evaluated = await run_critic_on_rows(all_rows, model_id=model, matches_only=True)
+        # Sanity check before writing — don't overwrite good data with bad
+        if len(all_rows) < len(cases):
+            logger.error(
+                f"BUG: only {len(all_rows)} rows but expected {len(cases)}. "
+                f"Keeping intermediate file at {current_csv} for recovery."
+            )
+            return
 
-        # Build lookup for merging into output
-        for row, cr in evaluated:
-            if cr is not None:
-                critic_lookup[row_key(row)] = cr
+        _write_unified_csv(output_path, all_rows, critic_lookup)
+        logger.info(f"Output: {output_path} ({len(all_rows)} rows)")
 
-        # Write critic reports
-        if evaluated:
-            timestamp = datetime.now().strftime("%Y-%m-%d_%H%M%S")
-            report_dir = Path("quality_reports")
-            report_dir.mkdir(exist_ok=True)
-            report_path = report_dir / f"critic_{timestamp}.md"
+        # Cleanup intermediate files only after ALL writes succeed
+        if current_csv != output_path:
+            _cleanup(current_csv)
+        if initial_csv != current_csv:
+            _cleanup(initial_csv)
 
-            write_report(report_path, evaluated)
-            write_companion_csv(report_path.with_suffix(".csv"), evaluated)
-            write_passed_csv(report_path.with_name(report_path.stem + "_passed.csv"), evaluated)
-
-            confirmed = sum(1 for _, cr in evaluated if cr and cr.grade == "CONFIRMED")
-            logger.info(f"Critic report: {report_path}")
-            logger.info(f"Confirmed matches: {confirmed}/{len(evaluated)}")
-
-    # --- Step 4: Write unified output ---
-    logger.info("=" * 60)
-    logger.info("STEP 4: Writing unified output")
-    logger.info("=" * 60)
-
-    # Sanity check before writing — don't overwrite good data with bad
-    if len(all_rows) < len(cases):
-        logger.error(
-            f"BUG: only {len(all_rows)} rows but expected {len(cases)}. "
-            f"Keeping intermediate file at {current_csv} for recovery."
-        )
-        return
-
-    _write_unified_csv(output_path, all_rows, critic_lookup)
-    logger.info(f"Output: {output_path} ({len(all_rows)} rows)")
-
-    # Cleanup intermediate files only after successful write
-    if current_csv != output_path:
-        _cleanup(current_csv)
-    if initial_csv != current_csv:
-        _cleanup(initial_csv)
+    except Exception as e:
+        logger.error(f"Error in Step 3/4: {e}")
+        logger.error(f"Intermediate results preserved at: {current_csv}")
+        raise
 
     # Summary
     preds: dict[str, int] = {}
@@ -316,7 +322,13 @@ def _cleanup(*paths: Path) -> None:
 @click.command()
 @click.argument("input_csv", type=click.Path(exists=True, path_type=Path))
 @click.argument("output_csv", type=click.Path(path_type=Path))
-@click.option("--max-retries", default=10, show_default=True, type=int, help="Max retry rounds (stops early if no improvement)")
+@click.option(
+    "--max-retries",
+    default=10,
+    show_default=True,
+    type=int,
+    help="Max retry rounds (stops early if no improvement)",
+)
 @click.option("--model", "-m", default=DEFAULT_MODEL, show_default=True)
 @click.option("-v", "--verbose", is_flag=True, help="Enable verbose logging")
 @click.option("--unique-districts", type=int, default=None)

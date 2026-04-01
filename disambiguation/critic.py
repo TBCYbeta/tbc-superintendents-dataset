@@ -448,7 +448,7 @@ def write_companion_csv(
             if result:
                 out["critic_score"] = result.total_score
                 out["critic_grade"] = result.grade
-                for i, c in enumerate(result.criteria, 1):
+                for i, c in enumerate(result.criteria[:10], 1):
                     out[f"c{i}"] = c.score
                 out["key_concern"] = result.key_concern
                 out["would_rerun_help"] = result.would_rerun_help
