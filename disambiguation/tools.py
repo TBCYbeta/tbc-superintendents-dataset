@@ -59,6 +59,19 @@ def tavily_search(
         - results: List of search results, each with title, url, content, score
         - answer: AI-generated summary if available
     """
+    # Input validation — LLM sometimes generates empty or malformed queries
+    query = query.strip()
+    if not query:
+        logger.warning("Tavily search: empty query, returning no results")
+        return {"results": [], "answer": None}
+
+    search_depth = search_depth.strip().lower()
+    if search_depth not in ("basic", "advanced"):
+        logger.warning(f"Tavily search: invalid depth {search_depth!r}, defaulting to 'advanced'")
+        search_depth = "advanced"
+
+    max_results = max(1, min(20, max_results))
+
     domains_str = f", domains={include_domains}" if include_domains else ""
     logger.info(f"Tavily search: {query!r} (depth={search_depth}, max={max_results}{domains_str})")
     client = _get_tavily_client()

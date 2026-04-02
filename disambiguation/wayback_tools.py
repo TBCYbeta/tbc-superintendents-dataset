@@ -149,6 +149,14 @@ async def wayback_search(
     4. Use from_date/to_date to focus on relevant time periods
     5. Fetch specific pages with wayback_fetch() using the timestamp
     """
+    # Input validation — LLM sometimes passes URLs with trailing newlines
+    url = url.strip()
+    if not url:
+        logger.warning("Wayback search: empty URL, returning no results")
+        return WaybackSearchResult(
+            captures=[], total_returned=0, has_more=False, resume_key=None, query_url=""
+        )
+
     params: dict[str, str | int] = {
         "url": url,
         "output": "json",
@@ -187,11 +195,15 @@ async def wayback_search(
         if response.status_code >= 400:
             status_code = response.status_code
             if status_code == 403:
-                logger.warning(f"Wayback CDX returned 403 FORBIDDEN for {url} - may be rate limited or blocked")
+                logger.warning(
+                    f"Wayback CDX returned 403 FORBIDDEN for {url} - may be rate limited or blocked"
+                )
             elif status_code == 404:
                 logger.info(f"Wayback CDX returned 404 for {url} - no captures found")
             elif status_code == 429:
-                logger.warning(f"Wayback CDX returned 429 TOO MANY REQUESTS for {url} - rate limited")
+                logger.warning(
+                    f"Wayback CDX returned 429 TOO MANY REQUESTS for {url} - rate limited"
+                )
             elif status_code >= 500:
                 logger.warning(f"Wayback CDX returned {status_code} server error for {url}")
             else:
@@ -232,22 +244,48 @@ async def wayback_search(
     # Map header positions
     field_map = {name: idx for idx, name in enumerate(header)}
 
+    def _safe_get(row: list, field: str, default_idx: int, default: str = "") -> str:
+        """Safely get a field from a CDX row, returning default if out of bounds."""
+        idx = field_map.get(field, default_idx)
+        if idx < len(row):
+            return row[idx]
+        return default
+
     captures = []
     for row in rows:
-        timestamp = row[field_map.get("timestamp", 0)]
-        original = row[field_map.get("original", 1)]
+        if len(row) < 2:
+            logger.debug(f"Skipping malformed CDX row: {row}")
+            continue
+
+        timestamp = _safe_get(row, "timestamp", 0)
+        original = _safe_get(row, "original", 1)
+        if not timestamp or not original:
+            logger.debug(f"Skipping CDX row with missing timestamp/url: {row}")
+            continue
+
+        statuscode_str = _safe_get(row, "statuscode", 4, "0")
+        length_str = _safe_get(row, "length", 6, "0")
+
+        try:
+            statuscode = int(statuscode_str) if statuscode_str else 0
+        except ValueError:
+            statuscode = 0
+        try:
+            length = int(length_str) if length_str else 0
+        except ValueError:
+            length = 0
 
         capture = WaybackCapture(
             timestamp=timestamp,
             original_url=original,
-            urlkey=row[field_map.get("urlkey", 0)] if "urlkey" in field_map else "",
-            mimetype=row[field_map.get("mimetype", 3)] if "mimetype" in field_map else "",
-            statuscode=int(row[field_map.get("statuscode", 4)]) if "statuscode" in field_map else 0,
-            digest=row[field_map.get("digest", 5)] if "digest" in field_map else "",
-            length=int(row[field_map.get("length", 6)]) if "length" in field_map else 0,
+            urlkey=_safe_get(row, "urlkey", 0),
+            mimetype=_safe_get(row, "mimetype", 3),
+            statuscode=statuscode,
+            digest=_safe_get(row, "digest", 5),
+            length=length,
             readable_date=_parse_timestamp(timestamp),
             wayback_url=f"{WAYBACK_BASE_URL}/{timestamp}/{original}",
-            dupe_count=int(row[field_map.get("dupecount", -1)])
+            dupe_count=int(_safe_get(row, "dupecount", -1, "0"))
             if "dupecount" in field_map and show_dupe_count
             else None,
         )
@@ -280,7 +318,9 @@ async def _fetch_wayback_content(url: str, timestamp: str) -> tuple[str, str] | 
             if status_code == 403:
                 logger.warning(f"Wayback fetch returned 403 FORBIDDEN for {wayback_url}")
             elif status_code == 404:
-                logger.warning(f"Wayback fetch returned 404 for {wayback_url} - capture may not exist")
+                logger.warning(
+                    f"Wayback fetch returned 404 for {wayback_url} - capture may not exist"
+                )
             elif status_code == 429:
                 logger.warning("Wayback fetch returned 429 TOO MANY REQUESTS - rate limited")
             elif status_code >= 500:
