@@ -88,8 +88,8 @@ cd disambiguation && uv run python critic.py output.csv --matches-only
 |-|-|
 | `data/processed/combined_superintendents.csv` | 180,388 rows, 23 states, within-state super_id |
 | `data/processed/combined_superintendents_global.csv` | Same + global_id (cross-state merged) |
-| `disambiguation/output/cross_state_matches_output_merged.csv` | 1,512 cross-state disambiguation results |
-| `disambiguation/output/critic_2026-03-05_084008_passed.csv` | 264 confirmed cross-state matches |
+| `disambiguation/output/cross_state_matches_output_merged.csv` | 1,512 cross-state disambiguation results (batch 1) |
+| `disambiguation/output/critic_combined_passed.csv` | 387 confirmed cross-state matches (all batches) |
 
 ---
 
@@ -98,8 +98,9 @@ cd disambiguation && uv run python critic.py output.csv --matches-only
 ### Main Dataset
 - 180,388 superintendent-year rows across 23 states (1990-2024)
 - 31,334 unique within-state super_ids
-- 31,144 unique global_ids (190 cross-state merges from 264 confirmed matches)
+- 30,999 unique global_ids (335 cross-state merges from 387 confirmed matches)
 
 ### Disambiguation Pipeline (cross-state)
 - Accuracy: 99.0%, Precision: 97.4%, Recall: 100.0% (200-case test set)
-- Production: 1,512 cases -> 264 confirmed matches (after critic filter)
+- Production: 1,724 total pairs processed (1,512 original + 212 remaining)
+- 387 confirmed matches after two-stage critic filter
