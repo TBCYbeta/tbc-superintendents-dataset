@@ -68,6 +68,11 @@ Figure \ref{fig:superintendent_turnover_by_state_year} reports turnover estimate
 \subsection{Salaries}
 Some reported salary values are implausibly low for full-year superintendent positions. We keep these values in the dataset for transparency but note that entries of 0 or very low salaries in some states may not reflect actual full-year compensation.
 
+\subsection{Disambiguation}
+
+Because the same superintendent may have served in multiple states, our within-state identifiers alone cannot link a person's records across state lines. To address this, we developed a disambiguation tool (in the \texttt{disambiguation/} folder) that determines whether two records sharing the same name---but in different states---refer to the same individual. The tool works by prompting a large language model to search the web for corroborating evidence (news articles, school board minutes, district websites, archived pages) connecting the two tenures. A second ``critic'' model then independently scores each proposed match on ten criteria, accepting it as confirmed only when the evidence is strong and internally consistent. Out of 1,512 candidate cross-state name pairs examined, 264 were confirmed as the same person.
+
+Once confirmed matches are identified, the script \textbf{\texttt{scripts/04\_assign\_global\_ids.py}} merges the within-state identifiers into a single \texttt{global\_id} for each superintendent. It does this using a union-find algorithm: if superintendent A's Arkansas record and Missouri record are confirmed as the same person, all of their rows---across both states---are assigned one shared identifier. To assess accuracy, we manually reviewed a random sample of 200 cases by looking up each superintendent online. The model achieved 99.0\% overall accuracy, 97.4\% precision (very few false positives), and 100\% recall (no confirmed cross-state superintendent was missed).
 
 \section*{Figures}
 \begin{figure}[H]

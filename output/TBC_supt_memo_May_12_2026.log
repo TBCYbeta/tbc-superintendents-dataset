@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.1)  12 MAY 2026 15:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.1)  13 MAY 2026 18:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -865,54 +865,58 @@ LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <12> not available
 [1
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<figures/state_years_plot.png, id=57, 867.24pt x 578.16pt>
-File: figures/state_years_plot.png Graphic file (type png)
-<use figures/state_years_plot.png>
-Package pdftex.def Info: figures/state_years_plot.png  used on input line 77.
-(pdftex.def)             Requested size: 422.77664pt x 281.85406pt.
+Overfull \hbox (2.20093pt too wide) in paragraph at lines 75--76
+[]\OT1/cmr/m/n/12 Once con-firmed matches are iden-ti-fied, the script \OT1/cmt
+t/m/n/12 scripts/04[]assign[]global[]ids.py \OT1/cmr/m/n/12 merges
+ []
 
 [2]
-<figures/district_counts_by_state_year.png, id=70, 867.24pt x 578.16pt>
+<figures/state_years_plot.png, id=71, 867.24pt x 578.16pt>
+File: figures/state_years_plot.png Graphic file (type png)
+<use figures/state_years_plot.png>
+Package pdftex.def Info: figures/state_years_plot.png  used on input line 82.
+(pdftex.def)             Requested size: 422.77664pt x 281.85406pt.
+<figures/district_counts_by_state_year.png, id=74, 867.24pt x 578.16pt>
 File: figures/district_counts_by_state_year.png Graphic file (type png)
 <use figures/district_counts_by_state_year.png>
 Package pdftex.def Info: figures/district_counts_by_state_year.png  used on inp
-ut line 86.
+ut line 91.
 (pdftex.def)             Requested size: 375.80544pt x 250.53596pt.
  [3 <./figures/state_years_plot.png>]
-<figures/balanced_district_counts_by_state_year.png, id=77, 867.24pt x 578.16pt
+<figures/balanced_district_counts_by_state_year.png, id=81, 867.24pt x 578.16pt
 >
 File: figures/balanced_district_counts_by_state_year.png Graphic file (type png
 )
 <use figures/balanced_district_counts_by_state_year.png>
 Package pdftex.def Info: figures/balanced_district_counts_by_state_year.png  us
-ed on input line 94.
+ed on input line 99.
 (pdftex.def)             Requested size: 375.80544pt x 250.53596pt.
-<figures/student_coverage_by_year.png, id=78, 867.24pt x 578.16pt>
+<figures/student_coverage_by_year.png, id=82, 867.24pt x 578.16pt>
 File: figures/student_coverage_by_year.png Graphic file (type png)
 <use figures/student_coverage_by_year.png>
 Package pdftex.def Info: figures/student_coverage_by_year.png  used on input li
-ne 102.
+ne 107.
 (pdftex.def)             Requested size: 422.77664pt x 281.85406pt.
  [4 <./figures/district_counts_by_state_year.png> <./figures/balanced_district_
 counts_by_state_year.png>]
-<figures/superintendent_turnover_overall.png, id=83, 867.24pt x 578.16pt>
+<figures/superintendent_turnover_overall.png, id=87, 867.24pt x 578.16pt>
 File: figures/superintendent_turnover_overall.png Graphic file (type png)
 <use figures/superintendent_turnover_overall.png>
 Package pdftex.def Info: figures/superintendent_turnover_overall.png  used on i
-nput line 110.
+nput line 115.
 (pdftex.def)             Requested size: 422.77664pt x 281.85406pt.
  [5 <./figures/student_coverage_by_year.png>]
-<figures/superintendent_turnover_by_state_year.png, id=88, 1156.32pt x 867.24pt
+<figures/superintendent_turnover_by_state_year.png, id=92, 1156.32pt x 867.24pt
 >
 File: figures/superintendent_turnover_by_state_year.png Graphic file (type png)
 
 <use figures/superintendent_turnover_by_state_year.png>
 Package pdftex.def Info: figures/superintendent_turnover_by_state_year.png  use
-d on input line 118.
+d on input line 123.
 (pdftex.def)             Requested size: 422.77664pt x 317.07591pt.
  [6 <./figures/superintendent_turnover_overall.png>] (./figures/superintendent_
 coverage_enrollment_2014.tex)
-Overfull \hbox (23.21976pt too wide) in paragraph at lines 2--129
+Overfull \hbox (23.21976pt too wide) in paragraph at lines 2--134
  [][] 
  []
 
@@ -922,16 +926,16 @@ Overfull \hbox (23.21976pt too wide) in paragraph at lines 2--129
 (./TBC_supt_memo_May_12_2026.aux)
 Package rerunfilecheck Info: File `TBC_supt_memo_May_12_2026.out' has not chang
 ed.
-(rerunfilecheck)             Checksum: B82BA0C28C205E87CF1F60D52E8E8153;602.
+(rerunfilecheck)             Checksum: 902622EAD4F88D2ED384E0077F2FC172;729.
 Package logreq Info: Writing requests to 'TBC_supt_memo_May_12_2026.run.xml'.
 \openout1 = `TBC_supt_memo_May_12_2026.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20969 strings out of 478268
- 370982 string characters out of 5846347
+ 20971 strings out of 478268
+ 371012 string characters out of 5846347
  1160653 words of memory out of 5000000
- 38876 multiletter control sequences out of 15000+600000
+ 38877 multiletter control sequences out of 15000+600000
  479836 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,16n,76p,1170b,5035s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -943,10 +947,10 @@ sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
 /local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/l
 ocal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/lo
 cal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on TBC_supt_memo_May_12_2026.pdf (11 pages, 1680020 bytes).
+Output written on TBC_supt_memo_May_12_2026.pdf (11 pages, 1682394 bytes).
 PDF statistics:
- 177 PDF objects out of 1000 (max. 8388607)
- 135 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
- 79 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 181 PDF objects out of 1000 (max. 8388607)
+ 139 compressed objects within 2 object streams
+ 34 named destinations out of 1000 (max. 500000)
+ 87 words of extra memory for PDF output out of 10000 (max. 10000000)
 
