@@ -44,10 +44,10 @@
   <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>TBC_supt_memo_May_12_2026.bcf</file>
+      <file>TBC_supt_memo_May_14_2026.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>TBC_supt_memo_May_12_2026.bbl</file>
+      <file>TBC_supt_memo_May_14_2026.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -69,19 +69,19 @@
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>TBC_supt_memo_May_12_2026</infile>
+      <infile>TBC_supt_memo_May_14_2026</infile>
     </cmdline>
     <input>
-      <file>TBC_supt_memo_May_12_2026.bcf</file>
+      <file>TBC_supt_memo_May_14_2026.bcf</file>
     </input>
     <output>
-      <file>TBC_supt_memo_May_12_2026.bbl</file>
+      <file>TBC_supt_memo_May_14_2026.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>TBC_supt_memo_May_12_2026.bbl</file>
+      <file>TBC_supt_memo_May_14_2026.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>TBC_supt_memo_May_12_2026.bcf</file>
+      <file>TBC_supt_memo_May_14_2026.bcf</file>
     </requires>
     <requires type="editable">
       <file>memo/bib.bib</file>

@@ -1,0 +1,15 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'TBC_supt_memo_May_14_2026.blg'
+[41] biber-darwin:340> INFO - === Thu May 14, 2026, 17:22:23
+[51] Biber.pm:418> INFO - Reading 'TBC_supt_memo_May_14_2026.bcf'
+[109] Biber.pm:972> INFO - Found 3 citekeys in bib section 0
+[119] Biber.pm:4383> INFO - Processing section 0
+[127] Biber.pm:4574> INFO - Looking for bibtex file 'memo/bib.bib' for section 0
+[128] bibtex.pm:1713> INFO - LaTeX decoding ...
+[131] bibtex.pm:1518> INFO - Found BibTeX data source 'memo/bib.bib'
+[163] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[163] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[163] Biber.pm:4203> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[163] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[169] bbl.pm:654> INFO - Writing 'TBC_supt_memo_May_14_2026.bbl' with encoding 'UTF-8'
+[170] bbl.pm:757> INFO - Output to TBC_supt_memo_May_14_2026.bbl

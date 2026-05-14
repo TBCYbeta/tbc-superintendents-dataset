@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.1)  13 MAY 2026 18:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.1)  14 MAY 2026 17:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**TBC_supt_memo_May_12_2026.tex
-(./TBC_supt_memo_May_12_2026.tex
+**TBC_supt_memo_May_14_2026.tex
+(./TBC_supt_memo_May_14_2026.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24>
 (/usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
@@ -698,8 +698,8 @@ Package: blx-case-expl3 2022/02/02 v3.17 expl3 case changing code for biblatex
 \@quotelevel=\count433
 \@quotereset=\count434
 
-(./TBC_supt_memo_May_12_2026.aux)
-\openout1 = `TBC_supt_memo_May_12_2026.aux'.
+(./TBC_supt_memo_May_14_2026.aux)
+\openout1 = `TBC_supt_memo_May_14_2026.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
 LaTeX Font Info:    ... okay on input line 34.
@@ -797,9 +797,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 34.
 LaTeX Info: Redefining \pageref on input line 34.
 LaTeX Info: Redefining \nameref on input line 34.
- (./TBC_supt_memo_May_12_2026.out) (./TBC_supt_memo_May_12_2026.out)
+ (./TBC_supt_memo_May_14_2026.out) (./TBC_supt_memo_May_14_2026.out)
 \@outlinefile=\write4
-\openout4 = `TBC_supt_memo_May_12_2026.out'.
+\openout4 = `TBC_supt_memo_May_14_2026.out'.
 
 Package biblatex Info: Trying to load language 'english' -> 'english-apa'...
 Package biblatex Info: ... file 'english-apa.lbx' found.
@@ -831,12 +831,12 @@ File: english.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout3 = `TBC_supt_memo_May_12_2026.bcf'.
+\openout3 = `TBC_supt_memo_May_14_2026.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'TBC_supt_memo_May_12_2026.bbl' found.
+Package biblatex Info: ... file 'TBC_supt_memo_May_14_2026.bbl' found.
 
-(./TBC_supt_memo_May_12_2026.bbl)
+(./TBC_supt_memo_May_14_2026.bbl)
 Package biblatex Info: Reference section=0 on input line 34.
 Package biblatex Info: Reference segment=0 on input line 34.
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 37
@@ -923,12 +923,12 @@ Overfull \hbox (23.21976pt too wide) in paragraph at lines 2--134
 [7 <./figures/superintendent_turnover_by_state_year.png>]
 (./figures/white_turnover_table.tex) [8]
 (./figures/superintendent_demographics.tex) [9] [10] [11]
-(./TBC_supt_memo_May_12_2026.aux)
-Package rerunfilecheck Info: File `TBC_supt_memo_May_12_2026.out' has not chang
+(./TBC_supt_memo_May_14_2026.aux)
+Package rerunfilecheck Info: File `TBC_supt_memo_May_14_2026.out' has not chang
 ed.
 (rerunfilecheck)             Checksum: 902622EAD4F88D2ED384E0077F2FC172;729.
-Package logreq Info: Writing requests to 'TBC_supt_memo_May_12_2026.run.xml'.
-\openout1 = `TBC_supt_memo_May_12_2026.run.xml'.
+Package logreq Info: Writing requests to 'TBC_supt_memo_May_14_2026.run.xml'.
+\openout1 = `TBC_supt_memo_May_14_2026.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
@@ -947,7 +947,7 @@ sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
 /local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/l
 ocal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/lo
 cal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on TBC_supt_memo_May_12_2026.pdf (11 pages, 1682394 bytes).
+Output written on TBC_supt_memo_May_14_2026.pdf (11 pages, 1682354 bytes).
 PDF statistics:
  181 PDF objects out of 1000 (max. 8388607)
  139 compressed objects within 2 object streams
