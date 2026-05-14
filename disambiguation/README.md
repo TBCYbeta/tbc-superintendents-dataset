@@ -81,3 +81,12 @@ Everything else is treated as a non-match.
 | **Confirmed matches** | **264** |
 
 Test set accuracy (200 cases): 99.0% accuracy, 97.4% precision, 100.0% recall.
+
+### Reproducing the test-set metrics
+
+```bash
+cd disambiguation
+python3 confusion_matrix.py output/test_output_merged.csv output/ground_truth_200_manual.csv
+```
+
+`test_output_merged.csv` holds the disambiguator's predictions on the 200-case test set; `ground_truth_200_manual.csv` holds the hand-labeled truth (75 same, 122 different, 3 unknown). The script excludes the 3 "unknown" cases, scores 197, and reports TP 75 / FN 0 / FP 2 / TN 120 → 99.0% / 97.4% / 100.0%, F1 0.987. These are **single-stage** metrics (disambiguator only, no critic); the two false positives would be caught by the critic in the current two-stage pipeline.
