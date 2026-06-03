@@ -1,0 +1,92 @@
+---
+title: "Superintendent Dataset Post-Processing"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(readxl)
+library(dplyr)
+library(writexl)
+
+setwd("/Users/camerongreene/Dropbox (Personal)/2. Seth/super-api")
+```
+
+## Load raw output
+
+```{r load}
+df <- read_excel("superintendents_2025-2026_processed.xlsx")
+cat("Rows loaded:", nrow(df), "\n")
+```
+
+## Replace UNKNOWN with NA
+
+```{r unknown-to-na}
+n_unknown <- sum(df$superintendent == "UNKNOWN", na.rm = TRUE)
+cat("UNKNOWN records before replacement:", n_unknown, "\n")
+
+df <- df %>%
+  mutate(superintendent = case_when(
+    superintendent == "UNKNOWN" ~ "NA",
+    is.na(superintendent)       ~ "NA",
+    TRUE                        ~ superintendent
+  ))
+
+cat("NA records after replacement:", sum(is.na(df$superintendent)), "\n")
+```
+
+## Ensure NYC Chancellor row is present
+
+The NYC Department of Education reports as a single agency (LEAID 3620580) but the
+automated pipeline processes its 32 geographic sub-districts individually. We add one
+row for the Chancellor so the top-level agency is represented.
+
+```{r nyc-chancellor}
+nyc_leaid <- "3620580"
+
+if (!nyc_leaid %in% as.character(df$LEAID)) {
+  chancellor_row <- tibble(
+    LEAID                   = nyc_leaid,
+    district_name           = "NYC Chancellor of Education",
+    district_state          = "NEW YORK",
+    superintendent          = "Kamar Samuels",
+    source_url_1            = NA_character_,
+    source_url_2            = NA_character_,
+    certainty               = NA_character_,
+    found_on_district_website   = NA_character_,
+    title_is_superintendent     = NA_character_,
+    source_current_school_year  = NA_character_,
+    multiple_sources_agree      = NA_character_,
+    conflicting_info_found      = NA_character_,
+    structural_uncertainty      = NA_character_,
+    superintendent_transition   = NA_character_,
+    district_website_accessible = NA_character_,
+    justification_main          = NA_character_,
+    justification_verification  = NA_character_,
+    justification_judge         = NA_character_,
+    source_date             = NA,
+    MCITY                   = NA_character_,
+    MSTREET1                = NA_character_,
+    MZIP                    = NA_real_,
+    SY_STATUS_TEXT          = NA_character_,
+    LEA_TYPE                = NA_real_,
+    LEA_TYPE_TEXT           = NA_character_,
+    LEVEL                   = NA_character_,
+    WEBSITE                 = NA_character_,
+    OPERATIONAL_SCHOOLS     = NA_real_
+  )
+  df <- bind_rows(df, chancellor_row)
+  cat("NYC Chancellor row added (LEAID", nyc_leaid, ")\n")
+} else {
+  cat("NYC Chancellor row already present (LEAID", nyc_leaid, ") — no change.\n")
+}
+```
+
+## Save
+
+```{r save}
+write_xlsx(df, "superintendents_2025-2026_processed.xlsx")
+cat("Saved:", nrow(df), "rows to superintendents_2025-2026_processed.xlsx\n")
+cat("Named superintendents:", sum(!is.na(df$superintendent)), "\n")
+cat("NA (was UNKNOWN):", sum(is.na(df$superintendent)), "\n")
+```
