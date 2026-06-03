@@ -1,0 +1,83 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/global//global/global}
+    \entry{nces_ccd}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0e23b40466d0b2e34b60b5c7b8dfa2cc}{%
+           family={{National Center for Education Statistics}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{0e23b40466d0b2e34b60b5c7b8dfa2cc}
+      \strng{fullhash}{0e23b40466d0b2e34b60b5c7b8dfa2cc}
+      \strng{bibnamehash}{0e23b40466d0b2e34b60b5c7b8dfa2cc}
+      \strng{authorbibnamehash}{0e23b40466d0b2e34b60b5c7b8dfa2cc}
+      \strng{authornamehash}{0e23b40466d0b2e34b60b5c7b8dfa2cc}
+      \strng{authorfullhash}{0e23b40466d0b2e34b60b5c7b8dfa2cc}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed April 2026}
+      \field{title}{{Common Core of Data (CCD): Local Education Agency Universe Survey, 2024--25}}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://nces.ed.gov/ccd/files.asp
+      \endverb
+      \verb{url}
+      \verb https://nces.ed.gov/ccd/files.asp
+      \endverb
+    \endentry
+    \entry{superintendentlab}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cdce1e8c27ae196acf85f2f538b8ae02}{%
+           family={{The Superintendent Lab}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{cdce1e8c27ae196acf85f2f538b8ae02}
+      \strng{fullhash}{cdce1e8c27ae196acf85f2f538b8ae02}
+      \strng{bibnamehash}{cdce1e8c27ae196acf85f2f538b8ae02}
+      \strng{authorbibnamehash}{cdce1e8c27ae196acf85f2f538b8ae02}
+      \strng{authornamehash}{cdce1e8c27ae196acf85f2f538b8ae02}
+      \strng{authorfullhash}{cdce1e8c27ae196acf85f2f538b8ae02}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed April 28, 2026}
+      \field{title}{{NLSD Data Visualizations: Percent of Women Superintendents by State, 2024-25.}}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://thesuperintendentlab.com/communicating-our-work/nlsd-data-visualizations/
+      \endverb
+      \verb{url}
+      \verb https://thesuperintendentlab.com/communicating-our-work/nlsd-data-visualizations/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

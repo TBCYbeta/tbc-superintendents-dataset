@@ -1,0 +1,15 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'super_api_memo_Apr_2026.blg'
+[52] biber-darwin:340> INFO - === Tue Apr 28, 2026, 15:55:50
+[63] Biber.pm:418> INFO - Reading 'super_api_memo_Apr_2026.bcf'
+[130] Biber.pm:972> INFO - Found 2 citekeys in bib section 0
+[141] Biber.pm:4383> INFO - Processing section 0
+[148] Biber.pm:4574> INFO - Looking for bibtex file 'bib.bib' for section 0
+[149] bibtex.pm:1713> INFO - LaTeX decoding ...
+[151] bibtex.pm:1518> INFO - Found BibTeX data source 'bib.bib'
+[176] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[176] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[176] Biber.pm:4203> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[176] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[181] bbl.pm:654> INFO - Writing 'super_api_memo_Apr_2026.bbl' with encoding 'UTF-8'
+[182] bbl.pm:757> INFO - Output to super_api_memo_Apr_2026.bbl
