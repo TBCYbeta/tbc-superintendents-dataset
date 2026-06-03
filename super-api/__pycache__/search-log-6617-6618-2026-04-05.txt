@@ -1,0 +1,357 @@
+============================================================
+LEAID=3014340 | Hinsdale Elem, MONTANA | Step 1
+============================================================
+DISTRICT_CONFIRMED: Hinsdale Elem [8][1]
+SUPERINTENDENT_FULL_NAME: Marie Pippin
+FOUND_ON_DISTRICT_WEBSITE: no
+TITLE_IS_SUPERINTENDENT: yes
+SOURCE_CURRENT_SCHOOL_YEAR: yes
+MULTIPLE_SOURCES_AGREE: no
+CONFLICTING_INFO_FOUND: no
+STRUCTURAL_UNCERTAINTY: no
+SUPERINTENDENT_TRANSITION: no
+DISTRICT_WEBSITE_ACCESSIBLE: no
+DISTRICT_MAILING_ADDRESS: PO Box 398 Hinsdale MT 59241 [8][1]
+EVIDENCE_SUMMARY: District website http://www.hinsdale.k12.mt.us inaccessible; no district-level superintendent found on NCES or searches. Hinsdale Elem is a small non-union district in Valley County, MT, served by the elected County Superintendent of Schools, Marie Pippin [9][2]. This aligns with Montana policy for small elementary districts lacking their own superintendent.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.valleycountymt.gov/Directory.aspx?did=19
+SOURCE_TYPE_1: government
+SOURCE_DATE_1: undated
+SOURCE_URL_2: https://nces.ed.gov/ccd/districtsearch/district_detail.asp?Search=2&ID2=3014340&DistrictID=3014340&details=2
+SOURCE_TYPE_2: government
+SOURCE_DATE_2: 2024-25
+
+============================================================
+LEAID=3014340 | Hinsdale Elem, MONTANA | Retry
+============================================================
+DISTRICT_CONFIRMED: Hinsdale Elem  
+SUPERINTENDENT_FULL_NAME: Marie Pippin  
+FOUND_ON_DISTRICT_WEBSITE: no  
+TITLE_IS_SUPERINTENDENT: yes  
+SOURCE_CURRENT_SCHOOL_YEAR: yes  
+MULTIPLE_SOURCES_AGREE: yes  
+CONFLICTING_INFO_FOUND: no  
+STRUCTURAL_UNCERTAINTY: no  
+SUPERINTENDENT_TRANSITION: no  
+DISTRICT_WEBSITE_ACCESSIBLE: no  
+DISTRICT_MAILING_ADDRESS: PO Box 398, Hinsdale, MT 59241  
+EVIDENCE_SUMMARY: The Hinsdale Elem district website (http://www.hinsdale.k12.mt.us) remains inaccessible, with no district-level superintendent listed on NCES or other searches. As a small Montana elementary district in Valley County with 2 schools, it lacks its own superintendent; instead, Valley County Clerk & Recorder / Superintendent of Schools Marie Pippin serves this role per Montana policy for such districts. No evidence of transition or conflicting names during 2025-26 school year.  
+UNKNOWN_REASON:  
+SOURCE_URL_1: https://www.valleycountymt.gov/Directory.aspx?did=19  
+SOURCE_TYPE_1: government  
+SOURCE_DATE_1: undated  
+SOURCE_URL_2: https://www.valleycountymt.gov/1250/Clerk-Recorder-Superintendent-of-Schools  
+SOURCE_TYPE_2: government  
+SOURCE_DATE_2: undated
+
+============================================================
+LEAID=3014340 | Hinsdale Elem, MONTANA | Targeted Retry
+============================================================
+**DISTRICT_CONFIRMED:** Hinsdale Elem [3]  
+**SUPERINTENDENT_FULL_NAME:** Marie Pippin  
+**FOUND_ON_DISTRICT_WEBSITE:** no  
+**TITLE_IS_SUPERINTENDENT:** yes  
+**SOURCE_CURRENT_SCHOOL_YEAR:** yes  
+**MULTIPLE_SOURCES_AGREE:** yes  
+**CONFLICTING_INFO_FOUND:** yes  
+**STRUCTURAL_UNCERTAINTY:** yes  
+**SUPERINTENDENT_TRANSITION:** no  
+**DISTRICT_WEBSITE_ACCESSIBLE:** no  
+**DISTRICT_MAILING_ADDRESS:** PO Box 398, Hinsdale, MT 59241 [3]  
+**EVIDENCE_SUMMARY:** District website inaccessible; Valley County Clerk & Recorder Marie Pippin holds dual title as Superintendent of Schools, overseeing small districts like Hinsdale Elem per Montana policy [1]. State OPI lists Adam Zopp as homeless liaison for Hinsdale Elem/HS (2024-25), likely district admin/principal ; Glasgow Courier ad mentions him contacting for superintendent position (Jun 2025) [10], indicating no dedicated district superintendent. County role takes precedence for majority 2025-26 year; address/zip verified MT-specific [3].  
+**UNKNOWN_REASON:**  
+**SOURCE_URL_1:** https://www.valleycountymt.gov/Directory.aspx?did=19  
+**SOURCE_TYPE_1:** government  
+**SOURCE_DATE_1:** undated  
+**SOURCE_URL_2:** https://opi.mt.gov/LinkClick.aspx?fileticket=R1DBxUWxBJE%3D&portalid=182  
+**SOURCE_TYPE_2:** government  
+**SOURCE_DATE_2:** 2024-25
+
+============================================================
+LEAID=3014340 | Hinsdale Elem, MONTANA | URL-Mismatch Retry
+============================================================
+DISTRICT_CONFIRMED: Hinsdale Elem
+SUPERINTENDENT_FULL_NAME: Adam Zopp
+FOUND_ON_DISTRICT_WEBSITE: no
+TITLE_IS_SUPERINTENDENT: yes
+SOURCE_CURRENT_SCHOOL_YEAR: yes
+MULTIPLE_SOURCES_AGREE: yes
+CONFLICTING_INFO_FOUND: no
+STRUCTURAL_UNCERTAINTY: no
+SUPERINTENDENT_TRANSITION: no
+DISTRICT_WEBSITE_ACCESSIBLE: no
+DISTRICT_MAILING_ADDRESS: PO Box 398, Hinsdale, MT 59241
+EVIDENCE_SUMMARY: District website http://www.hinsdale.k12.mt.us inaccessible via direct fetch. Multiple state government documents and local news from 2024-25 and 2025 explicitly name Adam Zopp as Superintendent of Hinsdale Elem (NCES 3014340), with contact superintendent@hinsdale.k12.mt.us and phone (406) 364-2314 matching NCES records; no evidence of departure or county superintendent oversight needed as district-level leader identified [2].
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://ucarecdn.com/c4c1e87c-59fd-49f5-a6d2-c1576e2480e5/
+SOURCE_TYPE_1: government
+SOURCE_DATE_1: undated
+SOURCE_URL_2: https://opi.mt.gov/LinkClick.aspx?fileticket=R1DBxUWxBJE%3D&portalid=182
+SOURCE_TYPE_2: government
+SOURCE_DATE_2: 2024-25
+
+============================================================
+LEAID=3014340 | Hinsdale Elem, MONTANA | Verification
+============================================================
+candidate=Marie Pippin → verified=Adam Zopp, confidence=low
+
+DISTRICT_CONFIRMED: HINSDALE PUBLIC SCHOOLS
+SUPERINTENDENT_FULL_NAME: Adam Zopp
+FOUND_ON_DISTRICT_WEBSITE: yes
+TITLE_IS_SUPERINTENDENT: yes
+SOURCE_CURRENT_SCHOOL_YEAR: yes
+MULTIPLE_SOURCES_AGREE: no
+CONFLICTING_INFO_FOUND: yes
+STRUCTURAL_UNCERTAINTY: no
+SUPERINTENDENT_TRANSITION: no
+DISTRICT_WEBSITE_ACCESSIBLE: yes
+DISTRICT_MAILING_ADDRESS: 600 3rd Ave N, PO Box 398, Hinsdale, MT 59241
+EVIDENCE_SUMMARY: The official district website's staff directory lists Adam Zopp as the Superintendent. This finding corrects the previous, un-sourced information that named 'Marie Pippin' as the superintendent. The district website is the most authoritative source and is presumed current.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.hinsdale.k12.mt.us/District/Staff/
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: undated
+SOURCE_URL_2: https://hinsdale.k12.mt.us/District/Staff/?printview=1
+SOURCE_TYPE_2: district_website
+SOURCE_DATE_2: undated
+
+============================================================
+LEAID=3014340 | Hinsdale Elem, MONTANA | Adjudication
+============================================================
+pipeline='Marie Pippin' (medium), verification='Adam Zopp' (low) → final='Adam Zopp' (medium)
+[ADJUDICATION: chose=verification, district_verified=True, reason=Search 2 found Adam Zopp listed as Superintendent on the district's official website staff directory, which is the most authoritative source. Search 1 incorrectly identified Marie Pippin, who serves as Valley County Superintendent of Schools (a county-level elected position), not as the superintendent of Hinsdale Public Schools district. The district website listing takes precedence over the county government directory.]
+
+# Adjudication Analysis
+
+## 1. District Verification
+
+**NCES Information:**
+- District: Hinsdale Elem, Montana
+- LEAID: 3014340
+- Mailing Address: PO Box 398, Hinsdale, MT 59241
+- Type: Regular public school district (2 schools)
+- Website: http://www.hinsdale.k12.mt.us
+
+**Search 1 (Pipeline):** 
+- Found: Valley County offices, not the school district directly
+- Address: References PO Box 398, Hinsdale, MT 59241 ✓
+- **Concern:** Identified Marie Pippin as Valley County Superintendent of Schools (a county-level elected position), not the district superintendent
+
+**Search 2 (Verification):**
+- Found: Hinsdale Public Schools
+- Address: 600 3rd Ave N, PO Box 398, Hinsdale, MT 59241 ✓
+- Successfully accessed district website staff directory
+- State: Montana ✓
+
+**District Verified:** YES - Both searches reference the correct PO Box and Montana location.
+
+## 2. Independent Website Verification
+
+I attempted to access the district website staff directory at https://www.hinsdale.k12.mt.us/District/Staff/ to verify which name actually appears.
+
+Search 2 claims to have found Adam Zopp listed as Superintendent on the district's official staff directory pages. This is the most authoritative source - the district's own website.
+
+Search 1 found Marie Pippin, but she is the **Valley County Superintendent of Schools** - a county-level elected official position in Montana, NOT the superintendent of Hinsdale Public Schools district itself. This is a critical distinction: the county superintendent oversees county-level education functions, while each individual school district has its own superintendent.
+
+## 3. Source Quality Assessment
+
+**Search 2 (Adam Zopp):**
+- Source: District's official website staff directory
+- Direct evidence from the most authoritative source
+- Two district website URLs provided showing staff listings
+
+**Search 1 (Marie Pippin):**
+- Source: Valley County government website
+- Marie Pippin is County Clerk & Recorder/Superintendent of Schools (county position)
+- This is NOT the same as the school district superintendent
+- Represents a misunderstanding of Montana's dual superintendent structure
+
+## 4. Resolution
+
+The district's official website is the most authoritative source and takes precedence. Search 2 found Adam Zopp listed as Superintendent on the district website staff directory. Search 1 confused the county-level superintendent position with the district superintendent position.
+
+**FINAL_NAME:** Adam Zopp
+
+**CHOSEN_SOURCE:** verification
+
+**DISTRICT_VERIFIED:** yes
+
+**CONFIDENCE:** medium
+
+**ADJUDICATION_REASON:** Search 2 found Adam Zopp listed as Superintendent on the district's official website staff directory, which is the most authoritative source. Search 1 incorrectly identified Marie Pippin, who serves as Valley County Superintendent of Schools (a county-level elected position), not as the superintendent of Hinsdale Public Schools district. The district website listing takes precedence over the county government directory.
+
+============================================================
+LEAID=3014370 | Hinsdale H S, MONTANA | Step 1
+============================================================
+DISTRICT_CONFIRMED: Hinsdale Elem & HS
+SUPERINTENDENT_FULL_NAME: Adam Zopp
+FOUND_ON_DISTRICT_WEBSITE: no
+TITLE_IS_SUPERINTENDENT: yes
+SOURCE_CURRENT_SCHOOL_YEAR: yes
+MULTIPLE_SOURCES_AGREE: no
+CONFLICTING_INFO_FOUND: no
+STRUCTURAL_UNCERTAINTY: no
+SUPERINTENDENT_TRANSITION: no
+DISTRICT_WEBSITE_ACCESSIBLE: no
+DISTRICT_MAILING_ADDRESS: 600 N. 3rd St., Hinsdale, MT 59241
+EVIDENCE_SUMMARY: A November 2025 Montana OPI directory lists Adam Zopp as the contact for Hinsdale Elem & HS (LEA 932) with email superintendent@hinsdale.k12.mt.us and phone 406-364-2314, matching the district website domain. District website inaccessible; NCES confirms address similarity (PO Box 398 vs. street address) and notes 1 HS but directory uses Elem & HS, likely the same small district. No county superintendent needed as district-level leader identified.[5][1]
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://opi.mt.gov/LinkClick.aspx?fileticket=20hGtEm58Y4%3D&portalid=182
+SOURCE_TYPE_1: government
+SOURCE_DATE_1: 2025-11
+SOURCE_URL_2: https://nces.ed.gov/ccd/districtsearch/district_detail.asp?Search=2&ID2=3014370&DistrictID=3014370&details=
+SOURCE_TYPE_2: government
+SOURCE_DATE_2: undated
+
+============================================================
+LEAID=3014370 | Hinsdale H S, MONTANA | Retry
+============================================================
+DISTRICT_CONFIRMED: Hinsdale H S
+SUPERINTENDENT_FULL_NAME: UNKNOWN
+FOUND_ON_DISTRICT_WEBSITE: no
+TITLE_IS_SUPERINTENDENT: no
+SOURCE_CURRENT_SCHOOL_YEAR: no
+MULTIPLE_SOURCES_AGREE: no
+CONFLICTING_INFO_FOUND: no
+STRUCTURAL_UNCERTAINTY: yes
+SUPERINTENDENT_TRANSITION: no
+DISTRICT_WEBSITE_ACCESSIBLE: no
+DISTRICT_MAILING_ADDRESS: PO Box 398, Hinsdale, MT 59241
+EVIDENCE_SUMMARY: District website http://www.hinsdale.k12.mt.us inaccessible despite multiple attempts. Previous evidence of Adam Zopp from Nov 2025 OPI directory (email superintendent@hinsdale.k12.mt.us) exists but unconfirmed as current or on district site, which takes precedence; no recent news, state directories, or Valley County site confirms a district-level superintendent for this tiny 1-school HS district (NCES 3014370). Valley County Clerk/Recorder Marie Pippin holds Superintendent of Schools title but as county role, not confirmed as overseeing this district specifically.
+UNKNOWN_REASON: No superintendent listed on district website (inaccessible); no clear district-level leader identified in accessible sources for small MT HS district, which per rules uses county superintendent if none exists—unconfirmed if Valley County's Marie Pippin serves this role absent district confirmation.
+SOURCE_URL_1: https://opi.mt.gov/LinkClick.aspx?fileticket=20hGtEm58Y4%3D&portalid=182
+SOURCE_TYPE_1: government
+SOURCE_DATE_1: 2025-11
+SOURCE_URL_2: https://www.valleycountymt.gov/1250/Clerk-Recorder-Superintendent-of-Schools
+SOURCE_TYPE_2: government
+SOURCE_DATE_2: undated
+
+============================================================
+LEAID=3014370 | Hinsdale H S, MONTANA | Targeted Retry
+============================================================
+DISTRICT_CONFIRMED: Hinsdale Elem & HS
+SUPERINTENDENT_FULL_NAME: Adam Zopp
+FOUND_ON_DISTRICT_WEBSITE: no
+TITLE_IS_SUPERINTENDENT: yes
+SOURCE_CURRENT_SCHOOL_YEAR: yes
+MULTIPLE_SOURCES_AGREE: yes
+CONFLICTING_INFO_FOUND: no
+STRUCTURAL_UNCERTAINTY: no
+SUPERINTENDENT_TRANSITION: no
+DISTRICT_WEBSITE_ACCESSIBLE: no
+DISTRICT_MAILING_ADDRESS: 600 N. 3rd St., Hinsdale, MT 59241
+EVIDENCE_SUMMARY: Multiple Montana OPI documents from 2024-25 and 2025 list Adam Zopp as Hinsdale Elem & HS (LEA 0932) superintendent with email superintendent@hinsdale.k12.mt.us and phone (406) 364-2314, matching NCES details.[4] No conflicting info found; county superintendent (Marie Pippin, Valley County) oversees only if no district leader, but district has one; no transition news for 2025-26.[9]
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://opi.mt.gov/LinkClick.aspx?fileticket=R1DBxUWxBJE%3D&portalid=182
+SOURCE_TYPE_1: government
+SOURCE_DATE_1: 2024-08
+SOURCE_URL_2: https://nces.ed.gov/ccd/districtsearch/district_detail.asp?Search=2&ID2=3014370&DistrictID=3014370
+SOURCE_TYPE_2: government
+SOURCE_DATE_2: undated
+
+============================================================
+LEAID=3014370 | Hinsdale H S, MONTANA | URL-Mismatch Retry
+============================================================
+DISTRICT_CONFIRMED: Hinsdale H S
+SUPERINTENDENT_FULL_NAME: UNKNOWN
+FOUND_ON_DISTRICT_WEBSITE: no
+TITLE_IS_SUPERINTENDENT: no
+SOURCE_CURRENT_SCHOOL_YEAR: no
+MULTIPLE_SOURCES_AGREE: no
+CONFLICTING_INFO_FOUND: yes
+STRUCTURAL_UNCERTAINTY: yes
+SUPERINTENDENT_TRANSITION: no
+DISTRICT_WEBSITE_ACCESSIBLE: no
+DISTRICT_MAILING_ADDRESS: PO Box 398, Hinsdale, MT 59241
+EVIDENCE_SUMMARY: NCES confirms Hinsdale H S (LEAID 3014370, state ID MT-0933) as a separate tiny HS district (19 students) in Valley County with mailing PO Box 398; website inaccessible and no staff info found there. State OPI lists Adam Zopp as superintendent for nearby Hinsdale Elem & HS (LEA 932), not this HS district (0933); Valley County Superintendent Marie Pippin oversees small elem districts lacking own leader, but unclear if this HS has district-level superintendent vs principal or county oversight.[6]
+UNKNOWN_REASON: No superintendent named for this specific HS district (LEA 3014370/MT-0933); OPI lists leader for Elem & HS (different LEA), suggesting structural separation where highest role may be principal/head of school without 'superintendent' title, or possibly county superintendent oversight for very small districts.
+SOURCE_URL_1: https://nces.ed.gov/ccd/districtsearch/district_detail.asp?Search=2&ID2=3014370&DistrictID=3014370&details=
+SOURCE_TYPE_1: government
+SOURCE_DATE_1: undated
+SOURCE_URL_2: https://opi.mt.gov/LinkClick.aspx?fileticket=20hGtEm58Y4%3D&portalid=182
+SOURCE_TYPE_2: government
+SOURCE_DATE_2: 2025-11
+
+============================================================
+LEAID=3014370 | Hinsdale H S, MONTANA | Verification
+============================================================
+candidate=Adam Zopp → verified=Adam Zopp, confidence=high
+
+DISTRICT_CONFIRMED: HINSDALE PUBLIC SCHOOLS
+SUPERINTENDENT_FULL_NAME: Adam Zopp
+FOUND_ON_DISTRICT_WEBSITE: yes
+TITLE_IS_SUPERINTENDENT: yes
+SOURCE_CURRENT_SCHOOL_YEAR: yes
+MULTIPLE_SOURCES_AGREE: yes
+CONFLICTING_INFO_FOUND: no
+STRUCTURAL_UNCERTAINTY: no
+SUPERINTENDENT_TRANSITION: no
+DISTRICT_WEBSITE_ACCESSIBLE: yes
+DISTRICT_MAILING_ADDRESS: PO Box 398, Hinsdale, MT 59241
+EVIDENCE_SUMMARY: The official district website lists Adam Zopp as the superintendent in the staff directory, on a dedicated profile page, and as the main contact on the employment opportunities page. The information is consistent across all pages of the website.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://hinsdale.k12.mt.us/District/Staff/
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: undated
+SOURCE_URL_2: https://www.hinsdale.k12.mt.us/District/1557-Untitled.html
+SOURCE_TYPE_2: district_website
+SOURCE_DATE_2: undated
+
+============================================================
+LEAID=3014370 | Hinsdale H S, MONTANA | Adjudication
+============================================================
+pipeline='Adam Zopp' (medium), verification='Adam Zopp' (high) → final='Adam Zopp' (high)
+[ADJUDICATION: chose=both_agree, district_verified=True, reason=Both searches identified Adam Zopp as superintendent and the district's official website confirms this in multiple locations (staff directory and dedicated profile page). No conflicting information or transitions were found for the 2025-26 school year.]
+
+# Adjudication Analysis
+
+## 1. District Verification
+
+**NCES Reference Information:**
+- District: Hinsdale H S, Montana
+- NCES LEAID: 3014370
+- Mailing Address: PO Box 398, Hinsdale, MT 59241
+- Website: http://www.hinsdale.k12.mt.us
+
+**Search 1 (Pipeline):**
+- Found: Hinsdale Elem & HS
+- State: Montana ✓
+- Mailing Address: 600 N. 3rd St., Hinsdale, MT 59241 (physical address, not mailing)
+- Assessment: Correct district (same town, same state, matches NCES phone number)
+
+**Search 2 (Verification):**
+- Found: HINSDALE PUBLIC SCHOOLS
+- State: Montana ✓
+- Mailing Address: PO Box 398, Hinsdale, MT 59241 ✓
+- Assessment: Correct district (exact match to NCES mailing address)
+
+**Verification from web search results:** The NCES data confirms the district as "Hinsdale H S" with mailing address "Po Box 398 Hinsdale MT, 59241" and phone "(406)364-2314". Both searches found the correct district.
+
+## 2. Superintendent Identification
+
+**Both searches agree:** Adam Zopp
+
+**Search 1 Evidence:**
+- Source: Montana OPI documents (2024-25 school year)
+- Confidence: Medium
+- Found on district website: No
+
+**Search 2 Evidence:**
+- Source: District website staff directory and profile page
+- Confidence: High
+- Found on district website: Yes
+
+**Web search verification:** The provided web search results include:
+1. [hinsdale.k12.mt.us/District/Staff/](https://hinsdale.k12.mt.us/District/Staff/) - Staff directory listing "Adam Zopp" with position "Superintendent"
+2. [hinsdale.k12.mt.us profile page](https://www.hinsdale.k12.mt.us/District/profile/66-Adam-Zopp) - Dedicated profile showing "Adam Zopp" with title "Superintendent"
+
+## 3. Final Determination
+
+Both searches identified the same person (Adam Zopp) as superintendent. Search 2 correctly identified that this information appears on the district's official website, which I have independently verified through the web search results. The district website clearly lists Adam Zopp as Superintendent in multiple locations. There is no evidence of any transition during the 2025-26 school year, and the information appears current.
+
+FINAL_NAME: Adam Zopp
+CHOSEN_SOURCE: both_agree
+DISTRICT_VERIFIED: yes
+CONFIDENCE: high
+ADJUDICATION_REASON: Both searches identified Adam Zopp as superintendent and the district's official website confirms this in multiple locations (staff directory and dedicated profile page). No conflicting information or transitions were found for the 2025-26 school year.
+

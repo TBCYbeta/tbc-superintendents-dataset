@@ -1,0 +1,1363 @@
+============================================================
+LEAID=2628560 | Plymouth-Canton Community Schools, MICHIGAN | Step 1
+============================================================
+Based on my research, I have found clear and consistent information about the superintendent of Plymouth-Canton Community Schools, Michigan for the 2025–2026 school year.
+
+**Dr. Monica L. Merritt** is the superintendent of Plymouth-Canton Community Schools for the 2025–2026 school year. [4][10]
+
+Dr. Merritt has served as superintendent since December 2015, making her the 14th superintendent of the district. [4][7] She was recognized as Michigan's 2023 Superintendent of the Year by the Michigan Association of Superintendents & Administrators (MASA). [5][8] The most recent evidence from the district's own website confirms her continued service as superintendent, including a message dated February 27, 2025, and a welcome-back message from August 26, 2025, for the 2025–26 school year. 
+
+---
+
+**DISTRICT_CONFIRMED:** Plymouth-Canton Community Schools
+
+**SUPERINTENDENT_FULL_NAME:** Monica L. Merritt
+
+**FOUND_ON_DISTRICT_WEBSITE:** yes
+
+**TITLE_IS_SUPERINTENDENT:** yes
+
+**SOURCE_CURRENT_SCHOOL_YEAR:** yes
+
+**MULTIPLE_SOURCES_AGREE:** yes
+
+**CONFLICTING_INFO_FOUND:** no
+
+**STRUCTURAL_UNCERTAINTY:** no
+
+**SUPERINTENDENT_TRANSITION:** no
+
+**DISTRICT_WEBSITE_ACCESSIBLE:** no (initial fetch failed, but district website content was confirmed through search results linking to www.pccsk12.com)
+
+**DISTRICT_MAILING_ADDRESS:** 454 S Harvey St, Plymouth, MI 48170
+
+**EVIDENCE_SUMMARY:** Dr. Monica L. Merritt has continuously served as superintendent since December 2015. Multiple current sources from the district website (dated through February 2025 and August 2025) confirm her role as superintendent for the 2025–26 school year. No transition, resignation, or vacancy is indicated.
+
+**UNKNOWN_REASON:** 
+
+**SOURCE_URL_1:** https://www.pccsk12.com/staff/district-leadership-team
+
+**SOURCE_TYPE_1:** district_website
+
+**SOURCE_DATE_1:** undated (presumed current)
+
+**SOURCE_URL_2:** https://www.pccsk12.com/news/pccs-news/~board/news/post/message-from-superintendent-merritt-feb-27-2025
+
+**SOURCE_TYPE_2:** district_website
+
+**SOURCE_DATE_2:** 2025-02
+
+============================================================
+LEAID=2628560 | Plymouth-Canton Community Schools, MICHIGAN | URL-Mismatch Retry
+============================================================
+DISTRICT_CONFIRMED: Plymouth-Canton Community Schools
+
+SUPERINTENDENT_FULL_NAME: Monica L. Merritt
+
+FOUND_ON_DISTRICT_WEBSITE: yes
+
+TITLE_IS_SUPERINTENDENT: yes
+
+SOURCE_CURRENT_SCHOOL_YEAR: yes
+
+MULTIPLE_SOURCES_AGREE: yes
+
+CONFLICTING_INFO_FOUND: no
+
+STRUCTURAL_UNCERTAINTY: no
+
+SUPERINTENDENT_TRANSITION: no
+
+DISTRICT_WEBSITE_ACCESSIBLE: yes
+
+DISTRICT_MAILING_ADDRESS: 454 S Harvey St, Plymouth, MI 48170
+
+EVIDENCE_SUMMARY: The official district website (www.pccsk12.com) lists Dr. Monica L. Merritt as Superintendent of Schools, with her leadership page confirming she has served since December 2015 with no indication of change. NCES confirms the district details matching LEAID 2628560 and address; the specified http://www.pccs.k12.mi.us redirects or is associated with the same domain. Multiple sources including MASA and news from 2025 reference her ongoing role.
+
+UNKNOWN_REASON: 
+
+SOURCE_URL_1: https://www.pccsk12.com/staff/district-leadership-team
+
+SOURCE_TYPE_1: district_website
+
+SOURCE_DATE_1: undated
+
+SOURCE_URL_2: https://nces.ed.gov/ccd/districtsearch/district_detail.asp?ID2=2628560
+
+SOURCE_TYPE_2: government
+
+SOURCE_DATE_2: undated
+
+============================================================
+LEAID=2628560 | Plymouth-Canton Community Schools, MICHIGAN | Verification
+============================================================
+candidate=Monica L. Merritt → verified=Monica L. Merritt, confidence=high
+
+DISTRICT_CONFIRMED: Plymouth-Canton Community Schools
+SUPERINTENDENT_FULL_NAME: Monica L. Merritt
+FOUND_ON_DISTRICT_WEBSITE: yes
+TITLE_IS_SUPERINTENDENT: yes
+SOURCE_CURRENT_SCHOOL_YEAR: yes
+MULTIPLE_SOURCES_AGREE: yes
+CONFLICTING_INFO_FOUND: no
+STRUCTURAL_UNCERTAINTY: no
+SUPERINTENDENT_TRANSITION: no
+DISTRICT_WEBSITE_ACCESSIBLE: yes
+DISTRICT_MAILING_ADDRESS: 454 S. Harvey Street, Plymouth, MI 48170
+EVIDENCE_SUMMARY: The district's official website identifies Dr. Monica L. Merritt as the superintendent on its leadership page. A news post dated August 27, 2025, from "Superintendent Merritt" welcomes students and families to the 2025-2026 school year, confirming she is serving as the leader for the current academic year.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.pccsk12.com/about/leadership
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: undated
+SOURCE_URL_2: https://www.pccsk12.com/news/pccs-news/~board/news/post/welcome-back-from-superintendent-merritt
+SOURCE_TYPE_2: district_website
+SOURCE_DATE_2: 2025-08
+
+============================================================
+LEAID=2628560 | Plymouth-Canton Community Schools, MICHIGAN | Adjudication
+============================================================
+pipeline='Monica L. Merritt' (high), verification='Monica L. Merritt' (high) → final='Monica L. Merritt' (high)
+[ADJUDICATION: chose=both_agree, district_verified=True, reason=Both independent searches identified the same superintendent with high confidence, supported by multiple recent sources from the district's official website including messages dated August 2025 and February 2025 from the current school year. No transition or vacancy exists.]
+
+# Adjudication for Plymouth-Canton Community Schools, Michigan
+
+## District Verification
+
+Both searches correctly identified **Plymouth-Canton Community Schools** in Michigan:
+
+- **NCES Mailing Address**: 454 S HARVEY ST, PLYMOUTH, MI 48170
+- **Search 1 Address**: 454 S Harvey St, Plymouth, MI 48170 ✓
+- **Search 2 Address**: 454 S. Harvey Street, Plymouth, MI 48170 ✓
+- **State**: Michigan (MI) ✓
+
+Both searches found the correct district.
+
+## Evidence Analysis
+
+**Search 1 (Pipeline):**
+- Superintendent: Monica L. Merritt
+- Confidence: High
+- Evidence: District website sources including messages from February 27, 2025, and August 26, 2025
+- Tenure: Serving since December 2015
+
+**Search 2 (Independent Verification):**
+- Superintendent: Monica L. Merritt
+- Confidence: High
+- Evidence: District leadership page and welcome message dated August 27, 2025
+- Confirms service for 2025-2026 school year
+
+## Web Search Verification
+
+The web search results confirm:
+1. [pccsk12.com leadership page](https://www.pccsk12.com/about/leadership) identifies "Dr. Monica L. Merritt" as "Superintendent, Plymouth-Canton Community Schools" and states she "has served as the 14th Superintendent of Plymouth-Canton Community Schools (P-CCS) since December 2015"
+2. [August 27, 2025 welcome message](https://www.pccsk12.com/news/pccs-news/~board/news/post/welcome-back-from-superintendent-merritt) signed by "Dr. Monica L. Merritt, Superintendent of Plymouth-Canton Community Schools" welcoming families to the 2025-26 school year
+3. [February 27, 2025 message](https://www.pccsk12.com/news/pccs-news/~board/news/post/message-from-superintendent-merritt-feb-27-2025) also signed by "Dr. Monica L. Merritt, Superintendent of Plymouth-Canton Community Schools"
+
+## Final Determination
+
+Both searches agree completely and are corroborated by multiple current district website sources from the 2025-26 school year. Dr. Monica L. Merritt has continuously served as superintendent since December 2015 and is clearly serving for the majority (indeed, the entirety) of the 2025-26 school year.
+
+**FINAL_NAME:** Monica L. Merritt
+
+**CHOSEN_SOURCE:** both_agree
+
+**DISTRICT_VERIFIED:** yes
+
+**CONFIDENCE:** high
+
+**ADJUDICATION_REASON:** Both independent searches identified the same superintendent with high confidence, supported by multiple recent sources from the district's official website including messages dated August 2025 and February 2025 from the current school year. No transition or vacancy exists.
+
+============================================================
+LEAID=1705220 | Batavia USD 101, ILLINOIS | Step 1
+============================================================
+Based on my research, I have found clear and consistent information about the superintendent of Batavia USD 101, Illinois for the 2025–2026 school year.
+
+**Tom Kim** is the superintendent of Batavia Public School District 101, Illinois for the 2025–2026 school year [3]. He was selected by the Board of Education in December 2022 and began his role in July 2023 [4]. Multiple sources, including the district's official contacts page and the Illinois Report Card, confirm that Tom Kim continues to serve as superintendent [3][6][7]. Recent evidence from May 2025 shows him writing the superintendent's end-of-year letter for that school year , and a November 2025 message also confirms his continued tenure .
+
+---
+
+**DISTRICT_CONFIRMED:** Batavia Public School District 101
+
+**SUPERINTENDENT_FULL_NAME:** Tom Kim
+
+**FOUND_ON_DISTRICT_WEBSITE:** yes
+
+**TITLE_IS_SUPERINTENDENT:** yes
+
+**SOURCE_CURRENT_SCHOOL_YEAR:** yes
+
+**MULTIPLE_SOURCES_AGREE:** yes
+
+**CONFLICTING_INFO_FOUND:** no
+
+**STRUCTURAL_UNCERTAINTY:** no
+
+**SUPERINTENDENT_TRANSITION:** no
+
+**DISTRICT_WEBSITE_ACCESSIBLE:** no
+
+**DISTRICT_MAILING_ADDRESS:** 335 W. Wilson Street, Batavia, IL 60510
+
+**EVIDENCE_SUMMARY:** Tom Kim has served as superintendent of Batavia USD 101 since July 2023 and continues in that role through the 2025–2026 school year. Multiple current sources from March 2025 and later confirm his ongoing tenure, and recent messages from May and November 2025 show him actively serving as superintendent.
+
+**UNKNOWN_REASON:** N/A
+
+**SOURCE_URL_1:** https://www.bps101.net/contacts/
+
+**SOURCE_TYPE_1:** district_website
+
+**SOURCE_DATE_1:** undated
+
+**SOURCE_URL_2:** https://www.illinoisreportcard.com/District.aspx?districtId=31045101022
+
+**SOURCE_TYPE_2:** government
+
+**SOURCE_DATE_2:** 2024-12-31
+
+============================================================
+LEAID=1705220 | Batavia USD 101, ILLINOIS | Verification
+============================================================
+candidate=Tom Kim → verified=Tom Kim, confidence=high
+
+DISTRICT_CONFIRMED: Batavia Public School District 101
+SUPERINTENDENT_FULL_NAME: Tom Kim
+FOUND_ON_DISTRICT_WEBSITE: yes
+TITLE_IS_SUPERINTENDENT: yes
+SOURCE_CURRENT_SCHOOL_YEAR: yes
+MULTIPLE_SOURCES_AGREE: yes
+CONFLICTING_INFO_FOUND: no
+STRUCTURAL_UNCERTAINTY: no
+SUPERINTENDENT_TRANSITION: no
+DISTRICT_WEBSITE_ACCESSIBLE: yes
+DISTRICT_MAILING_ADDRESS: 335 W. Wilson Street, Batavia, IL  60510
+EVIDENCE_SUMMARY: The district's official website consistently identifies Tom Kim as the superintendent on its "About Us," "Contacts," and dedicated "Superintendent's Office" pages. A historical list of superintendents on the site confirms his tenure began in 2023 and is ongoing, and a March 2025 news article also refers to him by this title. No evidence of a transition was found.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.bps101.net/depts/superintendent/
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: undated
+SOURCE_URL_2: https://www.bps101.net/contacts/
+SOURCE_TYPE_2: district_website
+SOURCE_DATE_2: undated
+
+============================================================
+LEAID=1705220 | Batavia USD 101, ILLINOIS | Adjudication
+============================================================
+pipeline='Tom Kim' (high), verification='Tom Kim' (high) → final='Tom Kim' (high)
+[ADJUDICATION: chose=both_agree, district_verified=True, reason=Both independent searches found identical information confirmed by the district's official website. Tom Kim has been superintendent since July 2023 and continues serving through the 2025-26 school year with no evidence of transition. The district website, Illinois state records, and recent communications all consistently identify him as the current superintendent.]
+
+# Adjudication Analysis
+
+## 1. District Verification
+
+**NCES Information:**
+- District: Batavia USD 101, ILLINOIS
+- NCES LEAID: 1705220
+- Mailing Address: 335 W Wilson St, Batavia, IL 60510
+- Website: http://www.bps101.net
+
+**Search 1 (Pipeline):**
+- District: Batavia Public School District 101
+- Address: 335 W. Wilson Street, Batavia, IL 60510
+- ✓ **CORRECT DISTRICT** - Address and state match
+
+**Search 2 (Verification):**
+- District: Batavia Public School District 101
+- Address: 335 W. Wilson Street, Batavia, IL 60510
+- ✓ **CORRECT DISTRICT** - Address and state match
+
+## 2. Superintendent Determination
+
+Both searches found the **same superintendent: Tom Kim**
+
+**Evidence from Search 1:**
+- Tom Kim serving as superintendent since July 2023
+- Confirmed through district contacts page and Illinois Report Card
+- Recent evidence from May 2025 (end-of-year letter) and November 2025 confirming active service
+
+**Evidence from Search 2:**
+- Tom Kim identified on district's official "Superintendent's Office" page
+- Listed on "About Us" and "Contacts" pages
+- Historical superintendent list shows "Tom Kim 2023-present"
+- District website was accessible and verified
+
+**Web Search Results Confirmation:**
+The web search provides direct verification:
+- [bps101.net](https://www.bps101.net/depts/superintendent/) shows "Tom Kim, Superintendent" with his photo and biographical information
+- Historical list shows "Tom Kim | 2023-present"
+- [May 2025 end-of-year letter](https://bhs.bps101.net/news/superintendents-end-of-year-letter-2025) signed by Tom Kim as superintendent
+- [Daily Herald article from August 2023](https://navprod.dailyherald.com/20230811/news/meet-new-batavia-unit-district-101-superintendent-tom-kim/) confirms he began in summer 2023
+
+## 3. Majority-of-Year Analysis
+
+Tom Kim has been serving continuously since July 2023, with no evidence of any transition during or planned for the 2025-26 school year. He clearly serves the majority (and entirety) of the 2025-26 academic year.
+
+---
+
+**FINAL_NAME:** Tom Kim
+
+**CHOSEN_SOURCE:** both_agree
+
+**DISTRICT_VERIFIED:** yes
+
+**CONFIDENCE:** high
+
+**ADJUDICATION_REASON:** Both independent searches found identical information confirmed by the district's official website. Tom Kim has been superintendent since July 2023 and continues serving through the 2025-26 school year with no evidence of transition. The district website, Illinois state records, and recent communications all consistently identify him as the current superintendent.
+
+============================================================
+LEAID=3003990 | Birney Elem, MONTANA | Step 1
+============================================================
+DISTRICT_CONFIRMED: Birney Elem [9]
+SUPERINTENDENT_FULL_NAME: Lisa Blevins [1]
+FOUND_ON_DISTRICT_WEBSITE: no 
+TITLE_IS_SUPERINTENDENT: yes [1]
+SOURCE_CURRENT_SCHOOL_YEAR: yes [1]
+MULTIPLE_SOURCES_AGREE: yes [1]
+CONFLICTING_INFO_FOUND: no
+STRUCTURAL_UNCERTAINTY: no
+SUPERINTENDENT_TRANSITION: no
+DISTRICT_WEBSITE_ACCESSIBLE: no 
+DISTRICT_MAILING_ADDRESS: PO Box 521 Birney MT 59012 [9]
+EVIDENCE_SUMMARY: Birney Elem (NCES 3003990) is a very small single-school district in Rosebud County, MT, with no dedicated district website or district-level superintendent listed; per Montana policy for such districts under 150 students without a district superintendent, the Rosebud County Superintendent of Schools (Lisa Blevins) provides supervision [1]. County site updated 2025-11 and references Birney specifically (e.g., Birney ESSER Update), and GreatSchools lists her as school leader; no evidence of change in 2025-26 year .
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://rosebudcountymt.gov/departments/superintendent-of-schools/
+SOURCE_TYPE_1: government
+SOURCE_DATE_1: 2025-11
+SOURCE_URL_2: https://www.greatschools.org/montana/birney/136-Birney-School/
+SOURCE_TYPE_2: other
+SOURCE_DATE_2: undated
+
+============================================================
+LEAID=3003990 | Birney Elem, MONTANA | Retry
+============================================================
+**DISTRICT_CONFIRMED:** Birney Elem [1]  
+**SUPERINTENDENT_FULL_NAME:** Lisa Blevins [1]  
+**FOUND_ON_DISTRICT_WEBSITE:** no [1]  
+**TITLE_IS_SUPERINTENDENT:** yes [1]  
+**SOURCE_CURRENT_SCHOOL_YEAR:** yes   
+**MULTIPLE_SOURCES_AGREE:** yes [1]  
+**CONFLICTING_INFO_FOUND:** no  
+**STRUCTURAL_UNCERTAINTY:** no  
+**SUPERINTENDENT_TRANSITION:** no  
+**DISTRICT_WEBSITE_ACCESSIBLE:** no   
+**DISTRICT_MAILING_ADDRESS:** PO Box 521, Birney, MT 59012   
+**EVIDENCE_SUMMARY:** No dedicated district website for Birney Elem (small single-school district, ~9 students); Montana law requires county superintendents to supervise districts <150 students without their own superintendent/principal, confirmed by Rosebud County site listing Lisa Blevins (phone 406-346-2537) with Birney-specific docs (e.g., Birney ESSER Update) [1]. OPI directory (Nov 2025) and GreatSchools list her as leader for Birney Elem (NCES 3003990, address match); no transition news for 2025-26 .  
+**UNKNOWN_REASON:**   
+**SOURCE_URL_1:** https://rosebudcountymt.gov/departments/superintendent-of-schools/  
+**SOURCE_TYPE_1:** government  
+**SOURCE_DATE_1:** 2025-11  
+**SOURCE_URL_2:** https://opi.mt.gov/LinkClick.aspx?fileticket=20hGtEm58Y4%3D&portalid=182  
+**SOURCE_TYPE_2:** government  
+**SOURCE_DATE_2:** 2025-11
+
+============================================================
+LEAID=3003990 | Birney Elem, MONTANA | Targeted Retry
+============================================================
+DISTRICT_CONFIRMED: Birney Elem [9][1]
+SUPERINTENDENT_FULL_NAME: Lisa Blevins [2][1]
+FOUND_ON_DISTRICT_WEBSITE: no [9]
+TITLE_IS_SUPERINTENDENT: yes [2][1]
+SOURCE_CURRENT_SCHOOL_YEAR: yes [2]
+MULTIPLE_SOURCES_AGREE: yes [2]
+CONFLICTING_INFO_FOUND: no
+STRUCTURAL_UNCERTAINTY: no
+SUPERINTENDENT_TRANSITION: no
+DISTRICT_WEBSITE_ACCESSIBLE: no
+DISTRICT_MAILING_ADDRESS: PO Box 521, Birney, MT 59012 [9]
+EVIDENCE_SUMMARY: No district website or dedicated superintendent found for this tiny single-school district (NCES 3003990); per MT rules, Rosebud County Superintendent Lisa Blevins supervises small districts/schools under 150 students without district supt./principal, confirmed by county site listing her with duties matching Birney (e.g., Birney ESSER/Safe Return docs) and recent update (Nov 2025). State OPI directory has no conflicting info; no news of change, board minutes, or transition in 2025-26 year.[2][1]
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://rosebudcountymt.gov/departments/superintendent-of-schools/
+SOURCE_TYPE_1: government
+SOURCE_DATE_1: 2025-11
+SOURCE_URL_2: https://nces.ed.gov/ccd/districtsearch/district_detail.asp?Search=1&State=30&County=Rosebud&ID2=3003990
+SOURCE_TYPE_2: government
+SOURCE_DATE_2: undated
+
+============================================================
+LEAID=3003990 | Birney Elem, MONTANA | Verification
+============================================================
+candidate=Lisa Blevins [1] → verified=UNKNOWN, confidence=low
+
+
+
+============================================================
+LEAID=3003990 | Birney Elem, MONTANA | Adjudication
+============================================================
+pipeline='Lisa Blevins [1]' (medium), verification='UNKNOWN' (low) → final='Lisa Blevins' (medium)
+[ADJUDICATION: chose=pipeline, district_verified=True, reason=Birney Elem is a very small Montana district (8 students) without its own superintendent, falling under the statutory supervision of the Rosebud County Superintendent of Schools, Lisa Blevins, per Montana law for districts under 150 students. The verification search provided no results, so the pipeline search evidence stands unchallenged and is consistent with Montana's county superintendent structure for small districts.]
+
+I need to carefully evaluate these two search results for Birney Elem (NCES 3003990) in Montana.
+
+## DISTRICT VERIFICATION
+
+**NCES Information:**
+- District: Birney Elem
+- NCES ID: 3003990
+- State: Montana (MT)
+- Mailing Address: PO Box 521, Birney, MT 59012
+- Type: Regular public school district (1 school)
+- County: Rosebud County (based on web search results)
+
+**Search 1 (Pipeline):** 
+- Found district: Birney Elem ✓
+- Address: PO Box 521 Birney MT 59012 ✓
+- State: Montana ✓
+- **DISTRICT VERIFIED: YES**
+
+**Search 2 (Verification):**
+- No search results were provided - this appears to be an incomplete search
+- **DISTRICT VERIFIED: NO - no search was conducted**
+
+## EVALUATION OF EVIDENCE
+
+**Search 1 Evidence:**
+The pipeline search identified Lisa Blevins as the County Superintendent of Schools for Rosebud County. The web search results confirm:
+
+1. [rosebudcountymt.gov](https://rosebudcountymt.gov/departments/superintendent-of-schools/) lists Lisa Blevins as "Superintendent of Schools" for Rosebud County
+2. The County Superintendent's duties explicitly include: "Provide for supervision to any school with an enrollment of fewer than 150 students and not under the supervision of district superintendent or principal"
+3. Birney Elem is listed as one of the districts under Rosebud County jurisdiction
+4. The NCES data shows Birney Elem has only 8 students (well under 150)
+5. The 2025 transportation notice lists Birney Elementary District 3 with Clerk Marge Hamilton, but no separate district superintendent
+
+**Montana Structure:**
+In Montana, very small districts (under 150 students) without their own district superintendent fall under the supervision of the County Superintendent of Schools. This is a statutory arrangement, not just an administrative convenience.
+
+**Search 2 Evidence:**
+No evidence was provided - the search appears to have failed or returned no results.
+
+## RESOLUTION
+
+Given that:
+- Birney Elem is a single-school district with only 8 students
+- Montana law provides for County Superintendent supervision of districts under 150 students without their own superintendent
+- Lisa Blevins is confirmed as Rosebud County Superintendent of Schools
+- No evidence exists of a separate district-level superintendent for Birney Elem
+- The district's own clerk (Marge Hamilton) is listed, but no superintendent
+
+Lisa Blevins serves as the de facto superintendent for Birney Elem through her role as County Superintendent.
+
+**FINAL_NAME:** Lisa Blevins
+
+**CHOSEN_SOURCE:** pipeline
+
+**DISTRICT_VERIFIED:** yes
+
+**CONFIDENCE:** medium
+
+**ADJUDICATION_REASON:** Birney Elem is a very small Montana district (8 students) without its own superintendent, falling under the statutory supervision of the Rosebud County Superintendent of Schools, Lisa Blevins, per Montana law for districts under 150 students. The verification search provided no results, so the pipeline search evidence stands unchallenged and is consistent with Montana's county superintendent structure for small districts.
+
+============================================================
+LEAID=4226520 | Wilmington Area SD, PENNSYLVANIA | Step 1
+============================================================
+Based on my research of the Wilmington Area School District in New Wilmington, Pennsylvania, I have found the superintendent information.
+
+**Dr. Terence Meehan** is the superintendent of Wilmington Area School District for the 2025–2026 school year [1][2][3][7][8].
+
+Dr. Meehan's name appears consistently across multiple current district sources, including the staff directory, special education planning documents from 2025, and professional staffing pages. His title is explicitly listed as "Superintendent" [1][3][8], and his contact information is provided as tmeehan@wasd.school and 724-656-8866 [3][7].
+
+---
+
+**DISTRICT_CONFIRMED:** Wilmington Area School District
+
+**SUPERINTENDENT_FULL_NAME:** Terence Meehan
+
+**FOUND_ON_DISTRICT_WEBSITE:** yes
+
+**TITLE_IS_SUPERINTENDENT:** yes
+
+**SOURCE_CURRENT_SCHOOL_YEAR:** yes
+
+**MULTIPLE_SOURCES_AGREE:** yes
+
+**CONFLICTING_INFO_FOUND:** no
+
+**STRUCTURAL_UNCERTAINTY:** no
+
+**SUPERINTENDENT_TRANSITION:** no
+
+**DISTRICT_WEBSITE_ACCESSIBLE:** no
+
+**DISTRICT_MAILING_ADDRESS:** 300 Wood Street, New Wilmington, PA 16142
+
+**EVIDENCE_SUMMARY:** Dr. Terence Meehan is listed as Superintendent across multiple current district web pages (staff directory, special education plan from November 2025, professional positions page dated August 10, 2025, and district staff listing). All sources consistently use the title "Superintendent" and provide his contact information. No transition or conflicting information was found.
+
+**UNKNOWN_REASON:**
+
+**SOURCE_URL_1:** https://www.wasd.school/district/staff-directory/
+
+**SOURCE_TYPE_1:** district_website
+
+**SOURCE_DATE_1:** undated
+
+**SOURCE_URL_2:** https://www.wasd.school/wp-content/uploads/2025/11/Special-Education-Plan-2025-2028.pdf
+
+**SOURCE_TYPE_2:** district_website
+
+**SOURCE_DATE_2:** 2025-11
+
+============================================================
+LEAID=4226520 | Wilmington Area SD, PENNSYLVANIA | URL-Mismatch Retry
+============================================================
+DISTRICT_CONFIRMED: Wilmington Area SD
+
+SUPERINTENDENT_FULL_NAME: UNKNOWN
+
+FOUND_ON_DISTRICT_WEBSITE: no
+
+TITLE_IS_SUPERINTENDENT: no
+
+SOURCE_CURRENT_SCHOOL_YEAR: no
+
+MULTIPLE_SOURCES_AGREE: no
+
+CONFLICTING_INFO_FOUND: yes
+
+STRUCTURAL_UNCERTAINTY: no
+
+SUPERINTENDENT_TRANSITION: no
+
+DISTRICT_WEBSITE_ACCESSIBLE: no
+
+DISTRICT_MAILING_ADDRESS: 
+
+EVIDENCE_SUMMARY: The district website http://www.wilmington.k12.pa.us could not be accessed; attempts to fetch content failed repeatedly. NCES confirms the district details (LEAID 4226520, address 300 Wood St, New Wilmington, PA 16142) with phone (724)656-8866 [1], and some references mention the site , but no superintendent name is listed there or in accessible state/PIAA sources for this exact district [10]. Note: wasd.school (matching address/phone) lists Dr. Terence Meehan, but user specifies it as a different district and directs to wilmington.k12.pa.us [2][4][6].
+
+UNKNOWN_REASON: District website inaccessible and no superintendent name found on it or in recent PA state records/news specific to Wilmington Area SD (wilmington.k12.pa.us); highest roles in limited sources (e.g., PIAA) appear to be principals without superintendent title [10].
+
+SOURCE_URL_1: https://nces.ed.gov/ccd/districtsearch/district_detail.asp?Search=2&details=1&DistrictID=4226520&ID2=4226520
+
+SOURCE_TYPE_1: government
+
+SOURCE_DATE_1: undated
+
+SOURCE_URL_2: http://www.piaa.org/Schools/directory/details.aspx?ID=12157
+
+SOURCE_TYPE_2: government
+
+SOURCE_DATE_2: undated
+
+============================================================
+LEAID=4226520 | Wilmington Area SD, PENNSYLVANIA | Verification
+============================================================
+candidate=Terence Meehan → verified=Terence Meehan, confidence=medium
+
+DISTRICT_CONFIRMED: Wilmington Area School District
+SUPERINTENDENT_FULL_NAME: Terence Meehan
+FOUND_ON_DISTRICT_WEBSITE: yes
+TITLE_IS_SUPERINTENDENT: yes
+SOURCE_CURRENT_SCHOOL_YEAR: yes
+MULTIPLE_SOURCES_AGREE: yes
+CONFLICTING_INFO_FOUND: yes
+STRUCTURAL_UNCERTAINTY: no
+SUPERINTENDENT_TRANSITION: yes
+DISTRICT_WEBSITE_ACCESSIBLE: yes
+DISTRICT_MAILING_ADDRESS: 300 Wood Street New Wilmington, PA 16142
+EVIDENCE_SUMMARY: The official district website lists Dr. Terence Meehan as superintendent on its staff directory pages, which are presumed current for the 2025-2026 school year. A news article from August 2025 reported the district was ending a shared superintendency with another district and would begin a search for a permanent leader. However, as of March 2026, Meehan is still listed as superintendent, confirming he has served the majority of the 2025-2026 school year, and he is reported here per the instructions.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.wasd.school/staff-categories/district-staff/
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: undated
+SOURCE_URL_2: https://www.ncnewsonline.com/news/local_news/wilmington-in-transition-to-begin-permanent-superintendent-search/article_6df2e760-767f-4140-ac06-f8076d7f01f6.html
+SOURCE_TYPE_2: news
+SOURCE_DATE_2: 2025-08
+
+============================================================
+LEAID=4226520 | Wilmington Area SD, PENNSYLVANIA | Adjudication
+============================================================
+pipeline='Terence Meehan' (high), verification='Terence Meehan' (medium) → final='Terence Meehan' (high)
+[ADJUDICATION: chose=both_agree, district_verified=True, reason=Both searches identified Dr. Terence Meehan as superintendent, verified on the district's official website. While a transition was planned for June 2026, Meehan served from August 2025 through at least March 2026, representing the clear majority of the 2025-26 school year.]
+
+# Adjudication for Wilmington Area SD, Pennsylvania
+
+## District Verification
+
+Both searches correctly identified **Wilmington Area School District** in New Wilmington, Pennsylvania. The mailing address matches the NCES record (300 Wood St/300 Wood Street, New Wilmington, PA 16142). Both searches are investigating the correct district.
+
+**DISTRICT_VERIFIED: yes**
+
+## Analysis of Search Results
+
+**Search 1 (Pipeline):**
+- Found: Dr. Terence Meehan
+- Confidence: High
+- Evidence: Multiple district website sources including staff directory, special education plan from November 2025, professional positions page from August 2025
+- No conflicting information reported
+- No transition noted
+
+**Search 2 (Verification):**
+- Found: Terence Meehan
+- Confidence: Medium
+- Evidence: District website staff directory
+- **Important finding:** News article from August 2025 indicating the district was ending a shared superintendency arrangement and would begin a search for a permanent leader
+- Notes Meehan is still listed as superintendent as of the current date (March 2026)
+
+## Web Search Verification
+
+The web search results I conducted confirm:
+1. [wasd.school](https://www.wasd.school/staff/dr-terence-meehan/) lists "Dr. Terence Meehan" as Superintendent with contact tmeehan@wasd.school
+2. [alliednews.com](https://www.alliednews.com/news/wilmington-transitioning-from-shared-superintendent-to-fulltime-one-of-its-own/article_f977934d-1c0c-570d-9f3b-bf2ccb104cf5.html) article from August 9, 2025, confirms that Meehan's contract at Wilmington was set to end June 30, and the district would begin a superintendent search process
+
+## Key Timeline Analysis
+
+According to the news article, Dr. Meehan's contract was set to expire June 30 (which would be June 30, 2026, at the end of the 2025-26 school year). The article states the search would last "a full school year" with input throughout. As of March 2026, Dr. Meehan is still listed on the district website as superintendent.
+
+**Critical determination:** Even though a transition was planned, Dr. Terence Meehan served from August 2025 through at least March 2026 (8 months of the 10-month school year). This represents the clear majority of the 2025-26 school year.
+
+## Final Determination
+
+Both searches agree on the name. The district website currently lists Dr. Terence Meehan as superintendent. Even with a planned transition and search process, he served the majority of the 2025-26 school year.
+
+**FINAL_NAME:** Terence Meehan
+
+**CHOSEN_SOURCE:** both_agree
+
+**DISTRICT_VERIFIED:** yes
+
+**CONFIDENCE:** high
+
+**ADJUDICATION_REASON:** Both searches identified Dr. Terence Meehan as superintendent, verified on the district's official website. While a transition was planned for June 2026, Meehan served from August 2025 through at least March 2026, representing the clear majority of the 2025-26 school year.
+
+============================================================
+LEAID=0605790 | Brawley Elementary, CALIFORNIA | Step 1
+============================================================
+DISTRICT_CONFIRMED: Brawley Elementary School District [1][1]
+SUPERINTENDENT_FULL_NAME: Luis C. Panduro
+FOUND_ON_DISTRICT_WEBSITE: yes
+TITLE_IS_SUPERINTENDENT: yes
+SOURCE_CURRENT_SCHOOL_YEAR: yes
+MULTIPLE_SOURCES_AGREE: yes
+CONFLICTING_INFO_FOUND: no
+STRUCTURAL_UNCERTAINTY: no
+SUPERINTENDENT_TRANSITION: no
+DISTRICT_WEBSITE_ACCESSIBLE: yes
+DISTRICT_MAILING_ADDRESS: 261 D St., Brawley, CA 92227 [1]
+EVIDENCE_SUMMARY: The district's official website lists Luis C. Panduro as Superintendent on the dedicated superintendent page with a back-to-school welcome message explicitly for the 2025–2026 school year, and on the department heads page. This is corroborated by the current California Department of Education directory (updated July 2025) listing him as superintendent with matching contact info and NCES ID 0605790; prior superintendent Rauna Fox's letter was for 2023-2024/2024-2025, with no evidence of change during 2025-26. [1][7][1]
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.besd.org/page/superintendent
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: undated
+SOURCE_URL_2: https://www.cde.ca.gov/schooldirectory/details?cdscode=13630730000000
+SOURCE_TYPE_2: government
+SOURCE_DATE_2: 2025-07
+
+============================================================
+LEAID=0605790 | Brawley Elementary, CALIFORNIA | Verification
+============================================================
+candidate=Luis C. Panduro → verified=Luis C. Panduro, confidence=high
+
+DISTRICT_CONFIRMED: Brawley Elementary School District
+SUPERINTENDENT_FULL_NAME: Luis C. Panduro
+FOUND_ON_DISTRICT_WEBSITE: yes
+TITLE_IS_SUPERINTENDENT: yes
+SOURCE_CURRENT_SCHOOL_YEAR: yes
+MULTIPLE_SOURCES_AGREE: yes
+CONFLICTING_INFO_FOUND: no
+STRUCTURAL_UNCERTAINTY: no
+SUPERINTENDENT_TRANSITION: no
+DISTRICT_WEBSITE_ACCESSIBLE: yes
+DISTRICT_MAILING_ADDRESS: 261 D Street Brawley, CA 92227
+EVIDENCE_SUMMARY: The district's official website features a welcome letter for the 2025–2026 school year explicitly signed by "Luis C. Panduro, Superintendent." His name and title are also listed on the district's staff directory and department heads pages, confirming he is the current leader for the target school year.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.besd.org/page/superintendent
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: undated
+SOURCE_URL_2: https://www.besd.org/staff
+SOURCE_TYPE_2: district_website
+SOURCE_DATE_2: undated
+
+============================================================
+LEAID=0605790 | Brawley Elementary, CALIFORNIA | Adjudication
+============================================================
+pipeline='Luis C. Panduro' (high), verification='Luis C. Panduro' (high) → final='Luis C. Panduro' (high)
+[ADJUDICATION: chose=both_agree, district_verified=True, reason=Both independent searches found identical information from the district's official website, including a welcome letter explicitly addressed to the 2025–2026 school year and signed by Luis C. Panduro as Superintendent. The district website, staff directory, and department heads page all consistently list him in this role, with no evidence of any transition during the target school year.]
+
+# Adjudication Review: Brawley Elementary School District
+
+## 1. District Verification
+
+**NCES Reference**: Brawley Elementary, CALIFORNIA [LEAID 0605790], 261 D St., Brawley, CA 92227
+
+**Search 1**: 
+- District: Brawley Elementary School District
+- Address: 261 D St., Brawley, CA 92227 ✓
+- State: California ✓
+- NCES ID: 0605790 ✓
+
+**Search 2**: 
+- District: Brawley Elementary School District
+- Address: 261 D Street Brawley, CA 92227 ✓
+- State: California ✓
+
+Both searches correctly identified the same district in the correct state with matching addresses.
+
+## 2. Superintendent for Majority of 2025–26 School Year
+
+Both searches independently found **Luis C. Panduro** as Superintendent for the 2025–26 school year.
+
+## 3. Evidence Quality Assessment
+
+**Search 1 Evidence**:
+- District website superintendent page with welcome message explicitly for "2025–2026 school year"
+- California Department of Education directory (updated July 2025)
+- Department heads page listing
+- Notes that prior superintendent Rauna Fox served through 2024-2025
+
+**Search 2 Evidence**:
+- District website superintendent page with welcome letter signed for "2025–2026 school year"
+- Staff directory listing
+- Department heads page listing
+
+**Web Search Verification**: The provided web search results confirm:
+- [besd.org](https://www.besd.org/page/superintendent) contains a welcome letter explicitly stating "As we begin the 2025–2026 school year" signed by "Luis C. Panduro, Superintendent, Brawley Elementary School District"
+- [Staff page](https://www.besd.org/staff) lists "Luis Panduro, Superintendent"
+- [Department Heads page](https://www.besd.org/page/department-heads) lists "Superintendent Luis Panduro"
+- Previous superintendent Rauna Fox's letter was for 2023-2024/2024-2025 transition
+
+## 4. Resolution
+
+Both searches agree completely. The evidence is unambiguous and directly sourced from the district's official website with explicit reference to the 2025–2026 school year. There is no conflict to resolve.
+
+---
+
+**FINAL_NAME**: Luis C. Panduro
+
+**CHOSEN_SOURCE**: both_agree
+
+**DISTRICT_VERIFIED**: yes
+
+**CONFIDENCE**: high
+
+**ADJUDICATION_REASON**: Both independent searches found identical information from the district's official website, including a welcome letter explicitly addressed to the 2025–2026 school year and signed by Luis C. Panduro as Superintendent. The district website, staff directory, and department heads page all consistently list him in this role, with no evidence of any transition during the target school year.
+
+============================================================
+LEAID=0625190 | Modoc Joint Unified, CALIFORNIA | Step 1
+============================================================
+DISTRICT_CONFIRMED: Modoc Joint Unified School District
+SUPERINTENDENT_FULL_NAME: Rebecca Lewis
+FOUND_ON_DISTRICT_WEBSITE: yes
+TITLE_IS_SUPERINTENDENT: yes
+SOURCE_CURRENT_SCHOOL_YEAR: yes
+MULTIPLE_SOURCES_AGREE: yes
+CONFLICTING_INFO_FOUND: no
+STRUCTURAL_UNCERTAINTY: no
+SUPERINTENDENT_TRANSITION: yes
+DISTRICT_WEBSITE_ACCESSIBLE: yes
+DISTRICT_MAILING_ADDRESS: 906 West Fourth St., Alturas, CA 96101
+EVIDENCE_SUMMARY: District website staff directory lists Rebecca Lewis as Superintendent with phone (530) 233-7201 (101), and a July 2025 article quotes her as Superintendent. Board appointed her effective July 1, 2025 (pre-Aug 2025 school start); prior superintendent page for Tom O'Malley appears outdated. Job posting for new superintendent in May 2025 confirms transition; no evidence of further change by March 2026, so she serves majority of 2025-26 year [2][7][1][6].
+UNKNOWN_REASON:
+SOURCE_URL_1: https://www.modoc.k12.ca.us/o/mjusd/staff
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: undated
+SOURCE_URL_2: https://www.modoc.k12.ca.us/article/2275744
+SOURCE_TYPE_2: district_website
+SOURCE_DATE_2: 2025-06
+
+============================================================
+LEAID=0625190 | Modoc Joint Unified, CALIFORNIA | Retry
+============================================================
+DISTRICT_CONFIRMED: Modoc Joint Unified School District
+SUPERINTENDENT_FULL_NAME: Beckie Lewis
+FOUND_ON_DISTRICT_WEBSITE: yes
+TITLE_IS_SUPERINTENDENT: yes
+SOURCE_CURRENT_SCHOOL_YEAR: yes
+MULTIPLE_SOURCES_AGREE: yes
+CONFLICTING_INFO_FOUND: no
+STRUCTURAL_UNCERTAINTY: no
+SUPERINTENDENT_TRANSITION: yes
+DISTRICT_WEBSITE_ACCESSIBLE: yes
+DISTRICT_MAILING_ADDRESS: 906 West Fourth St. Alturas, CA 96101-3716
+EVIDENCE_SUMMARY: District website staff directory explicitly lists "Beckie Lewis Superintendent District Office (530) 233-7201 (101)"; confirmed as Rebecca (Beckie) Lewis appointed June 17, 2025 effective July 1, 2025 by board (pre-school year start) via district news and local reports, with no later changes by March 2026. CA Dept of Education directory (updated July 2025) lists "Mrs. Beckie Lewis Superintendent" with email and matching details; old superintendent page for Tom O'Malley is outdated. She serves majority (entire) 2025-26 year.
+UNKNOWN_REASON:
+SOURCE_URL_1: https://www.modoc.k12.ca.us/o/mjusd/staff
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: undated
+SOURCE_URL_2: https://www.cde.ca.gov/schooldirectory/details?cdscode=25735850000000
+SOURCE_TYPE_2: government
+SOURCE_DATE_2: 2025-07
+
+============================================================
+LEAID=0625190 | Modoc Joint Unified, CALIFORNIA | Targeted Retry
+============================================================
+DISTRICT_CONFIRMED: Modoc Joint Unified School District
+SUPERINTENDENT_FULL_NAME: Rebecca Lewis
+FOUND_ON_DISTRICT_WEBSITE: yes
+TITLE_IS_SUPERINTENDENT: yes
+SOURCE_CURRENT_SCHOOL_YEAR: yes
+MULTIPLE_SOURCES_AGREE: yes
+CONFLICTING_INFO_FOUND: no
+STRUCTURAL_UNCERTAINTY: no
+SUPERINTENDENT_TRANSITION: yes
+DISTRICT_WEBSITE_ACCESSIBLE: yes
+DISTRICT_MAILING_ADDRESS: 906 W. 4th St., Alturas, CA 96101
+EVIDENCE_SUMMARY: District staff directory currently lists Beckie Lewis as Superintendent (District Office, ext. 101), superseding outdated /page/superintendent page for Tom O'Malley [2]. Board approved her appointment June 17, 2025, effective July 1, 2025 (pre-school year), and CA Dept of Education directory lists "Mrs. Beckie Lewis Superintendent" as of July 2025; she has served the majority of 2025-26 year to date (Aug 2025-Mar 2026) with no further transition reported [1][1].
+UNKNOWN_REASON:
+SOURCE_URL_1: https://www.modoc.k12.ca.us/o/mjusd/staff
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: undated
+SOURCE_URL_2: https://www.sierradailynews.com/local/rebecca-lewis-appointed-new-superintendent-of-modoc-joint-unified-school-district/
+SOURCE_TYPE_2: news
+SOURCE_DATE_2: 2025-06
+
+============================================================
+LEAID=0625190 | Modoc Joint Unified, CALIFORNIA | Verification
+============================================================
+candidate=Rebecca Lewis → verified=Rebecca Lewis, confidence=low
+
+DISTRICT_CONFIRMED: Modoc Joint Unified School District
+SUPERINTENDENT_FULL_NAME: Rebecca Lewis
+FOUND_ON_DISTRICT_WEBSITE: no
+TITLE_IS_SUPERINTENDENT: yes
+SOURCE_CURRENT_SCHOOL_YEAR: yes
+MULTIPLE_SOURCES_AGREE: no
+CONFLICTING_INFO_FOUND: yes
+STRUCTURAL_UNCERTAINTY: no
+SUPERINTENDENT_TRANSITION: yes
+DISTRICT_WEBSITE_ACCESSIBLE: yes
+DISTRICT_MAILING_ADDRESS: 906 West Fourth St., Alturas, CA 96101-3716
+EVIDENCE_SUMMARY: A local news article from June 2025 confirms the appointment of Rebecca Lewis as the new superintendent, effective July 1, 2025, meaning she is serving for the entire 2025–2026 school year. While her name does not appear in the provided search snippet from the district's superintendent page, this recent news article supersedes a conflicting, outdated 2022 California Department of Education directory that lists a former superintendent.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.sierradailynews.com/local/rebecca-lewis-appointed-new-superintendent-of-modoc-joint-unified-school-district/
+SOURCE_TYPE_1: news
+SOURCE_DATE_1: 2025-06
+SOURCE_URL_2: https://www.cde.ca.gov/schooldirectory/details?cdscode=25735850000000
+SOURCE_TYPE_2: government
+SOURCE_DATE_2: 2022-03
+
+============================================================
+LEAID=0625190 | Modoc Joint Unified, CALIFORNIA | Adjudication
+============================================================
+pipeline='Rebecca Lewis' (medium), verification='Rebecca Lewis' (low) → final='Rebecca Lewis' (high)
+[ADJUDICATION: chose=both_agree, district_verified=True, reason=Both searches independently identified Rebecca Lewis (also known as Beckie Lewis) as superintendent. Her appointment was effective July 1, 2025, before the 2025-26 school year began, meaning she serves the entire school year. This is confirmed by both the district's official website staff directory and a June 2025 local news article announcing her board-approved appointment.]
+
+## Verification Analysis
+
+### 1. DISTRICT VERIFICATION
+Both searches correctly identified **Modoc Joint Unified School District** in Alturas, California:
+- **NCES Address**: 906 West Fourth St., Alturas, CA 96101
+- **Search 1 Address**: 906 West Fourth St., Alturas, CA 96101 ✓
+- **Search 2 Address**: 906 West Fourth St., Alturas, CA 96101-3716 ✓
+- **State**: California (both searches) ✓
+- **City**: Alturas (both searches) ✓
+
+**DISTRICT_VERIFIED: yes** - Both searches found the correct district.
+
+### 2. SUPERINTENDENT DETERMINATION
+
+Both searches agree on **Rebecca Lewis** as superintendent:
+
+**Search 1 Evidence** (medium confidence):
+- Found on district website staff directory listing her as Superintendent
+- District website article from June 2025 quotes her as Superintendent
+- Board appointed her effective July 1, 2025
+- Identified superintendent transition from Tom O'Malley
+
+**Search 2 Evidence** (low confidence):
+- Local news article from June 2025 confirming appointment effective July 1, 2025
+- Notes she was NOT found on the district website in their search (conflicting with Search 1)
+
+### 3. INDEPENDENT VERIFICATION
+
+The web search results I've reviewed confirm:
+- [sierradailynews.com](https://www.sierradailynews.com/local/rebecca-lewis-appointed-new-superintendent-of-modoc-joint-unified-school-district/) - June 17, 2025 article confirms board unanimously approved Rebecca Lewis as superintendent effective July 1, 2025
+- [modoc.k12.ca.us/staff](https://www.modoc.k12.ca.us/staff) - District website staff directory lists "Beckie Lewis" as Superintendent with email blewis@modoc.k12.ca.us
+
+**Key Finding**: Rebecca Lewis (also known as "Beckie" Lewis) was appointed effective July 1, 2025, which is BEFORE the start of the 2025-26 school year (August 2025). She therefore serves the ENTIRE 2025-26 school year.
+
+### 4. RESOLUTION
+Both searches agree on the same person. The news article and district website both confirm Rebecca "Beckie" Lewis as the current superintendent. Since her appointment was effective July 1, 2025 (before the school year began), she serves the majority (in fact, all) of the 2025-26 school year.
+
+---
+
+**FINAL_NAME:** Rebecca Lewis
+
+**CHOSEN_SOURCE:** both_agree
+
+**DISTRICT_VERIFIED:** yes
+
+**CONFIDENCE:** high
+
+**ADJUDICATION_REASON:** Both searches independently identified Rebecca Lewis (also known as Beckie Lewis) as superintendent. Her appointment was effective July 1, 2025, before the 2025-26 school year began, meaning she serves the entire school year. This is confirmed by both the district's official website staff directory and a June 2025 local news article announcing her board-approved appointment.
+
+============================================================
+LEAID=3806090 | ELLENDALE 40, NORTH DAKOTA | Step 1
+============================================================
+DISTRICT_CONFIRMED: Ellendale Public School District #40 [1][1]
+SUPERINTENDENT_FULL_NAME: Jeff Ringstad
+FOUND_ON_DISTRICT_WEBSITE: yes
+TITLE_IS_SUPERINTENDENT: yes
+SOURCE_CURRENT_SCHOOL_YEAR: yes
+MULTIPLE_SOURCES_AGREE: yes
+CONFLICTING_INFO_FOUND: yes
+STRUCTURAL_UNCERTAINTY: no
+SUPERINTENDENT_TRANSITION: yes
+DISTRICT_WEBSITE_ACCESSIBLE: yes
+DISTRICT_MAILING_ADDRESS: PO Box 400, Ellendale, ND 58436 
+EVIDENCE_SUMMARY: The district's official directory lists Jeff Ringstad as Superintendent [2][3]. ND Insights dashboard lists Chip Sundberg as District Superintendent (possibly acting/outdated), but district website takes precedence; board approved Ringstad's contract for 2025-26 in Feb 2025 after hiring process starting Dec 2024 (prior sup. search ended July 1, 2025) [1][3]. As of March 2026, Ringstad serves the majority of 2025-26 year (school year Aug 2025-Jun 2026).
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.ellendale.k12.nd.us/directory/
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: undated
+SOURCE_URL_2: https://ndpublicnotices.newzgroup.com/NDLegals/2025/391172-2025-04-10_1004.pdf
+SOURCE_TYPE_2: news
+SOURCE_DATE_2: 2025-04
+
+============================================================
+LEAID=3806090 | ELLENDALE 40, NORTH DAKOTA | Retry
+============================================================
+Based on my thorough search of the district website, state directories, and official board meeting minutes, I now have clear and current evidence.
+
+---
+
+**DISTRICT_CONFIRMED:** Ellendale Public School District #40 [5][10]
+
+**SUPERINTENDENT_FULL_NAME:** Jeffrey Ringstad
+
+**FOUND_ON_DISTRICT_WEBSITE:** yes [5]
+
+**TITLE_IS_SUPERINTENDENT:** yes [5][10]
+
+**SOURCE_CURRENT_SCHOOL_YEAR:** yes [5][10]
+
+**MULTIPLE_SOURCES_AGREE:** yes [1][5][10]
+
+**CONFLICTING_INFO_FOUND:** yes [1]
+
+**STRUCTURAL_UNCERTAINTY:** no
+
+**SUPERINTENDENT_TRANSITION:** no
+
+**DISTRICT_WEBSITE_ACCESSIBLE:** yes
+
+**DISTRICT_MAILING_ADDRESS:** PO Box 400, Ellendale, ND 58436 [5]
+
+**EVIDENCE_SUMMARY:** The district's official directory lists Jeffrey Ringstad as Superintendent [5]. The school board voted unanimously on March 3, 2025, to offer Jeffrey Ringstad the 2025–26 superintendent contract, and accepted his signed contract on March 6, 2025 [10]. As of March 2026, Ringstad is serving the majority of the 2025–26 school year (Aug 2025–Jun 2026). A state education data source (ND Insights) lists Chip Sundberg, but the district's official website takes precedence and shows Ringstad as current superintendent [5][1].
+
+**UNKNOWN_REASON:** 
+
+**SOURCE_URL_1:** https://www.ellendale.k12.nd.us/directory/
+
+**SOURCE_TYPE_1:** district_website
+
+**SOURCE_DATE_1:** undated (presumed current)
+
+**SOURCE_URL_2:** https://ndpublicnotices.newzgroup.com/NDLegals/2025/391172-2025-04-10_1004.pdf
+
+**SOURCE_TYPE_2:** news
+
+**SOURCE_DATE_2:** 2025-04
+
+============================================================
+LEAID=3806090 | ELLENDALE 40, NORTH DAKOTA | Targeted Retry
+============================================================
+DISTRICT_CONFIRMED: Ellendale Public School District #40 [1]
+SUPERINTENDENT_FULL_NAME: Jeff Ringstad
+FOUND_ON_DISTRICT_WEBSITE: yes [1]
+TITLE_IS_SUPERINTENDENT: yes [1]
+SOURCE_CURRENT_SCHOOL_YEAR: yes [1]
+MULTIPLE_SOURCES_AGREE: yes [2][1]
+CONFLICTING_INFO_FOUND: yes [3][4][9][4]
+STRUCTURAL_UNCERTAINTY: no
+SUPERINTENDENT_TRANSITION: yes [1]
+DISTRICT_WEBSITE_ACCESSIBLE: yes
+DISTRICT_MAILING_ADDRESS: PO Box 400, Ellendale, ND 58436 [2]
+EVIDENCE_SUMMARY: District website directory explicitly lists Jeff Ringstad as Superintendent under Administration [1]. Board minutes (Apr 2025 publication) confirm interviews in Feb 2025, unanimous offer of 2025-26 contract to Jeff Ringstad on Mar 3, 2025, and acceptance of signed contract Mar 6, 2025, with start July 1, 2025 (majority of Aug 2025-Jun 2026 year) . Older state sites (NDHSAA, Insights) list prior sup. Chip Sundberg (outdated); district site takes precedence [3][9][4].
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.ellendale.k12.nd.us/directory/
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: undated
+SOURCE_URL_2: https://ndpublicnotices.newzgroup.com/NDLegals/2025/391172-2025-04-10_1004.pdf
+SOURCE_TYPE_2: news
+SOURCE_DATE_2: 2025-04
+
+============================================================
+LEAID=3806090 | ELLENDALE 40, NORTH DAKOTA | Verification
+============================================================
+candidate=Jeffrey Ringstad → verified=Jeffrey Ringstad, confidence=medium
+
+DISTRICT_CONFIRMED: Ellendale Public School
+SUPERINTENDENT_FULL_NAME: Jeffrey Ringstad
+FOUND_ON_DISTRICT_WEBSITE: yes
+TITLE_IS_SUPERINTENDENT: yes
+SOURCE_CURRENT_SCHOOL_YEAR: yes
+MULTIPLE_SOURCES_AGREE: yes
+CONFLICTING_INFO_FOUND: yes
+STRUCTURAL_UNCERTAINTY: no
+SUPERINTENDENT_TRANSITION: no
+DISTRICT_WEBSITE_ACCESSIBLE: yes
+DISTRICT_MAILING_ADDRESS: PO Box 400, Ellendale, ND 58436
+EVIDENCE_SUMMARY: The official district website's staff directory lists Jeff Ringstad as the superintendent. The North Dakota state education portal corroborates this, listing "Jeffrey Ringstad" as superintendent for the 2025-2026 school year. An older, non-district source from July 2024 named a different person, but the current district website is the definitive source and confirms Jeffrey Ringstad.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.ellendale.k12.nd.us/directory/
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: undated
+SOURCE_URL_2: https://insights.nd.gov/Education/District/11040
+SOURCE_TYPE_2: government
+SOURCE_DATE_2: undated
+
+============================================================
+LEAID=3806090 | ELLENDALE 40, NORTH DAKOTA | Adjudication
+============================================================
+pipeline='Jeffrey Ringstad' (medium), verification='Jeffrey Ringstad' (medium) → final='Jeffrey Ringstad' (high)
+[ADJUDICATION: chose=both_agree, district_verified=True, reason=Both independent searches identified Jeffrey Ringstad as superintendent on the district's official website directory, which is the definitive source. Board meeting minutes confirm he was contracted for the 2025-26 school year in March 2025 and has served the majority of the school year through March 2026.]
+
+## Adjudication Analysis
+
+### 1. DISTRICT VERIFICATION
+Both searches correctly identified **Ellendale Public School District #40** in North Dakota:
+- **NCES ID**: 3806090 ✓
+- **Mailing Address**: PO Box 400, Ellendale, ND 58436 ✓
+- **State**: North Dakota ✓
+- **Number of Schools**: 5 ✓
+
+The web search results confirm this is the correct district with matching addresses and contact information.
+
+### 2. SEARCH RESULTS COMPARISON
+
+**Pipeline Search (Search 1):**
+- Found: Jeffrey Ringstad
+- Source: District website directory + board meeting minutes
+- Key evidence: Board voted March 3, 2025 to offer contract; accepted signed contract March 6, 2025
+- Confidence: Medium
+
+**Verification Search (Search 2):**
+- Found: Jeffrey Ringstad
+- Source: District website directory + ND Insights state portal
+- Confidence: Medium
+
+### 3. CONFLICTING INFORMATION NOTED
+
+Both searches noted conflicting information:
+- The web search results show the ND Insights state portal lists "Chip Sundberg" as superintendent
+- However, both searches correctly prioritized the **district's official website**, which lists Jeffrey Ringstad
+
+### 4. INDEPENDENT VERIFICATION
+
+From the web search results provided:
+- [insights.nd.gov](https://insights.nd.gov/Education/District/11040): Lists "Chip Sundberg" as District Superintendent (appears to be outdated 2024-2025 data)
+- [ellendale.k12.nd.us](https://www.ellendale.k12.nd.us/directory/): The district's official directory (current)
+
+The district website takes absolute precedence over state directories, which often lag in updates.
+
+### 5. MAJORITY-OF-YEAR DETERMINATION
+
+Search 1 provides crucial timeline evidence:
+- Board voted March 3, 2025 to offer Jeffrey Ringstad the 2025-26 contract
+- Signed contract accepted March 6, 2025
+- This means Ringstad began serving as superintendent for the 2025-26 school year starting in August 2025
+- As of March 2026, he has served 7+ months of the 10-month school year (the majority)
+
+### 6. FINAL DETERMINATION
+
+Both searches agree on Jeffrey Ringstad and both correctly identified the district website as the authoritative source. The board meeting evidence confirms he was contracted for the 2025-26 school year and has served the majority of that year.
+
+---
+
+**FINAL_NAME:** Jeffrey Ringstad
+
+**CHOSEN_SOURCE:** both_agree
+
+**DISTRICT_VERIFIED:** yes
+
+**CONFIDENCE:** high
+
+**ADJUDICATION_REASON:** Both independent searches identified Jeffrey Ringstad as superintendent on the district's official website directory, which is the definitive source. Board meeting minutes confirm he was contracted for the 2025-26 school year in March 2025 and has served the majority of the school year through March 2026.
+
+============================================================
+LEAID=0642350 | Wheatland Union High, CALIFORNIA | Step 1
+============================================================
+DISTRICT_CONFIRMED: Wheatland Union High School District [1]
+SUPERINTENDENT_FULL_NAME: Nicole Newman
+FOUND_ON_DISTRICT_WEBSITE: yes
+TITLE_IS_SUPERINTENDENT: yes
+SOURCE_CURRENT_SCHOOL_YEAR: yes
+MULTIPLE_SOURCES_AGREE: yes
+CONFLICTING_INFO_FOUND: no
+STRUCTURAL_UNCERTAINTY: no
+SUPERINTENDENT_TRANSITION: no
+DISTRICT_WEBSITE_ACCESSIBLE: yes
+DISTRICT_MAILING_ADDRESS: 1010 Wheatland Rd Wheatland, CA 95692 [1]
+EVIDENCE_SUMMARY: The district's official website staff directory lists Nicole Newman as Superintendent under Administration [1], and the Superintendent page names Dr. Nicole Newman, Ed.D. with a "Welcome Back 2025-26" section confirming her role for the current school year [1]. This is corroborated by the CA Dept of Education profile and a September 2025 CalSTRS audit addressed to Dr. Nicole Newman [5].
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.wheatlandhigh.org/staff?page_no=6
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: undated
+SOURCE_URL_2: https://www.wheatlandhigh.org/page/superintendent
+SOURCE_TYPE_2: district_website
+SOURCE_DATE_2: undated
+
+============================================================
+LEAID=0642350 | Wheatland Union High, CALIFORNIA | Verification
+============================================================
+candidate=Nicole Newman → verified=Nicole Newman, confidence=high
+
+DISTRICT_CONFIRMED: Wheatland Union High School District
+SUPERINTENDENT_FULL_NAME: Nicole Newman
+FOUND_ON_DISTRICT_WEBSITE: yes
+TITLE_IS_SUPERINTENDENT: yes
+SOURCE_CURRENT_SCHOOL_YEAR: yes
+MULTIPLE_SOURCES_AGREE: yes
+CONFLICTING_INFO_FOUND: no
+STRUCTURAL_UNCERTAINTY: no
+SUPERINTENDENT_TRANSITION: no
+DISTRICT_WEBSITE_ACCESSIBLE: yes
+DISTRICT_MAILING_ADDRESS: 1010 Wheatland Rd, Wheatland, CA 95692
+EVIDENCE_SUMMARY: The official district website identifies Dr. Nicole Newman as the superintendent on a page that includes a "Welcome Back 2025-26" heading, confirming her role for the target school year. There is no evidence of a transition; a LinkedIn post from the Small School Districts' Association also congratulates "Superintendent Dr. Nicole Newman" in a post dated approximately June 2025.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.wheatlandhigh.org/page/superintendent
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: undated
+SOURCE_URL_2: https://www.linkedin.com/posts/small-school-districts-assn_wheatland-union-high-school-district-secures-activity-7225169424297644034-mSXG
+SOURCE_TYPE_2: other
+SOURCE_DATE_2: 2025-06
+
+============================================================
+LEAID=0642350 | Wheatland Union High, CALIFORNIA | Adjudication
+============================================================
+pipeline='Nicole Newman' (high), verification='Nicole Newman' (high) → final='Nicole Newman' (high)
+[ADJUDICATION: chose=both_agree, district_verified=True, reason=Both searches independently confirmed Dr. Nicole Newman as superintendent through the district's official website, which explicitly includes a "Welcome Back 2025-26" message on her superintendent page. No conflicting information or transitions were found, and the district address matches NCES records.]
+
+# Final Adjudication: Wheatland Union High School District Superintendent 2025-26
+
+## District Verification
+
+**NCES Information:**
+- District: Wheatland Union High School District
+- Location: Wheatland, CA
+- NCES Mailing Address: 1010 Wheatland Rd., Wheatland, CA 95692
+
+**Search 1 Address:** 1010 Wheatland Rd Wheatland, CA 95692 ✓
+**Search 2 Address:** 1010 Wheatland Rd, Wheatland, CA 95692 ✓
+
+Both searches confirmed the correct district in California with matching addresses.
+
+## Independent Website Verification
+
+I can see from the web search results provided that the district's official website ([wheatlandhigh.org](https://www.wheatlandhigh.org/page/superintendent)) clearly identifies **Dr. Nicole Newman, Ed.D.** as Superintendent with a "Welcome Back 2025-26" heading, confirming her role for the current school year.
+
+## Analysis of Search Results
+
+Both independent searches:
+- Found the same person: **Nicole Newman**
+- Confirmed the information on the district's official website
+- Reported high confidence
+- Found a "Welcome Back 2025-26" message on the superintendent page
+- Found no evidence of any transition or vacancy
+- Reported consistent information with no conflicts
+
+The evidence is unambiguous: Dr. Nicole Newman is serving as superintendent for the 2025-26 school year and has been in this role continuously with no indication of any transition.
+
+## Final Determination
+
+FINAL_NAME: Nicole Newman
+
+CHOSEN_SOURCE: both_agree
+
+DISTRICT_VERIFIED: yes
+
+CONFIDENCE: high
+
+ADJUDICATION_REASON: Both searches independently confirmed Dr. Nicole Newman as superintendent through the district's official website, which explicitly includes a "Welcome Back 2025-26" message on her superintendent page. No conflicting information or transitions were found, and the district address matches NCES records.
+
+============================================================
+LEAID=2910110 | LACLEDE CO. R-I, MISSOURI | Step 1
+============================================================
+DISTRICT_CONFIRMED: Laclede County R-1 Schools
+SUPERINTENDENT_FULL_NAME: Matt Searson
+FOUND_ON_DISTRICT_WEBSITE: yes
+TITLE_IS_SUPERINTENDENT: yes
+SOURCE_CURRENT_SCHOOL_YEAR: yes
+MULTIPLE_SOURCES_AGREE: yes
+CONFLICTING_INFO_FOUND: no
+STRUCTURAL_UNCERTAINTY: no
+SUPERINTENDENT_TRANSITION: no
+DISTRICT_WEBSITE_ACCESSIBLE: yes
+DISTRICT_MAILING_ADDRESS: 209 S Shiloh Ave Conway, MO 65632
+EVIDENCE_SUMMARY: District website lists Dr. Matt Searson as Superintendent on admin.html and msg.html pages, with contact info and message. Multiple 2025 board minutes (Aug, Oct, Dec) and news articles confirm him in role through 2025-26 school year start, no transition evidence.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.lacledecountyr1.com/admin.html
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: undated
+SOURCE_URL_2: https://www.lacledecountyr1.com/December%209%202024%20Open%20Meeting%20Minutes.pdf
+SOURCE_TYPE_2: district_website
+SOURCE_DATE_2: 2024-12
+
+============================================================
+LEAID=2910110 | LACLEDE CO. R-I, MISSOURI | Verification
+============================================================
+candidate=Matt Searson → verified=Matthew Searson, confidence=high
+
+DISTRICT_CONFIRMED: Laclede Co. R-1 School District
+SUPERINTENDENT_FULL_NAME: Matthew Searson
+FOUND_ON_DISTRICT_WEBSITE: yes
+TITLE_IS_SUPERINTENDENT: yes
+SOURCE_CURRENT_SCHOOL_YEAR: yes
+MULTIPLE_SOURCES_AGREE: yes
+CONFLICTING_INFO_FOUND: no
+STRUCTURAL_UNCERTAINTY: no
+SUPERINTENDENT_TRANSITION: no
+DISTRICT_WEBSITE_ACCESSIBLE: yes
+DISTRICT_MAILING_ADDRESS: 726 W. Jefferson Ave, Conway, MO 65632-8206
+EVIDENCE_SUMMARY: The district's official website features a "Superintendent's Message" from Matt Searson, identifying him as the "Superintendent of Schools." A January 2023 news article announced his full name is Matthew Searson and that his tenure began with the 2023-24 school year, and a more recent April 2025 article confirms he is still the superintendent. There is no evidence of a departure or transition.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.lacledecountyr1.com/msg.html
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: undated
+SOURCE_URL_2: https://www.laclederecord.com/stories/conway-superintendent-discusses-school-bond-ballot-issue,125245
+SOURCE_TYPE_2: news
+SOURCE_DATE_2: 2025-04
+
+============================================================
+LEAID=2910110 | LACLEDE CO. R-I, MISSOURI | Adjudication
+============================================================
+pipeline='Matt Searson' (high), verification='Matthew Searson' (high) → final='Matthew Searson' (high)
+[ADJUDICATION: chose=both_agree, district_verified=True, reason=Both searches independently confirmed Matthew Searson as superintendent through the district's official website and multiple corroborating sources dated through April 2025. The 2025-26 student handbook explicitly names him as superintendent for the current school year. No transition or vacancy was found.]
+
+# Adjudication for Laclede Co. R-I School District, Missouri
+
+## District Verification
+
+**NCES Information:**
+- District: LACLEDE CO. R-I, MISSOURI
+- City: Conway
+- NCES Mailing Address: 726 W. Jefferson Ave, Conway, MO 65632
+
+**Search 1 Address:** 209 S Shiloh Ave Conway, MO 65632
+**Search 2 Address:** 726 W. Jefferson Ave, Conway, MO 65632-8206
+
+**Analysis:** Search 2 found the exact NCES mailing address. Search 1 found a different address but is clearly researching the same district (Laclede County R-1 Schools in Conway, MO). The district website shows the correct address as 726 W. Jefferson Ave, matching the NCES records and Search 2.
+
+## Evidence Review
+
+Both searches found superintendent information on the district's official website:
+
+1. **District Website ([lacledecountyr1.com](https://www.lacledecountyr1.com/admin.html))**: Lists "Dr. Matt Searson" as Superintendent with contact information
+2. **Superintendent's Message Page**: Signed by "Matt Searson, Superintendent of Schools"
+3. **2025-26 Student Handbook**: Identifies "Superintendent: Dr. Matthew Searson"
+4. **April 2025 News Article** ([laclederecord.com](https://www.laclederecord.com/stories/conway-superintendent-discusses-school-bond-ballot-issue,125245)): References "Laclede County R-I Superintendent Matt Searson" discussing a school bond issue
+
+## Name Resolution
+
+Search 1 reports: "Matt Searson"
+Search 2 reports: "Matthew Searson"
+
+The 2025-26 student handbook and news sources confirm his full legal name is **Matthew Searson**. "Matt" is a common shortened form of "Matthew."
+
+## Final Determination
+
+Both searches agree on the same individual, with Search 2 correctly identifying the full legal name. There is no evidence of any superintendent transition during the 2025-26 school year. Matthew Searson has served continuously and will serve the majority of the school year.
+
+---
+
+**FINAL_NAME:** Matthew Searson
+
+**CHOSEN_SOURCE:** both_agree
+
+**DISTRICT_VERIFIED:** yes
+
+**CONFIDENCE:** high
+
+**ADJUDICATION_REASON:** Both searches independently confirmed Matthew Searson as superintendent through the district's official website and multiple corroborating sources dated through April 2025. The 2025-26 student handbook explicitly names him as superintendent for the current school year. No transition or vacancy was found.
+
+============================================================
+LEAID=4004650 | BLAIR, OKLAHOMA | Step 1
+============================================================
+DISTRICT_CONFIRMED: Blair Public Schools
+SUPERINTENDENT_FULL_NAME: Stacey Davis
+FOUND_ON_DISTRICT_WEBSITE: yes
+TITLE_IS_SUPERINTENDENT: yes
+SOURCE_CURRENT_SCHOOL_YEAR: yes
+MULTIPLE_SOURCES_AGREE: yes
+CONFLICTING_INFO_FOUND: no
+STRUCTURAL_UNCERTAINTY: no
+SUPERINTENDENT_TRANSITION: no
+DISTRICT_WEBSITE_ACCESSIBLE: yes
+DISTRICT_MAILING_ADDRESS: Post Office Box 428, Blair, OK 73526
+EVIDENCE_SUMMARY: The official district website (blairschool.org) lists Stacey Davis as Superintendent on both the Administration and Staff Directory pages, matching the NCES address and LEAID context. OK state records also name Stacey Davis as superintendent for the district.[1][3][1][2]
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.blairschool.org/apps/pages/index.jsp?uREC_ID=1544348&type=d
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: undated
+SOURCE_URL_2: https://www.blairschool.org/apps/staff/
+SOURCE_TYPE_2: district_website
+SOURCE_DATE_2: undated
+
+============================================================
+LEAID=4004650 | BLAIR, OKLAHOMA | Verification
+============================================================
+candidate=Stacey Davis → verified=Stacey Davis, confidence=high
+
+DISTRICT_CONFIRMED: Blair Public Schools
+SUPERINTENDENT_FULL_NAME: Stacey Davis
+FOUND_ON_DISTRICT_WEBSITE: yes
+TITLE_IS_SUPERINTENDENT: yes
+SOURCE_CURRENT_SCHOOL_YEAR: yes
+MULTIPLE_SOURCES_AGREE: yes
+CONFLICTING_INFO_FOUND: no
+STRUCTURAL_UNCERTAINTY: no
+SUPERINTENDENT_TRANSITION: no
+DISTRICT_WEBSITE_ACCESSIBLE: yes
+DISTRICT_MAILING_ADDRESS: 
+EVIDENCE_SUMMARY: Stacey Davis is listed as the Superintendent on the administration page and in the staff directory of the Blair Public Schools (Oklahoma) official website. The information is consistent across multiple pages of the district site, and there is no evidence of conflicting leadership or a recent transition.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.blairschool.org/apps/staff/
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: undated
+SOURCE_URL_2: https://www.blairschool.org/apps/pages/index.jsp?type=d&uREC_ID=1544348
+SOURCE_TYPE_2: district_website
+SOURCE_DATE_2: undated
+
+============================================================
+LEAID=4004650 | BLAIR, OKLAHOMA | Adjudication
+============================================================
+pipeline='Stacey Davis' (high), verification='Stacey Davis' (high) → final='Stacey Davis' (high)
+[ADJUDICATION: chose=both_agree, district_verified=True, reason=Both independent searches found identical information with high confidence, citing multiple pages on the official district website that consistently list Stacey Davis as Superintendent. No conflicting information, transitions, or uncertainty exists, and the district verification confirms this is the correct Blair Public Schools in Oklahoma.]
+
+## Adjudication Analysis
+
+### 1. DISTRICT VERIFICATION
+Both searches correctly identified **Blair Public Schools** in Oklahoma:
+- The NCES mailing address is **Post Office Box 428, Blair, OK 73526**
+- Search 1 explicitly confirmed this address matches
+- Both searches cite the official district website (blairschool.org)
+- The district is located in Greer, Kiowa, and Jackson counties in Oklahoma
+- Both searches found the correct district ✓
+
+### 2. SUPERINTENDENT IDENTIFICATION
+Both searches independently found:
+- **Name:** Stacey Davis
+- **Title:** Superintendent
+- **Source:** Official district website (multiple pages)
+- **Confidence:** High (both searches)
+
+### 3. EVIDENCE QUALITY
+The evidence is exceptionally strong:
+- Found on the district's official website administration page
+- Found on the district's official staff directory
+- Multiple consistent references across different pages
+- No conflicting information found
+- No evidence of any superintendent transition
+- Both searches agree completely
+
+### 4. MAJORITY-OF-YEAR DETERMINATION
+- No transition mentioned in either search
+- Current information on district website
+- No indication of vacancy, retirement, or change
+- Stacey Davis serves as superintendent throughout the 2025-26 school year
+
+### 5. INDEPENDENT VERIFICATION
+I reviewed the web search results provided, which include direct content from blairschool.org:
+- [blairschool.org](https://www.blairschool.org/apps/pages/index.jsp?pREC_ID=1671630&type=d&uREC_ID=1544348) Administration page lists "Stacey Davis, Superintendent"
+- [blairschool.org](https://www.blairschool.org/apps/staff/) Staff Directory lists "Mrs. Stacey Davis Superintendent"
+- Board of Education page confirms district governance structure
+
+---
+
+**FINAL_NAME:** Stacey Davis
+
+**CHOSEN_SOURCE:** both_agree
+
+**DISTRICT_VERIFIED:** yes
+
+**CONFIDENCE:** high
+
+**ADJUDICATION_REASON:** Both independent searches found identical information with high confidence, citing multiple pages on the official district website that consistently list Stacey Davis as Superintendent. No conflicting information, transitions, or uncertainty exists, and the district verification confirms this is the correct Blair Public Schools in Oklahoma.
+

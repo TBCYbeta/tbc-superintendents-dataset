@@ -1,0 +1,2289 @@
+============================================================
+LEAID=3307360 | Pinkerton Academy School District, NEW HAMPSHIRE | Step 1
+============================================================
+**Dr. Timothy J. Powers is the Head of School (top leader) for Pinkerton Academy School District for the 2025–2026 school year.[4][2]**
+
+## Governance Structure
+Pinkerton Academy operates as an independent academy serving multiple NH towns (Derry, Chester, Hampstead, etc.), governed by a Board of Trustees rather than a traditional superintendent.[1] The Head of School supervises overall school operations under the Board's direction, fitting the query's allowance for the top leader in a single-school district.[1][1][2]
+
+## Confirmation Details
+The district's official administration page lists Dr. Timothy J. Powers as Head of School with credentials (Ed.D., Walden University) and contact info, current as of 2025–2026.[2] The Board of Trustees page for 2025–2026 confirms this structure with no superintendent named; external sources like NHIAA also reference him as Head of School.[1][10][1]
+
+DISTRICT_CONFIRMED: Pinkerton Academy School District  
+SUPERINTENDENT_FULL_NAME: Dr. Timothy J. Powers  
+CONFIDENCE: high  
+CONFIDENCE_REASON: District website explicitly lists Dr. Powers as Head of School (top operational leader) on current pages dated to 2025-2026 school year; matches governance model for this independent single-school district.  
+UNKNOWN_REASON:  
+SOURCE_URL_1: https://www.pinkertonacademy.org/about/administration  
+SOURCE_TYPE_1: district_website  
+SOURCE_DATE_1: 2025-12  
+SOURCE_URL_2: https://www.pinkertonacademy.org/about/board-of-trustees  
+SOURCE_TYPE_2: district_website  
+SOURCE_DATE_2: 2025-12
+
+============================================================
+LEAID=5002610 | Brighton School District, VERMONT | Step 1
+============================================================
+Based on my research, I have found clear and authoritative information about the superintendent for Brighton School District.
+
+**Elaine Collins is the superintendent of North Country Supervisory Union (NCSU), which oversees Brighton School District in Island Pond, Vermont, for the 2025–2026 school year.** [7][8]
+
+## District Structure
+
+Brighton School District is a component of the North Country Supervisory Union, as noted in the query. [5] In Vermont's supervisory union structure, the superintendent of the supervisory union serves as the chief educational officer for the member districts, including Brighton School District. Elaine Collins has served as superintendent of NCSU since at least 2023, making her third year in the role as of March 2025. [8]
+
+## School Leadership
+
+Brighton Elementary School (the primary school in Brighton School District serving Island Pond) is led by Principal Annsunee Swift. [7]
+
+---
+
+DISTRICT_CONFIRMED: Brighton School District
+SUPERINTENDENT_FULL_NAME: Elaine Collins
+CONFIDENCE: high
+CONFIDENCE_REASON: Elaine Collins is confirmed as Superintendent of North Country Supervisory Union on the official NCSU website current page, and NCSU is the supervisory union that administers Brighton School District. Her title and role are unambiguously documented on the district's authoritative website.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.ncsuvt.org/13266_1
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: undated
+SOURCE_URL_2: https://legislature.vermont.gov/Documents/2026/Workgroups/House%20Education/Bills/H.454/Witness%20Documents/H.454~Elaine%20Collins~NCSU%20Superintendent%20of%20Schools%20Testimony%2C%203-25-25.pdf
+SOURCE_TYPE_2: government
+SOURCE_DATE_2: 2025-03
+
+============================================================
+LEAID=2506510 | King Philip, MASSACHUSETTS | Step 1
+============================================================
+DISTRICT_CONFIRMED: King Philip Regional School District
+SUPERINTENDENT_FULL_NAME: Dr. Rich Drolet
+CONFIDENCE: high
+CONFIDENCE_REASON: District website and Massachusetts DOE profiles unambiguously list Dr. Rich Drolet as the current superintendent, with recent news (Jan 2025) and homepage mentions (updated Feb 2026) confirming ongoing service in the 2025-26 school year.[1][2][11][1][2]
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.kingphilip.org/about/superintendent/
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: 2026-02
+SOURCE_URL_2: https://profiles.doe.mass.edu/profiles/general.aspx?orgcode=06900000&orgtypecode=6
+SOURCE_TYPE_2: government
+SOURCE_DATE_2: undated
+
+============================================================
+LEAID=3807200 | FT YATES 4, NORTH DAKOTA | Step 1
+============================================================
+**Brandt Dick is the superintendent of FT Yates Public School District #4 (NCES LEAID 3807200) for the 2025–2026 school year.[8][1]**
+
+## District Details
+FT Yates 4, also known as Fort Yates Public School District, is a regular public school district in Fort Yates, North Dakota, serving grades around 6-8 with about 167 students.[1][5] The official district website is http://www.fort-yates.k12.nd.us, which lists staff including Principal Dakota Eagle but does not prominently display the superintendent.[6] North Dakota state education insights confirm Brandt Dick as District Superintendent for 2025-2026, with contact brandt.dick@k12.nd.us.[8][1]
+
+## Confirmation Sources
+The North Dakota Insights dashboard explicitly labels the section "About the District (2025-2026)" and names Brandt Dick as superintendent, making it a current state government source.[8][1] Older district news mentions Kimberly Whitebull in December 2024, but no recent transition news to or from Brandt Dick appears.[10] Sioux County lists Angela Eagle as Superintendent of Schools (county role), distinct from the district position.[2]
+
+DISTRICT_CONFIRMED: Ft Yates Public School District
+SUPERINTENDENT_FULL_NAME: Brandt Dick
+CONFIDENCE: high
+CONFIDENCE_REASON: Unambiguous listing as District Superintendent on ND government education site for 2025-2026 school year.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://insights.nd.gov/Education/District/43004
+SOURCE_TYPE_1: government
+SOURCE_DATE_1: 2025-10
+SOURCE_URL_2: http://www.fort-yates.k12.nd.us
+SOURCE_TYPE_2: district_website
+SOURCE_DATE_2: undated
+[source: web:8][1][6]
+
+============================================================
+LEAID=0691027 | Sacramento County Office of Education, CALIFORNIA | Step 1
+============================================================
+**David W. Gordon is the current Superintendent of the Sacramento County Office of Education (SCOE) for the 2025–2026 school year.** [7][25]
+
+## Leadership Confirmation
+SCOE's official organization and leadership page lists David W. Gordon as the County Superintendent of Schools, overseeing the Superintendent’s Cabinet that includes Deputy Superintendent Nancy Herota, Ed.D., and other key administrators. No updates indicate a change; he announced his retirement effective June 30, 2027, and a search process began in early 2026 with applications closing March 31, 2026, and no successor appointed yet. [1][1][4][10][3]
+
+## Search Status
+The Sacramento County Board of Education hired Leadership Associates for the search, including community surveys (open until March 2, 2026) and forums in February 2026; interviews are planned for May 2026 with a start date TBD after Gordon's term. District and state sites presume continuity absent contrary news from the 2025-26 year. [2][23][3]
+
+DISTRICT_CONFIRMED: Sacramento County Office of Education  
+SUPERINTENDENT_FULL_NAME: David W. Gordon  
+CONFIDENCE: high  
+CONFIDENCE_REASON: Official SCOE leadership page confirms Gordon as serving superintendent with no removal or replacement news; retirement set for June 2027 post-2025-26 year, and active search yields no successor started.  
+UNKNOWN_REASON:  
+SOURCE_URL_1: https://www.scoe.net/About/Organization--Leadership/County-Superintendent/index.html  
+SOURCE_TYPE_1: district_website  
+SOURCE_DATE_1: undated  
+SOURCE_URL_2: https://www.scoe.net/superintendentsearch/  
+SOURCE_TYPE_2: district_website  
+SOURCE_DATE_2: 2026-02
+
+============================================================
+LEAID=5304290 | Lamont School District, WASHINGTON | Step 1
+============================================================
+**Shannon Hughes is the superintendent (and principal) of Lamont School District (NCES LEAID 5304290) for the 2025–2026 school year.** [17][19][1]
+
+## Official Confirmation
+The district's official shared website, spraguelamont.org (serving both Sprague SD #8 and Lamont SD #264), lists Mrs. Shannon Hughes as "Superintendent & Principal" for Lamont School at 602 Main Street, Lamont, WA 99017, with email shughes@lamont.wednet.edu. [17][1][19] This matches the NCES address and phone (509) 257-2463 for the district. [18] State records from OSPI confirm Shannon Hughes as the superintendent contact. [11]
+
+## District Context
+Lamont School District is a small, single-school regular public district (not part of a supervisory union) in Washington state, with one K-8 school also called Lamont School (middle school section). [18] The shared staff directory explicitly assigns her to Lamont School District as Superintendent/Principal/Reading/LAP. [19] Recent site updates (up to Feb 2026) show no leadership changes. [13]
+
+DISTRICT_CONFIRMED: Lamont School District
+SUPERINTENDENT_FULL_NAME: Shannon Hughes
+CONFIDENCE: high
+CONFIDENCE_REASON: District website and state OSPI records unambiguously list her as current Superintendent/Principal for 2025-26 with no contrary news; small single-school district fits principal as top leader.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.spraguelamont.org/our-schools/middle-school
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: 2025-04
+SOURCE_URL_2: https://eds.ospi.k12.wa.us/directoryeds.aspx
+SOURCE_TYPE_2: government
+SOURCE_DATE_2: 2025-04
+[source: web:11][17][19][1]
+
+============================================================
+LEAID=3416970 | Warren Hills Regional School District, NEW JERSEY | Step 1
+============================================================
+**Earl C. Clymer, III is the superintendent of Warren Hills Regional School District for the 2025–2026 school year.** [1][3]
+
+## Confirmation from District Sources
+The district's Board of Education page lists Earl C. Clymer, III as Superintendent of Schools (ex-officio member). [1][1] The administration page provides his contact: 908.689.3143 ext. 1045, clymere@warrenhills.org. [3]
+
+## Recent Evidence
+A January 6, 2026, board reorganization agenda (from the current school year) refers to "Mr. Earl C. Clymer, III, Superintendent of Schools" multiple times, including his report and 2025-2026 district goals. [9][2] A November 11, 2025, agenda and state reports from 2023-24 also name him, with no departure news found. [6][10]
+
+DISTRICT_CONFIRMED: Warren Hills Regional School District
+SUPERINTENDENT_FULL_NAME: Earl C. Clymer, III
+CONFIDENCE: high
+CONFIDENCE_REASON: Unambiguous confirmation on district website (administration and BOE pages) and in January 2026 board agenda from the current school year (2025-26); no conflicting or departure information.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://hs.warrenhills.org/board-of-education
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: 2026-01
+SOURCE_URL_2: https://resources.finalsite.net/images/v1767639266/warrenhillsorg/ytlmf2ytek9xjbmt790y/202601-06Agenda-DRAFT-REORGANIZATION.pdf
+SOURCE_TYPE_2: district_website
+SOURCE_DATE_2: 2026-01
+
+============================================================
+LEAID=5513890 | Siren School District, WISCONSIN | Step 1
+============================================================
+DISTRICT_CONFIRMED: Siren School District [1][1]
+SUPERINTENDENT_FULL_NAME: Kevin Shetler, Ed.D. [1][3][1]
+CONFIDENCE: high [1][1]
+CONFIDENCE_REASON: Multiple district website pages, including the superintendent's blog with posts from August 2025 to February 2026 explicitly for the 2025-2026 school year, and the official contact page, confirm Kevin Shetler as the current superintendent actively serving. No news of departure, vacancy, or change found in current school year sources. [1][3][1]
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://sites.google.com/siren.k12.wi.us/superintendent-blog/home
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: 2026-02
+SOURCE_URL_2: https://www.siren.k12.wi.us/our-district/contact-us
+SOURCE_TYPE_2: district_website
+SOURCE_DATE_2: 2025-12
+
+============================================================
+LEAID=5900141 | St. Stephens Indian School, BUREAU OF INDIAN EDUCATION | Step 1
+============================================================
+**Kimberly Summers is the Superintendent/Principal of St. Stephens Indian School for the 2025–2026 school year.** [2][2]
+
+## Leadership Details
+Kimberly Summers holds the combined role of Superintendent/Principal, listed as the top administrator in the school's official 2025-2026 Student and Parent Handbook published on the BIE-hosted site sts.bie.edu. [2][2] This handbook, covering Aug 2025–Jun 2026, confirms her position under Administration, with no indication of changes or interim status. [2] The school's current BIE domain (sts.bie.edu) reflects direct federal oversight following 2022 retrocession, making this the authoritative source over older st-stephens.net listings. [10][12][1]
+
+DISTRICT_CONFIRMED: St. Stephens Indian School
+SUPERINTENDENT_FULL_NAME: Kimberly Summers
+CONFIDENCE: high
+CONFIDENCE_REASON: Unambiguous listing as Superintendent/Principal in the official 2025-2026 handbook from the BIE school site, current school year document.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://sts.bie.edu/sites/g/files/yujysj466/files/lvn/documents/Student%20Handbook%20SSIS%202025-2026%20508c.pdf
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: 2025-08
+SOURCE_URL_2: https://sts.bie.edu/our-school/our-team
+SOURCE_TYPE_2: district_website
+SOURCE_DATE_2: undated
+
+============================================================
+LEAID=3600083 | NEW YORK CITY GEOGRAPHIC DISTRICT # 6, NEW YORK | Step 1
+============================================================
+DISTRICT_CONFIRMED: Community School District 6
+SUPERINTENDENT_FULL_NAME: Renzo Martinez
+CONFIDENCE: high
+CONFIDENCE_REASON: Multiple official NYC DOE district pages and school sites from 2025-2026 explicitly list Renzo Martinez as the current Community Superintendent, with his introductory letter thanking predecessors confirming he has stepped into the role.[1][2][1]
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://sites.google.com/schools.nyc.gov/district6/
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: 2026-02
+SOURCE_URL_2: https://sites.google.com/schools.nyc.gov/district6/dlt
+SOURCE_TYPE_2: district_website
+SOURCE_DATE_2: 2026-02
+
+============================================================
+LEAID=1201140 | LEVY, FLORIDA | Step 1
+============================================================
+Based on authoritative sources, the superintendent of Levy County Schools for the 2025–2026 school year is **Tamara "Tammy" M. Boyle** [8].
+
+She began serving as superintendent on November 19, 2024, succeeding Christopher A. Cowart [2]. The Florida Department of Education website, updated February 24, 2026, confirms Tamara M. Boyle as the current superintendent [8]. Her contact information is listed as 480 Marshburn Drive, Bronson, FL 32621, with the superintendent's phone extension being 352-486-5231 ext. 224 [8]. The district's official website also lists her as superintendent, with messages dated August 4, 2025, and later, showing her actively serving in this role [10].
+
+---
+
+DISTRICT_CONFIRMED: School Board of Levy County
+SUPERINTENDENT_FULL_NAME: Tamara "Tammy" M. Boyle
+CONFIDENCE: high
+CONFIDENCE_REASON: The Florida Department of Education superintendent directory (updated Feb 24, 2026) and the official Levy County Schools website both confirm Tamara M. Boyle as the current superintendent. She began serving November 19, 2024, and messages on the district website dated August 2025 show her actively serving.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.fldoe.org/accountability/data-sys/school-dis-data/superintendents.stml
+SOURCE_TYPE_1: government
+SOURCE_DATE_1: 2026-02
+SOURCE_URL_2: https://www.levyk12.org/superintendent
+SOURCE_TYPE_2: district_website
+SOURCE_DATE_2: 2025-04
+
+============================================================
+LEAID=2741060 | Wabasha-Kellogg School District, MINNESOTA | Step 1
+============================================================
+**Nels Onstad is the superintendent of Wabasha-Kellogg School District for the 2025–2026 school year.** [1][1]
+
+## Confirmation from Sources
+The district's official superintendent page explicitly states that Nels Onstad is serving his third year, directly referencing the 2025–26 school year, confirming his current role.[1][1] The Minnesota Department of Education directory lists Nels Onstad as superintendent with contact details nonstad@wkfalcons.org and phone (651) 565-3559 x269.[4][2] Recent news from September 2025 identifies him as superintendent addressing mold issues delaying the school start.[11]
+
+## Prior Leadership
+Jim Freihammer was the previous superintendent, referenced in older sources up to 2024, but current district and state sites confirm the transition to Onstad.[2][19]
+
+DISTRICT_CONFIRMED: Wabasha-Kellogg Public School District
+SUPERINTENDENT_FULL_NAME: Nels Onstad
+CONFIDENCE: high
+CONFIDENCE_REASON: Unambiguous confirmation on the district website dated for the 2025-26 school year and corroborated by state education department listing and recent 2025 news articles.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.wabasha-kellogg.k12.mn.us/superintendent/
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: 2025-08
+SOURCE_URL_2: https://pub.education.mn.gov/MdeOrgView/organization/districtView?districtType=1&districtNumber=811
+SOURCE_TYPE_2: government
+SOURCE_DATE_2: 2025-01
+
+============================================================
+LEAID=1704230 | Armstrong Twp HSD 225, ILLINOIS | Step 1
+============================================================
+**Nick Hipsher is the superintendent of Armstrong Twp HSD 225 for the 2025–2026 school year.** [1][3][2]
+
+## Verification from Key Sources
+The district's official staff page lists Nick Hipsher as Superintendent under Administration. [12][1] The Illinois State Board of Education (ISBE) Report Card, a government source, confirms him as the current district superintendent. [1][4][2]
+
+## Recent Confirmation
+A February 2026 news article on the district's graduation rates refers to Nick Hipsher as superintendent during the 2024-25 school year, with no indication of change into 2025-26. [14] Earlier sources note a prior superintendent (Bill Mulvaney) retired around 2022, after which Hipsher took over. [2][6]
+
+DISTRICT_CONFIRMED: ARMSTRONG TWP HSD 225
+SUPERINTENDENT_FULL_NAME: Nick Hipsher
+CONFIDENCE: high
+CONFIDENCE_REASON: Confirmed as current superintendent on district website staff page and ISBE Report Card (government source), with recent 2026 news referencing him without transition news.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.armstrong.k12.il.us/staff
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: undated
+SOURCE_URL_2: https://www.illinoisreportcard.com/District.aspx?Districtid=54092225017
+SOURCE_TYPE_2: government
+SOURCE_DATE_2: 2024-12
+SOURCE_URL_3: https://chambanasun.com/graduation-rates-from-armstrong-township-high-school-district-225-unchanged-in-2024-25-school-year/
+SOURCE_TYPE_3: news
+SOURCE_DATE_3: 2026-02
+
+============================================================
+LEAID=1742840 | Winnetka SD 36, ILLINOIS | Step 1
+============================================================
+**Dr. Kelly Tess is the superintendent of Winnetka SD 36 for the 2025–2026 school year.** [8][2]
+
+## Confirmation Sources
+The district's official website lists Dr. Kelly Tess as Superintendent, with a detailed bio confirming her ongoing role in the Superintendent's Office. [8][2] The Illinois Report Card also identifies her as the current district superintendent. [3][9]
+
+## Recent Activity
+District content from June 2025 refers to Dr. Tess as the superintendent hosting a podcast episode. [5] No news indicates any departure, replacement, or interim leadership for her role in 2025 or 2026. [12][13]
+
+DISTRICT_CONFIRMED: WINNETKA SD 36  
+SUPERINTENDENT_FULL_NAME: Dr. Kelly Tess  
+CONFIDENCE: high  
+CONFIDENCE_REASON: District website and state report card unambiguously list Dr. Kelly Tess as current superintendent; recent district podcast (Jun 2025) and no change news confirm for 2025-26.  
+UNKNOWN_REASON:  
+SOURCE_URL_1: https://www.winnetka36.org/district/departments/superinendents-office  
+SOURCE_TYPE_1: district_website  
+SOURCE_DATE_1: 2026-02  
+SOURCE_URL_2: https://www.illinoisreportcard.com/District.aspx?Districtid=05016036002  
+SOURCE_TYPE_2: government  
+SOURCE_DATE_2: 2024-12
+
+============================================================
+LEAID=3600081 | NEW YORK CITY GEOGRAPHIC DISTRICT # 5, NEW YORK | Step 1
+============================================================
+**Sean L. Davenport (or Sean Davenport) is the superintendent of New York City Geographic District #5 for the 2025–2026 school year.** [1][1][26]
+
+## Confirmation from Official Sources
+The official NYC Department of Education district leadership page lists Sean Davenport as the Superintendent for District 5, with office at 123 Morningside Drive, New York, NY 10027, phone (212) 222-1395. [1][1] This page details his background as a former high school English teacher, leader in Manhattan schools, and founding principal of a District 5 elementary school. [1][1]
+
+## State and Council Records
+The NYSED data site lists "SEAN DAVENPORT" as superintendent, matching NCES LEAID 3600081 for this district (BEDS code 310500010000). [4][6][2] The Harlem Community Education Council District 5 site (cec5.org) names Dr. Sean L. Davenport as Superintendent, alongside Deputy Dr. Dawn Brooks-DeCosta. [26]
+
+## No Evidence of Change
+Searches for 2025-2026 updates, departures, or new appointees yielded no news of replacement; listings remain consistent since his 2022 appointment. [21][23] Average superintendent tenure (5-6 years) supports ongoing service into 2025-26. [1][1][26]
+
+DISTRICT_CONFIRMED: NEW YORK CITY GEOGRAPHIC DISTRICT # 5 - MANHATTAN
+SUPERINTENDENT_FULL_NAME: Sean L. Davenport
+CONFIDENCE: high
+CONFIDENCE_REASON: Confirmed as current by NYC DOE district leadership page (authoritative district website) and NYSED profile, with no news of change in 2025-26 school year.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.schools.nyc.gov/about-us/leadership/district-leadership
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: 2026-02
+SOURCE_URL_2: https://data.nysed.gov/profile.php?instid=800000047161
+SOURCE_TYPE_2: government
+SOURCE_DATE_2: 2025-06
+
+============================================================
+LEAID=3703310 | Craven County Board of Education, NORTH CAROLINA | Step 1
+============================================================
+**As of February 27, 2026, Dr. Stuart Blount is the acting superintendent of Craven County Schools (Craven County Board of Education), serving in an interim capacity during the transition to the permanent superintendent, Dr. Matthew Cheeseman.[1][5]**
+
+## Leadership Timeline
+Dr. Wendy Miller resigned effective May 30, 2025, after which Richard L. Stout, Jr. became interim superintendent starting May 1, 2025.[4][5][14]  
+Dr. Stuart Blount was then appointed interim superintendent effective January 1, 2026, to ensure leadership continuity until Dr. Cheeseman's official start.[1][5]  
+Dr. Matthew Cheeseman was unanimously approved as the new permanent superintendent on December 16, 2025, took his oath on January 12, 2026, but does not begin serving until February 1, 2026.[1][6][7]
+
+## District Website Status
+The official site (cravenk12.org) still highlights earlier interim announcements like Stout's but lacks an update confirming Cheeseman's active role as of the latest fetch, consistent with his future start date.[1][14]
+
+DISTRICT_CONFIRMED: Craven County Schools  
+SUPERINTENDENT_FULL_NAME: Dr. Stuart Blount  
+CONFIDENCE: high  
+CONFIDENCE_REASON: District news releases and recent reports (Dec 2025–Jan 2026) unambiguously confirm Blount as the current interim serving through Jan 2026, with Cheeseman's start delayed to Feb 1.  
+UNKNOWN_REASON:  
+SOURCE_URL_1: https://www.cravenk12.org/new/~board/ccs-news/post/craven-county-board-of-education-approves-dr-matthew-cheeseman-as-new-superin  
+SOURCE_TYPE_1: district_website  
+SOURCE_DATE_1: 2025-12  
+SOURCE_URL_2: https://newbernnow.com/on-the-agenda-craven-county-board-of-education-jan-15-2026/  
+SOURCE_TYPE_2: news  
+SOURCE_DATE_2: 2026-01
+
+============================================================
+LEAID=0625150 | Modesto City High, CALIFORNIA | Step 1
+============================================================
+Based on my research, I have found clear information about the superintendent of Modesto City Schools for the 2025–2026 school year.
+
+**Dr. Vanessa Buitrago is the Superintendent of Modesto City Schools for the 2025–2026 school year.** [1][2][10] She was appointed by the Board of Education on May 12, 2025, and officially assumed the role on July 1, 2025. [1]
+
+## Background
+
+Dr. Buitrago is a graduate of Modesto City Schools, having attended Elihu Beard Elementary, Roosevelt Junior High, and Modesto High School (graduating in 2001 as an International Baccalaureate student). [1] She brings over 20 years of experience in education and educational leadership, including roles as a teacher, principal, and assistant superintendent in Sacramento City Unified School District, as well as a network deputy superintendent at Oakland Unified School District. [1]
+
+## Transition Details
+
+Dr. Buitrago succeeded retiring Superintendent Dr. Sara Noguchi, who ended her tenure at the conclusion of the 2024–2025 academic year. [1][12] The Board of Education conducted an extensive search process with 14 applicants and selected Buitrago following interviews and input from parents, students, and educational partners. [1]
+
+---
+
+DISTRICT_CONFIRMED: Modesto City Schools [1]
+SUPERINTENDENT_FULL_NAME: Dr. Vanessa Buitrago [1][2][10]
+CONFIDENCE: high
+CONFIDENCE_REASON: Multiple authoritative sources from the current school year (2025–26) confirm Dr. Buitrago is currently serving as superintendent. The California Department of Education School Directory (dated 2025-11-13) and the district's own website list her as the active superintendent, and news articles document her official start date of July 1, 2025.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.mcs4kids.com/article/2212537
+SOURCE_TYPE_1: news
+SOURCE_DATE_1: 2025-05
+SOURCE_URL_2: https://www.cde.ca.gov/schooldirectory/details?cdscode=50711750000000
+SOURCE_TYPE_2: government
+SOURCE_DATE_2: 2025-11
+
+============================================================
+LEAID=3403750 | Delaware Valley Regional High School District, NEW JERSEY | Step 1
+============================================================
+**Scott McKinney is the superintendent of the Delaware Valley Regional High School District for the 2025–2026 school year.** [1][2]
+
+## Confirmation from Official Sources
+The district's administration page lists Scott McKinney as the current superintendent, with contact details and a biography highlighting his prior role as K-12 Assistant Superintendent in Berkeley Heights Public Schools.[1][2][11] The Superintendent's Welcome page on the district website also identifies him in this role, emphasizing his commitment to the school's programs.[12][1]
+
+## State and Additional Records
+A New Jersey Department of Education report for the district (NCES LEAID 3403750) names Mr. Scott McKinney as superintendent, with email and phone confirmation, referencing the 2025-26 school year context.[9] No recent news indicates any leadership change or departure for McKinney in 2024-2025.[13][14]
+
+DISTRICT_CONFIRMED: Delaware Valley Regional High School District
+SUPERINTENDENT_FULL_NAME: Scott McKinney
+CONFIDENCE: high
+CONFIDENCE_REASON: District website unambiguously lists McKinney as superintendent with current contact info; NJ DOE report confirms with 2025-26 reference; no news of changes.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.dvrhs.org/page/administration
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: undated
+SOURCE_URL_2: https://www.nj.gov/education/sprreports/202324/District-Detail/19-1050.pdf
+SOURCE_TYPE_2: government
+SOURCE_DATE_2: 2023-24
+SOURCE_URL_3: https://www.dvrhs.org/page/superintendents-welcome
+SOURCE_TYPE_3: district_website
+SOURCE_DATE_3: undated
+
+============================================================
+LEAID=3407680 | Irvington Public School District, NEW JERSEY | Step 1
+============================================================
+Based on my research, **Dr. April Vauss is the superintendent of Irvington Public School District, New Jersey for the 2025–2026 school year** [6][19].
+
+## Superintendent Information
+
+Dr. April Vauss has served as superintendent of Irvington Public Schools since at least 2018 [4]. The district's official website and current staff directory confirm she is currently serving in this role [6][9][19]. As of February 2026, no departure or interim leadership has been reported, and she continues to be listed as the superintendent on the district's leadership page [19].
+
+---
+
+DISTRICT_CONFIRMED: Irvington Public School District
+SUPERINTENDENT_FULL_NAME: Dr. April Kay Vauss
+CONFIDENCE: high
+CONFIDENCE_REASON: Dr. Vauss is confirmed as the currently serving superintendent on the district's official website, staff directory, and recent leadership pages from 2025–2026. Multiple authoritative sources from the current school year confirm her active role.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://irvington.k12.nj.us/district/leadership/
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: 2025-07
+SOURCE_URL_2: https://irvington.k12.nj.us/staff-directory-groups/
+SOURCE_TYPE_2: district_website
+SOURCE_DATE_2: undated
+
+============================================================
+LEAID=5006930 | Rockingham School District, VERMONT | Step 1
+============================================================
+**Andrew Haas is the superintendent overseeing Rockingham School District as part of the Windham Northeast Supervisory Union (WNESU) for the 2025–2026 school year.** [21][1][11]
+
+## District Structure
+Rockingham School District (NCES LEAID 5006930) is a regular public school district in Bellows Falls, Vermont, comprising elementary and middle schools, and operates as a component of WNESU. [26][28] In Vermont supervisory unions, the superintendent serves all member districts, including Rockingham, providing central leadership. [22]
+
+## Leadership Confirmation
+Andrew Haas is listed as WNESU superintendent on the Vermont Agency of Education's snapshot (as of January 28, 2025) and the district's site with 2025–2026 updates like June 2025 messaging. [1][21][2] No news indicates a change for the current year; recent meetings (e.g., January 2026) align with his role. [27][14]
+
+DISTRICT_CONFIRMED: Rockingham School District
+SUPERINTENDENT_FULL_NAME: Andrew Haas
+CONFIDENCE: high
+CONFIDENCE_REASON: Confirmed by current VT Agency of Education record (2025) and WNESU district website for 2025-2026 period; no conflicting recent sources.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://schoolsnapshot.vermont.gov/snapshot?organizationid=9e52d978-b4da-442d-8cdc-6a8a3d1a027e
+SOURCE_TYPE_1: government
+SOURCE_DATE_1: 2025-01
+SOURCE_URL_2: https://www.wnesu.org/our-district/superintendent
+SOURCE_TYPE_2: district_website
+SOURCE_DATE_2: 2025-06
+
+============================================================
+LEAID=3104290 | BRADY PUBLIC SCHOOLS, NEBRASKA | Step 1
+============================================================
+**Ann Foster is the superintendent of Brady Public Schools for the 2025–2026 school year.** [2][2]
+
+## Confirmation from District Sources
+The district's official staff page lists Ann Foster as Superintendent, alongside Samantha Pavelka as PK-12 Principal, confirming her top leadership role in this small district. [1][1] Her dedicated superintendent page notes her start on July 1, 2023, with no updates indicating departure. [2][2]
+
+## Recent Evidence (2025)
+Board agendas from August 2025 include a Superintendent's Report, implying her ongoing role. [13] News from August 2025 refers to her as Brady Public Schools Superintendent on a state commission (term through June 2027), and a Nebraska Auditor document from April 2025 lists her compensation for Brady. [11][16][17] A district document references her "25-26 Brady Supt Transparency," aligning with the current year. [18]
+
+DISTRICT_CONFIRMED: Brady Public Schools
+SUPERINTENDENT_FULL_NAME: Ann Foster
+CONFIDENCE: high
+CONFIDENCE_REASON: District website unambiguously lists her as current Superintendent; corroborated by 2025 board agendas, news, state records, and pay transparency docs with no departure evidence.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.bradyschools.org/staff/
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: 2025-02 (current as of Feb 2026)
+SOURCE_URL_2: https://www.bradyschools.org/page/superintendent
+SOURCE_TYPE_2: district_website
+SOURCE_DATE_2: 2024-08
+SOURCE_URL_3: https://www.education.ne.gov/commissioner/school-financing-review-commission/
+SOURCE_TYPE_3: government
+SOURCE_DATE_3: 2025-07
+
+============================================================
+LEAID=4209660 | Fannett-Metal SD, PENNSYLVANIA | Step 1
+============================================================
+**Dr. Tara Will is the superintendent of Fannett-Metal School District for the 2025–2026 school year.** [4][1]
+
+## Verification from Official Sources
+The district's administration page lists Dr. Tara Will as Superintendent, with her bio confirming her selection and ongoing role, including 2024-25 evaluation and 2025-26 goals. [4][1][15] Pennsylvania's EdNA database lists her with a superintendent commission starting July 1, 2025, through June 30, 2028. [10] Board minutes from April to August 2025 and the school board page reference her in the role. [5][8][11][15]
+
+## Historical Context
+David A. Burkett served until April 2022, after which Dr. Will took over; no recent changes reported. [2][3]
+
+DISTRICT_CONFIRMED: Fannett-Metal School District
+SUPERINTENDENT_FULL_NAME: Dr. Tara Will
+CONFIDENCE: high
+CONFIDENCE_REASON: Confirmed as current superintendent on district website (fmtigers.org) and PA EdNA state records for 2025-26 term, with recent board minutes and evaluations.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://fmtigers.org/district/administration/
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: 2026-01
+SOURCE_URL_2: https://www.edna.pa.gov/Screens/Details/wfAdminDetails.aspx?ID=26299
+SOURCE_TYPE_2: government
+SOURCE_DATE_2: 2025-01
+
+============================================================
+LEAID=3007200 | Columbus H S, MONTANA | Step 1
+============================================================
+**Casey Klasna is the superintendent of Columbus Public Schools (District 6) in Columbus, Montana, for the 2025–2026 school year.** [8][1]
+
+## Leadership Details
+Casey Klasna serves as the superintendent, with contact email cklasna@columbus.k12.mt.us and phone 406-322-5375. [1][8] This is confirmed in Stillwater County's official schools directory, listing district administrators including principals for high school (Jim Browning), middle school (Joseph Morse), and elementary (Tom Kurtz). [1]
+
+Klasna is also referenced as Columbus Public Schools Superintendent in the SSG Special Education Cooperative board listing from 2025. [11]
+
+## Sources and Confidence
+County and cooperative records align without conflicts or recent turnover news for 2025-26. [8][11][1]
+
+DISTRICT_CONFIRMED: Columbus Schools, District 6
+SUPERINTENDENT_FULL_NAME: Casey Klasna
+CONFIDENCE: high
+CONFIDENCE_REASON: Unambiguous listing as Superintendent on current county directory and 2025 cooperative board with no contrary news.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.stillwatercountymt.gov/DocumentCenter/View/926/Schools-Directory
+SOURCE_TYPE_1: government
+SOURCE_DATE_1: undated
+SOURCE_URL_2: https://sites.google.com/ssgc.k12.mt.us/ssgc/cooperative-board
+SOURCE_TYPE_2: other
+SOURCE_DATE_2: 2025-07
+SOURCE_URL_3: https://www.columbuscougars.com
+SOURCE_TYPE_3: district_website
+SOURCE_DATE_3: undated
+
+============================================================
+LEAID=5000401 | Lamoille North Modified Union School District #058A, VERMONT | Step 1
+============================================================
+**Catherine Gallagher, M.Ed., is the superintendent of Lamoille North Modified Union School District #058A for the 2025–2026 school year.** [1][2][1][2]
+
+## District Structure
+Lamoille North Modified Union School District #058A (NCES LEAID 5000401) is a component district within the Lamoille North Supervisory Union, based in Hyde Park, Vermont. The supervisory union oversees multiple schools, with the superintendent leading operations across districts including #058A. [1][2][5]
+
+## Confirmation Details
+Catherine Gallagher issued a welcome letter dated August 15, 2025, for the 2025–2026 school year (starting August 25, 2025) on the official supervisory union website. Vermont Agency of Education records list her as superintendent as of February 2, 2026. District directories and organizational charts from 2025–2026 also confirm her role with no mention of changes. [1][2][2][7][14]
+
+DISTRICT_CONFIRMED: Lamoille North Modified Union School District #058A  
+SUPERINTENDENT_FULL_NAME: Catherine Gallagher  
+CONFIDENCE: high  
+CONFIDENCE_REASON: Confirmed by district website welcome letter for 2025-2026 school year (Aug 2025) and VT Agency of Education snapshot as of Feb 2026, with no departure news.  
+UNKNOWN_REASON:  
+SOURCE_URL_1: https://www.lnsd.org/departments/superintendents-office  
+SOURCE_TYPE_1: district_website  
+SOURCE_DATE_1: 2025-08  
+SOURCE_URL_2: https://schoolsnapshot.vermont.gov/snapshot?organizationid=e65f5503-673c-4290-8ca6-f3d274b3b935  
+SOURCE_TYPE_2: government  
+SOURCE_DATE_2: 2026-02
+
+============================================================
+LEAID=2620850 | Lakeview Sch. District (Calhoun), MICHIGAN | Step 1
+============================================================
+DISTRICT_CONFIRMED: Lakeview School District [1][1]
+SUPERINTENDENT_FULL_NAME: Dr. William Patterson
+CONFIDENCE: high
+CONFIDENCE_REASON: District website unambiguously lists Dr. Patterson as current superintendent, listing unchanged since at least 2022 and corroborated by MHSAA and Michigan Dept. of Education listings in 2025. Board agenda in July 2025 approved his amended contract for 2025-2026 school year. [1][1][5][8][16]
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.lakeviewspartans.org/about/superintendent
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: 2026-02 (current as of Feb 2026)
+SOURCE_URL_2: https://my.mhsaa.com/schools/battlecreeklakeview
+SOURCE_TYPE_2: government
+SOURCE_DATE_2: 2025-03
+
+============================================================
+LEAID=5000411 | Quarry Valley Unified Union School District #70, VERMONT | Step 1
+============================================================
+Based on my search results, I have found clear confirmation of the superintendent for Quarry Valley Unified Union School District #70 for the 2025–2026 school year.
+
+**Christopher Sell is the superintendent of Greater Rutland County Supervisory Union (GRCSU), which serves Quarry Valley Unified Union School District #70, as of February 2, 2026.** [2] The GRCSU website staff directory confirms that Christopher Sell holds the position of Superintendent in the Central Office. [7]
+
+Since Quarry Valley is a component district within the GRCSU supervisory union structure, the superintendent at the supervisory union level serves the district. This is confirmed by multiple board meeting documents from the current school year (2025–2026), which consistently reference the superintendent's role in all QVUUSD board meetings. [1][6][12][19]
+
+---
+
+**DISTRICT_CONFIRMED:** Quarry Valley Unified Union School District #70
+
+**SUPERINTENDENT_FULL_NAME:** Christopher Sell
+
+**CONFIDENCE:** high
+
+**CONFIDENCE_REASON:** Vermont state education records (schoolsnapshot.vermont.gov) as of February 2, 2026 confirm Christopher Sell as superintendent of GRCSU, which governs Quarry Valley UUSD. This is corroborated by the official GRCSU staff directory and multiple board meeting documents from the current 2025–2026 school year.
+
+**UNKNOWN_REASON:** 
+
+**SOURCE_URL_1:** https://schoolsnapshot.vermont.gov/snapshot?organizationid=e1272fec-19df-4daf-8796-bc7dc82e50ce
+
+**SOURCE_TYPE_1:** government
+
+**SOURCE_DATE_1:** 2026-02
+
+**SOURCE_URL_2:** https://grcsu.org/grcsu-staff/
+
+**SOURCE_TYPE_2:** district_website
+
+**SOURCE_DATE_2:** undated
+
+============================================================
+LEAID=3626700 | SHERBURNE-EARLVILLE CENTRAL SCHOOL DISTRICT, NEW YORK | Step 1
+============================================================
+DISTRICT_CONFIRMED: Sherburne-Earlville Central School District [4][1]
+SUPERINTENDENT_FULL_NAME: Dr. Antoinette Halliday (acting)
+CONFIDENCE: high
+CONFIDENCE_REASON: August 2025 news article from the current school year confirms the board placed Robert Berson on leave and appointed Dr. Antoinette Halliday as acting superintendent until a new one is appointed; no later news of resolution found and district site lags. [4][3]
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.evesun.com/news/stories/2025-08-19/43187/Sherburne-Earlville-Board-of-Education-votes-to-oust-superintendent
+SOURCE_TYPE_1: news
+SOURCE_DATE_1: 2025-08
+SOURCE_URL_2: https://www.secsd.org/administration.aspx
+SOURCE_TYPE_2: district_website
+SOURCE_DATE_2: undated
+
+============================================================
+LEAID=5000432 | West River Valley Union Education District #72B, VERMONT | Step 1
+============================================================
+**Bob Thibault (full name: Robert Thibault) is the superintendent serving West River Valley Union Education District #72B for the 2025–2026 school year.** [1][2][3]
+
+West River Valley Union Education District #72B is a component district of the Windham Central Supervisory Union (WCSU), based in Townshend, Vermont, and overseen by the WCSU superintendent. [1][4][8] Bob Thibault was appointed WCSU superintendent in July 2023 and continues in the role, as confirmed by district website pages, staff directories, and recent communications like the December 2025 SuperNews. [1][2][5][11]
+
+State records explicitly list Robert Thibault as the superintendent as of February 2, 2026. [3] No news of departure, interim, or new appointment appears in 2025-2026 sources. [16][17][18]
+
+DISTRICT_CONFIRMED: West River Valley Union Education District #72B  
+SUPERINTENDENT_FULL_NAME: Bob Thibault  
+CONFIDENCE: high  
+CONFIDENCE_REASON: Multiple current district website sources and Vermont state snapshot from Feb 2026 unambiguously confirm Bob Thibault as the serving WCSU superintendent, who leads this supervisory union component district.  
+UNKNOWN_REASON:  
+SOURCE_URL_1: https://www.windhamcentral.org/superintendents-office  
+SOURCE_TYPE_1: district_website  
+SOURCE_DATE_1: 2026-02  
+SOURCE_URL_2: https://schoolsnapshot.vermont.gov/snapshot?organizationid=851a6fb0-b182-4c1e-9690-e841cfb3c3cd  
+SOURCE_TYPE_2: government  
+SOURCE_DATE_2: 2026-02
+
+============================================================
+LEAID=3401110 | Avalon School District, NEW JERSEY | Step 1
+============================================================
+**Kathleen Fox is the superintendent of Avalon School District (NCES LEAID 3401110) for the 2025–2026 school year.** [9][1]
+
+## Leadership Confirmation
+Kathleen Fox, listed as "Mrs. Kathleen Fox," serves as superintendent, with contact details including phone (609-967-7544 x3504) and email (kfox@avesnj.org), confirmed in New Jersey Department of Education records for the district at 235 32nd Street, Avalon, NJ. [9][1] She began in 2021, succeeding Stacey Tracy, and no news indicates a change through February 2026. [1]
+
+## Sources Checked
+The official district website (avalonstoneharborschools.org) lacks a current staff directory but matches NJDOE listings.  State SPR reports for 2023-24 and searches for 2025-26 updates show no departure or interim appointee. [9][1]
+
+DISTRICT_CONFIRMED: Avalon School District
+SUPERINTENDENT_FULL_NAME: Kathleen Fox
+CONFIDENCE: medium
+CONFIDENCE_REASON: NJDOE lists her unambiguously for 2023-24 (current as of 2026); appointed 2021 with no turnover news in 2025-26 searches, consistent with average tenure, but no explicit 2025-26 confirmation on district site.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.nj.gov/education/sprreports/202324/District-Detail/09-0170.pdf
+SOURCE_TYPE_1: government
+SOURCE_DATE_1: 2024-09
+SOURCE_URL_2: https://www.avalonstoneharborschools.org
+SOURCE_TYPE_2: district_website
+SOURCE_DATE_2: undated
+SOURCE_URL_3: https://www.sevenmiletimes.com/july-2021-articles/born-a-teacher-kathleen-foxs-path-to-superintendent-of-avalon-stone-harbor-sch ...
+SOURCE_TYPE_3: news
+SOURCE_DATE_3: 2021-07
+
+============================================================
+LEAID=5009600 | North Country Union High School District, VERMONT | Step 1
+============================================================
+Based on my research, I have found the superintendent serving North Country Union High School District for the 2025–2026 school year.
+
+**Elaine Collins** is the Superintendent of the North Country Supervisory Union, which oversees North Country Union High School District (NCES LEAID 5009600) in Newport, Vermont [1][10]. Since North Country Union High School District is a component of the North Country Supervisory Union, the supervisory union superintendent is the top leader for the district. Collins has been serving in this role since July 1, 2022 [7], and as of February 2, 2026, she remains the confirmed superintendent [10].
+
+---
+
+DISTRICT_CONFIRMED: North Country Union High School District (Component of North Country Supervisory Union)
+SUPERINTENDENT_FULL_NAME: Elaine Collins
+CONFIDENCE: high
+CONFIDENCE_REASON: Multiple authoritative current sources (supervisory union website updated 2024-12-09, Vermont state snapshot dated 2/02/2026, and legislative testimony from 3-25-25) confirm Elaine Collins as Superintendent. The district is a component of NCSU, making the SU superintendent the appropriate top leader.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.ncsuvt.org/central-office-staff
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: 2024-12
+SOURCE_URL_2: https://schoolsnapshot.vermont.gov/snapshot?organizationid=41139aa0-9567-4347-ac6c-1e4f9c5244c1
+SOURCE_TYPE_2: government
+SOURCE_DATE_2: 2026-02
+
+============================================================
+LEAID=4221930 | Knoch SD, PENNSYLVANIA | Step 1
+============================================================
+DISTRICT_CONFIRMED: Knoch School District
+SUPERINTENDENT_FULL_NAME: Dr. David Foley
+CONFIDENCE: high
+CONFIDENCE_REASON: District website staff directory and administration pages unambiguously list Dr. David Foley as the current superintendent as of February 2026.[13][3] Recent news from October-November 2025 confirms he is serving through June 2026, with successor Melissa Grantz appointed to start July 1, 2026.[1][2]
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.knochsd.org/apps/staff/
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: 2026-02
+SOURCE_URL_2: https://www.butlereagle.com/20251113/knoch-appoints-grantz-as-new-superintendent/
+SOURCE_TYPE_2: news
+SOURCE_DATE_2: 2025-11
+
+============================================================
+LEAID=5008243 | Hazen Union High School District #26, VERMONT | Step 1
+============================================================
+**Jason Di Giulio (Principal) is the top leader of Hazen Union High School District #26 for the 2025–2026 school year.** [11][3]
+
+## District Structure
+Hazen Union High School District #26 (NCES LEAID 5008243) operates Hazen Union School (grades 7-12) in Hardwick, Vermont, as a component district of the Orleans Southwest Supervisory Union (OSSU). OSSU provides centralized services like special education and administration, but each district retains its own school leadership.[4][8]
+
+## Leadership Details
+The district website lists Jason Di Giulio, Ed.D., as Principal, confirmed in current staff directories and a 2025-2026 welcome message. State records as of February 2026 also name him Principal. No superintendent is listed for this single-school district, making the principal the top leader per guidelines.[7][3][10][11]
+
+OSSU's Superintendent was Dr. David Baker during 2024-25 and early 2025-26 (e.g., January 2025 newsletter), with Rebecca Tatistcheff named to start July 1, 2026—after the 2025-26 year ends.[2][8][16]
+
+## Confidence Assessment
+High confidence, as district and state sources unambiguously confirm Di Giulio's current role during the 2025-26 school year, with no conflicting leadership changes.[11][3]
+
+DISTRICT_CONFIRMED: Hazen Union High School District #26  
+SUPERINTENDENT_FULL_NAME: Jason Di Giulio  
+CONFIDENCE: high  
+CONFIDENCE_REASON: District staff page and Vermont state snapshot (Feb 2026) confirm Jason Di Giulio as principal currently serving; no district-level superintendent identified for this single-school district, and OSSU transition postdates 2025-26 year.  
+UNKNOWN_REASON:  
+SOURCE_URL_1: https://hazen.ossu.org/en/staff  
+SOURCE_TYPE_1: district_website  
+SOURCE_DATE_1: 2026-02 (current)  
+SOURCE_URL_2: https://schoolsnapshot.vermont.gov/snapshot?organizationid=1229f2f5-26bd-4bba-b566-925e965ab7c6  
+SOURCE_TYPE_2: government  
+SOURCE_DATE_2: 2026-02
+
+============================================================
+LEAID=5000450 | Mountain Views Unified Union School District #76, VERMONT | Step 1
+============================================================
+DISTRICT_CONFIRMED: Mountain Views Unified Union School District #76
+SUPERINTENDENT_FULL_NAME: Sherry Sousa
+CONFIDENCE: medium
+CONFIDENCE_REASON: District website unambiguously lists Sherry Sousa as current superintendent with bio indicating ongoing service for last four years; state snapshot confirms as of early 2026. Petition in Feb 2025 seeks her removal but no evidence of departure or replacement by Feb 2026 [9][15][2].
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://mtnviews.org/about-us
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: 2026-02
+SOURCE_URL_2: https://schoolsnapshot.vermont.gov/snapshot?organizationid=56723013-7f86-40eb-84e4-6481d118826c
+SOURCE_TYPE_2: government
+SOURCE_DATE_2: 2026-02
+
+============================================================
+LEAID=5005810 | Mount Anthony Union High School District #14, VERMONT | Step 1
+============================================================
+**Tim Payne is the superintendent for the Mount Anthony Union High School District #14 for the 2025–2026 school year.** [1][2][1]
+
+## District Context
+Mount Anthony Union High School District #14 (NCES LEAID 5005810) is a regular public school district in Bennington, Vermont, and a component of the Southwest Vermont Supervisory Union (SVSU). [11][1] The SVSU oversees multiple districts, including Mount Anthony Union SD #14 (covering Mount Anthony Union Middle and High Schools), with a shared superintendent role. [5][4]
+
+## Leadership Confirmation
+Tim Payne was selected as SVSU superintendent in March 2025, following James R. Culkeen's retirement on June 30, 2025, and began serving on July 1, 2025—prior to the 2025–2026 school year (Aug 2025–Jun 2026). [1][1][2][2] He is confirmed in the role as of August 2025 (MAU board meeting) and January 2026 (Vermont Legislature testimony). [7][3]
+
+DISTRICT_CONFIRMED: Mount Anthony Union High School District #14  
+SUPERINTENDENT_FULL_NAME: Tim Payne  
+CONFIDENCE: high  
+CONFIDENCE_REASON: Multiple SVSU district website pages and recent 2025-2026 news/records unambiguously confirm Tim Payne serving as superintendent since July 1, 2025.  
+UNKNOWN_REASON:  
+SOURCE_URL_1: https://www.svsu.org/apps/pages/SuperintendentSearch  
+SOURCE_TYPE_1: district_website  
+SOURCE_DATE_1: 2025-03  
+SOURCE_URL_2: https://www.svsu.org/apps/news/article/2049058  
+SOURCE_TYPE_2: district_website  
+SOURCE_DATE_2: 2025-06
+
+============================================================
+LEAID=0625980 | Mother Lode Union Elementary, CALIFORNIA | Step 1
+============================================================
+**Larry Mahoney is the superintendent of Mother Lode Union Elementary School District for the 2025–2026 school year.** [7][4][14]
+
+## Confirmation from District Sources
+The district's staff directory lists Larry Mahoney as Superintendent/Principal of Charles Brown Learning Academy, overseeing district operations.[7] A May 2025 job posting for the district explicitly directs inquiries to Superintendent Larry Mahoney at lmahoney@mlusd.net for the 2025-2026 school year.[5]
+
+## Recent Official Records
+El Dorado County Office of Education lists Larry Mahoney as superintendent with contact details matching the district office.[4] California's Department of Education directory confirms Larry Mahoney as the active superintendent.[14][20]
+
+## Leadership Transition
+District board documents from March 2025 appointed Larry Mahoney from interim to full superintendent, effective July 1, 2025, for a three-year term covering 2025–2026.[19] He signed as superintendent in an August 2025 resolution, verifying his current service.[21]
+
+DISTRICT_CONFIRMED: Mother Lode Union School District
+SUPERINTENDENT_FULL_NAME: Larry Mahoney
+CONFIDENCE: high
+CONFIDENCE_REASON: Multiple district website pages, county education office, state CDE records, and 2025 board documents from the current school year unambiguously confirm Larry Mahoney serving as superintendent since July 2025.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.mlusd.net/staff
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: undated
+SOURCE_URL_2: https://edcoe.org/districts-and-schools/districts-and-schools-listings/mother-lode-union-school-district
+SOURCE_TYPE_2: government
+SOURCE_DATE_2: 2024-09
+
+============================================================
+LEAID=5003480 | Derby School District, VERMONT | Step 1
+============================================================
+**Elaine Collins is the superintendent for Derby School District (NCES LEAID 5003480) for the 2025–2026 school year.** [29][2]
+
+## District Context
+Derby School District in Derby Line, Vermont, operates as a component of the North Country Supervisory Union (NCSU) and consists of one school: Derby Elementary School (PK-6). [21][22] In Vermont's supervisory union structure, the union superintendent oversees component districts like Derby. [19]
+
+## Leadership Details
+Elaine Collins serves as NCSU superintendent, with confirmation as recent as February 2, 2026, covering the current 2025–2026 school year (Aug 2025–Jun 2026). [2][29] Derby Elementary's principal is Rhonda Reece (as of Jan 28, 2025), but the top district leader is the NCSU superintendent per state records. [22] No recent news indicates changes or interim leadership. [8][24]
+
+DISTRICT_CONFIRMED: Derby School District
+SUPERINTENDENT_FULL_NAME: Elaine Collins
+CONFIDENCE: high
+CONFIDENCE_REASON: Unambiguous confirmation of Elaine Collins as NCSU superintendent (overseeing Derby) from Vermont Agency of Education state snapshot dated Feb 2026, during the 2025-26 school year.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://schoolsnapshot.vermont.gov/snapshot?organizationid=41139aa0-9567-4347-ac6c-1e4f9c5244c1
+SOURCE_TYPE_1: government
+SOURCE_DATE_1: 2026-02
+SOURCE_URL_2: https://www.ncsuvt.org
+SOURCE_TYPE_2: district_website
+SOURCE_DATE_2: undated
+[source: web:21][22][28][29][2]
+
+============================================================
+LEAID=0631230 | Point Arena Joint Union High, CALIFORNIA | Step 1
+============================================================
+**Warren Galletti is the superintendent of Point Arena Joint Union High School District for the 2025–2026 school year.** [1][1]
+
+## Leadership Confirmation
+The district's official website lists Warren Galletti as superintendent, with contact details including phone (707-882-2803) and email (wgalletti@mcn.org), alongside the school board members. [1][14][1][2] This is corroborated by faculty/staff and school board pages updated as of late 2025. [6][14][2]
+
+## Recent Evidence
+District board agendas from February 2026 reference "Superintendent Galletti" actively managing operations, personnel, and finances during the current school year. [5][13] California Department of Education directories and third-party sites also confirm him in the role, with no news of departure, retirement, or replacement as of early 2026. [3][4][7][11]
+
+DISTRICT_CONFIRMED: Point Arena Joint Union High School District
+SUPERINTENDENT_FULL_NAME: Warren Galletti
+CONFIDENCE: high
+CONFIDENCE_REASON: District website unambiguously lists Galletti as superintendent; confirmed by 2025-26 board agendas (e.g., Feb 2026) and state directories with no transition news.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://pointarenaschools.org/school-board/
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: 2025-12
+SOURCE_URL_2: https://pointarenaschools.org/wp-content/uploads/2026/02/1.-Agenda.pdf
+SOURCE_TYPE_2: district_website
+SOURCE_DATE_2: 2026-02
+
+============================================================
+LEAID=1705880 | Benjamin SD 25, ILLINOIS | Step 1
+============================================================
+**Dr. Patrick McGill is the superintendent of Benjamin SD 25 for the 2025–2026 school year.** [1][6]
+
+## Evidence
+The Benjamin SD 25 Board of Education announced on April 28, 2025, that Dr. Patrick McGill was named the new superintendent, officially beginning his tenure on July 1, 2025—just before the August 2025 start of the 2025–2026 school year. [1][19] This aligns with the current school year, as the Illinois State Board of Education's Illinois Report Card lists him as the current district superintendent. [6][9][16]
+
+## Prior Leadership
+John R. Langton served as superintendent or interim superintendent prior to this transition (e.g., listed on older district pages and appointed interim in December 2024), but no sources indicate he continued into July 2025 or later. [2][12][15][20] District staff pages show inconsistencies (some still listing Langton), but the announcement and state records confirm McGill's role. [1]
+
+## Confidence Assessment
+Post-July 1, 2025, activity under McGill (e.g., August 2025 strategic planning approval) supports his current service. [18]
+
+DISTRICT_CONFIRMED: Benjamin School District 25  
+SUPERINTENDENT_FULL_NAME: Dr. Patrick McGill  
+CONFIDENCE: high  
+CONFIDENCE_REASON: District announcement confirms start July 1, 2025; corroborated by current ISBE Report Card listing and 2025 activity.  
+UNKNOWN_REASON:  
+SOURCE_URL_1: https://www.bendist25.org/o/bms/article/2173559  
+SOURCE_TYPE_1: district_website  
+SOURCE_DATE_1: 2025-04  
+SOURCE_URL_2: https://appsqa.isbe.net/illinoisreportcard/District.aspx?Districtid=19022025002  
+SOURCE_TYPE_2: government  
+SOURCE_DATE_2: 2025-12
+
+============================================================
+LEAID=3407500 | Hopewell Township School District, NEW JERSEY | Step 1
+============================================================
+**Mrs. Meghan Lammersen is the superintendent (also titled Superintendent/Principal) of Hopewell Township School District in Bridgeton, New Jersey, for the 2025–2026 school year.** [1][7][9]
+
+## Leadership Details
+This small district (NCES LEAID 3407500), serving K-8 at Hopewell Crest School, lists Mrs. Meghan Lammersen as superintendent in official New Jersey Department of Education reports for 2022-23 and 2023-24, with her email mlammersen@hopewellcrest.org and the district site hopewellcrest.org. [1][7] A June 2024 financial report confirms her ongoing role alongside business administrator Lisa M. DiNovi. [9] No news of departure, transition, or new hire appears in 2024-2026 searches. [21]
+
+## Confidence Assessment
+Average superintendent tenure (5-6 years) and recent state records support continuity into 2025-26, but lack of a 2025-26 specific report or current district homepage lowers certainty slightly. [1][7][9]
+
+DISTRICT_CONFIRMED: Hopewell Township School District  
+SUPERINTENDENT_FULL_NAME: Mrs. Meghan Lammersen  
+CONFIDENCE: medium  
+CONFIDENCE_REASON: Consistent naming in NJ DOE reports through 2023-24 and 2024 audit; no change news found for 2025-26. Lacks current-year confirmation from district site.  
+UNKNOWN_REASON:  
+SOURCE_URL_1: https://www.nj.gov/education/sprreports/202324/District-Detail/11-2270.pdf  
+SOURCE_TYPE_1: government  
+SOURCE_DATE_1: 2023-24  
+SOURCE_URL_2: https://www.nj.gov/education/finance/fp/acfr/search/24/2270.pdf  
+SOURCE_TYPE_2: government  
+SOURCE_DATE_2: 2024-06
+
+============================================================
+LEAID=0636820 | Silver Valley Unified, CALIFORNIA | Step 1
+============================================================
+**Jesse M. Najera is the superintendent of Silver Valley Unified School District for the 2025–2026 school year.** [1][2]
+
+## Leadership Confirmation
+California Department of Education records list Mr. Jesse Najera (also Jesse M. Najera) as the current superintendent, with contact details jnajera@svusdk12.net and phone extension 1119.[1][2] Additional sources, including a 2022 PDF document from the district and a 2020 profile, confirm him in the role with no indications of departure.[8][7]
+
+## Sources Assessment
+No news of leadership changes, retirements, or interim appointments appears in recent searches for 2025 or 2026. State sites presume current as no updates contradict this; average superintendent tenure supports continuity absent contrary evidence.[3][5]
+
+DISTRICT_CONFIRMED: Silver Valley Unified  
+SUPERINTENDENT_FULL_NAME: Jesse M. Najera  
+CONFIDENCE: medium  
+CONFIDENCE_REASON: Confirmed by authoritative CA Dept of Education directory as current superintendent; no 2025-26 change news found, and consistent across sources, but listings lack 2026-specific dates.  
+UNKNOWN_REASON:  
+SOURCE_URL_1: https://www.cde.ca.gov/schooldirectory/details?cdscode=36738900000000  
+SOURCE_TYPE_1: government  
+SOURCE_DATE_1: undated  
+SOURCE_URL_2: https://www.cde.ca.gov/sdprofile/details.aspx?cds=36738900000000  
+SOURCE_TYPE_2: government  
+SOURCE_DATE_2: undated
+
+============================================================
+LEAID=5006000 | Newport City School District, VERMONT | Step 1
+============================================================
+DISTRICT_CONFIRMED: Newport City School District
+SUPERINTENDENT_FULL_NAME: Elaine Collins
+CONFIDENCE: high
+CONFIDENCE_REASON: District is a component of North Country Supervisory Union (NCSU); official NCSU website lists Elaine Collins as current Superintendent of Schools [25][1]. State snapshot confirms her as of Feb 2026 [30].
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.ncsuvt.org/central-office-staff
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: 2026-02
+SOURCE_URL_2: https://schoolsnapshot.vermont.gov/snapshot?organizationid=41139aa0-9567-4347-ac6c-1e4f9c5244c1
+SOURCE_TYPE_2: government
+SOURCE_DATE_2: 2026-02
+
+============================================================
+LEAID=5000446 | Athens Grafton School District, VERMONT | Step 1
+============================================================
+**Andrew Haas is the superintendent for the Athens Grafton School District for the 2025–2026 school year.** [6][1][17]
+
+## District Context
+Athens Grafton School District (NCES LEAID 5000446) is a regular public school district and a component of the Windham Northeast Supervisory Union (WNESU) in Vermont, serving areas including Bellows Falls. [2][5] In Vermont supervisory unions, the superintendent oversees multiple component districts, including Athens Grafton. [30]
+
+## Leadership Confirmation
+Andrew Haas is listed as the current superintendent on the official WNESU website's central office staff page and board member portal. [1][17][19] State records from Vermont School Snapshot confirm him as superintendent of WNESU as of January 2025, with ongoing references in 2025-2026 meetings and updates. [2][14][22] A March 2025 school board video mentions "Andy Hos" in a supervisory context, likely a transcription error for Andrew Haas. [1]
+
+## School-Level Leader
+Grafton Elementary School (the district's single school) has Principal Angela Cartier, but the top leader for the district is the WNESU superintendent per supervisory union structure. [26][28]
+
+DISTRICT_CONFIRMED: Athens Grafton School District
+SUPERINTENDENT_FULL_NAME: Andrew Haas
+CONFIDENCE: high
+CONFIDENCE_REASON: Multiple current WNESU district website pages and state snapshot unambiguously list Andrew Haas as superintendent during the 2025-2026 school year, with no departure news.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.wnesu.org/our-district/meet-central-office-staff
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: 2026-02
+SOURCE_URL_2: https://schoolsnapshot.vermont.gov/snapshot?organizationid=9e52d978-b4da-442d-8cdc-6a8a3d1a027e
+SOURCE_TYPE_2: government
+SOURCE_DATE_2: 2025-01
+
+============================================================
+LEAID=5900095 | Circle of Nations, BUREAU OF INDIAN EDUCATION | Step 1
+============================================================
+Trevor Gourneau is the current superintendent (also listed as principal/superintendent interim) of Circle of Nations Wahpeton Indian School for the 2025–2026 school year.[8][1]
+
+## Leadership Details
+The school's IRS Form 990 for fiscal year ending June 2024 (filed May 2025) lists Trevor Gourneau as "Principal (Super. Interim /Superintendent)" with $146,890 compensation, indicating his top role.[1] Michael Herrick served as interim principal from April 2024, but Gourneau held the superintendent title concurrently.[1][7] Earlier filings show Tanner Rabbithead as CEO (ending April 2024), with Gourneau as principal prior.[1]
+
+## Context
+This BIE-affiliated, tribally controlled single-school district (grades 4-8) uses principal/superintendent interchangeably for its leader.[3] No recent news (2025-2026) indicates changes, and average tenure supports continuity.[7]
+
+DISTRICT_CONFIRMED: Circle of Nations Wahpeton Indian School  
+SUPERINTENDENT_FULL_NAME: Trevor Gourneau  
+CONFIDENCE: medium  
+CONFIDENCE_REASON: Confirmed in FY2024 IRS filing (filed 2025) as principal/superintendent interim; no newer news of departure, but lacks explicit 2025-26 district site confirmation.  
+UNKNOWN_REASON:  
+SOURCE_URL_1: https://projects.propublica.org/nonprofits/organizations/450431501  
+SOURCE_TYPE_1: other  
+SOURCE_DATE_1: 2025-05  
+SOURCE_URL_2: https://govsalaries.com/salaries/ND/circle-of-nations-wahpeton-indian-school  
+SOURCE_TYPE_2: other  
+SOURCE_DATE_2: 2025
+
+============================================================
+LEAID=5005220 | Lowell School District, VERMONT | Step 1
+============================================================
+**Elaine Collins is the superintendent of North Country Supervisory Union, which oversees Lowell School District (NCES LEAID 5005220) in Vermont for the 2025–2026 school year.** [22][1]
+
+## District Context
+Lowell School District is a component district of North Country Supervisory Union (NCSU), a supervisory union structure in Vermont where the superintendent leads multiple schools including Lowell Graded School (PK-8). [6][9] NCSU's central office lists Elaine Collins as superintendent, with recent state confirmation as of February 2026. [29][2]
+
+## School Leader
+Scott Boskind serves as principal of Lowell Graded School (as of January 2025); NCSU previously noted an interim principal (Rhoda McLure). [6][3] Vermont supervisory unions designate the SU superintendent as the top leader for component districts like Lowell. [8]
+
+DISTRICT_CONFIRMED: Lowell School District (North Country Supervisory Union)
+SUPERINTENDENT_FULL_NAME: Elaine Collins
+CONFIDENCE: high
+CONFIDENCE_REASON: Unambiguous confirmation from Vermont Agency of Education snapshot (2026) and NCSU listings for current school year; no conflicting recent evidence of change.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://schoolsnapshot.vermont.gov/snapshot?organizationid=41139aa0-9567-4347-ac6c-1e4f9c5244c1
+SOURCE_TYPE_1: government
+SOURCE_DATE_1: 2026-02
+SOURCE_URL_2: https://www.ncsuvt.org/13266_1
+SOURCE_TYPE_2: district_website
+SOURCE_DATE_2: undated
+SOURCE_URL_3: https://lgs.ncsuvt.org
+SOURCE_TYPE_3: district_website
+SOURCE_DATE_3: undated [22][6][29][1][3]
+
+============================================================
+LEAID=5008246 | Bellows Falls Union High School District #27, VERMONT | Step 1
+============================================================
+**Kelly O'Ryan is the top leader (Principal) of Bellows Falls Union High School District #27 for the 2025–2026 school year. [3][11]**
+
+This small, single-school district (NCES LEAID 5008246) is a component of the Windham Northeast Supervisory Union (WNESU), where Andrew Haas serves as the supervisory union superintendent. [1][13][1] As a component district without a separate superintendent listed on its sites, the high school principal holds the primary leadership role for the district's operations. [5][19]
+
+## Leadership Structure
+- **District Principal**: Kelly O'Ryan, current as listed on the official BFUHS staff page (bfuhs.wnesu.org). [3]
+- **Supervisory Union Superintendent**: Andrew Haas, overseeing multiple districts including BFUHS#27, with recent activity in June 2025. [2][16]
+- No district-specific superintendent found; past references to union-level leadership only. [1][2]
+
+## Sources Notes
+WNESU and BFUHS websites (2025-2026 context) confirm current staff; older news (e.g., 2022-2023 principal changes) shows transitions but no recent superintendent for this district. [11][13][19]
+
+DISTRICT_CONFIRMED: Bellows Falls Union High School District #27  
+SUPERINTENDENT_FULL_NAME: Kelly O'Ryan  
+CONFIDENCE: high  
+CONFIDENCE_REASON: Unambiguous listing as Principal (top leader for single-school district) on current district website (bfuhs.wnesu.org) during 2025-26 school year; no separate superintendent role evident.  
+UNKNOWN_REASON:  
+SOURCE_URL_1: https://bfuhs.wnesu.org/our-school/meet-our-staff  
+SOURCE_TYPE_1: district_website  
+SOURCE_DATE_1: 2026-02  
+SOURCE_URL_2: https://www.wnesu.org/our-district/superintendent  
+SOURCE_TYPE_2: district_website  
+SOURCE_DATE_2: 2025-06
+
+============================================================
+LEAID=4827870 | LOCKHART ISD, TEXAS | Step 1
+============================================================
+DISTRICT_CONFIRMED: Lockhart Independent School District [7][1]
+SUPERINTENDENT_FULL_NAME: Mark Estrada
+CONFIDENCE: high
+CONFIDENCE_REASON: District website lists Mark Estrada as current superintendent with contact details. Confirmed by 2025-26 course guide, Sept 2025 award as Region 13 Superintendent of the Year while at Lockhart ISD, and July 2025 news from district.[1][2][4][1][2]
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.lockhartisd.org/about-us/superintendent
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: 2025-09
+SOURCE_URL_2: https://resources.finalsite.net/images/v1736455496/lockhartisdorg/laiugnah19u6w58airke/SecondaryCourseGuide2025-2026Updated.pdf
+SOURCE_TYPE_2: district_website
+SOURCE_DATE_2: 2025-08
+
+============================================================
+LEAID=1800240 | South Dearborn Community Sch Corp, INDIANA | Step 1
+============================================================
+**Dr. Ronald Ross (also listed as Ron Ross or Ronald Ross Jr.) is the superintendent of South Dearborn Community School Corporation for the 2025–2026 school year.** [2][6][27]
+
+## Confirmation from Sources
+The district's official staff directory lists "Ross, Ron" as Superintendent with email ron.ross@sdcsc.k12.in.us and phone 812-926-2090.[2][6][15] Dr. Ross began serving on July 1, 2024, replacing Eric Lows, as confirmed by hiring announcements and a district welcome message for the 2024-25 year signed by him.[1][2][5]
+
+## Current Status
+Indiana Department of Education's 2025-2026 school directory explicitly lists Ronald Ross Jr. as the superintendent for South Dearborn Community Sch Corp (NCES 1800240).[28] A June 2025 publication and October 2025 news also refer to him as the current superintendent with no reports of departure, leave, or replacement during the 2025-26 year.[13][25]
+
+DISTRICT_CONFIRMED: South Dearborn Community Sch Corp
+SUPERINTENDENT_FULL_NAME: Dr. Ronald Ross
+CONFIDENCE: high
+CONFIDENCE_REASON: District website staff directory and Indiana DOE 2025-2026 school directory unambiguously list him as current superintendent; corroborated by recent news (2025) with no contrary evidence.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.sdcsc.k12.in.us/staff_directory/index.php
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: 2026-02
+SOURCE_URL_2: https://www.in.gov/doe/files/2025-2026-school-directory-2025-10-27.xlsx
+SOURCE_TYPE_2: government
+SOURCE_DATE_2: 2025-10
+
+============================================================
+LEAID=3008190 | Cut Bank H S, MONTANA | Step 1
+============================================================
+**Wade Sundby is the superintendent of Cut Bank Public Schools (NCES LEAID 3008190), which includes Cut Bank High School, for the 2025–2026 school year.** [1][4]
+
+## District Leadership
+The official district website lists Wade Sundby as superintendent with contact (406) 873-2229, alongside principals like Jared Berkram for the high school. [1][4] This aligns with the NCES district detail confirming Cut Bank H S as part of this regular public school district. [25]
+
+## Confirmation Sources
+No recent news indicates a change; Sundby started in July 2024 from Glasgow Schools, with a superintendent evaluation in December 2024. [19][10] The admin staff page, published February 2026, confirms his current role during the 2025–26 year. [4][1]
+
+DISTRICT_CONFIRMED: Cut Bank Public Schools
+SUPERINTENDENT_FULL_NAME: Wade Sundby
+CONFIDENCE: high
+CONFIDENCE_REASON: District website unambiguously lists Sundby as superintendent as of Feb 2026 in current school year; no news of departure.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.cutbankschools.net/adminstaff
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: 2026-02
+SOURCE_URL_2: https://www.cutbankschools.net
+SOURCE_TYPE_2: district_website
+SOURCE_DATE_2: 2025-10
+
+============================================================
+LEAID=5001770 | Alburgh School District, VERMONT | Step 1
+============================================================
+**Dr. Lisa Ruud is the superintendent of the Alburgh School District (NCES LEAID 5001770) for the 2025–2026 school year, as she leads the overarching Grand Isle Supervisory Union (GISU), of which Alburgh is a component district.[1][1]**
+
+## Leadership Context
+Alburgh School District is a small, single-school district (Alburgh Community Education Center) under GISU, which oversees multiple towns including Alburgh. Dr. Ruud began serving as GISU superintendent on July 1, 2024, after unanimous board approval, and current GISU staff listings confirm her in the role with no evidence of departure through 2025-2026 activities like board meetings and reports.[1][16][1]
+
+## District-Level Leader
+Tim Francke was appointed principal of Alburgh Community Education Center effective July 7, 2025, but as a supervisory union component, the superintendent role is held at the GISU level rather than a district-specific superintendent.[4]
+
+DISTRICT_CONFIRMED: Alburgh School District  
+SUPERINTENDENT_FULL_NAME: Dr. Lisa Ruud  
+CONFIDENCE: high  
+CONFIDENCE_REASON: Confirmed as current GISU superintendent on official website (2026-active) and recent 2025 documents; started July 2024 with no turnover news.  
+UNKNOWN_REASON:  
+SOURCE_URL_1: https://www.gisu.org/staff  
+SOURCE_TYPE_1: district_website  
+SOURCE_DATE_1: 2026 (current as of Feb 2026)  
+SOURCE_URL_2: https://www.alburghschool.org/o/acec/article/1480599  
+SOURCE_TYPE_2: district_website  
+SOURCE_DATE_2: 2024-02  
+SOURCE_URL_3: https://files.municipalone.com/northhero-vt/news-523102720251502530.pdf  
+SOURCE_TYPE_3: news  
+SOURCE_DATE_3: 2025-10 [1][16][1][4]
+
+============================================================
+LEAID=2510950 | Southampton, MASSACHUSETTS | Step 1
+============================================================
+Based on my research, I have found clear confirmation that **Vito Perrone (Dr. Vito J. Perrone)** is the Superintendent of Hampshire Regional School District, which includes Southampton, Massachusetts, for the 2025–2026 school year.
+
+## Superintendent Information
+
+Dr. Vito Perrone has been serving as Superintendent of Schools for Hampshire Regional School District since approximately July 2024 (a year and a half as of March 2025) [7]. He oversees the five districts: Chesterfield-Goshen, Hampshire, Southampton, Westhampton, and Williamsburg [13]. Multiple recent sources from February and March 2026 confirm he is actively serving as superintendent, including news coverage from the Gazette dated February 11, 2026, and Massachusetts Department of Education records [7][8].
+
+## District Structure
+
+Hampshire Regional School District is a regional school district (not a supervisory union component), as specified in your query. The district website (hr-k12.org) and state education department records both list Dr. Perrone as the current superintendent [11][18].
+
+---
+
+DISTRICT_CONFIRMED: Hampshire Regional School District (includes Southampton, Massachusetts)
+SUPERINTENDENT_FULL_NAME: Dr. Vito J. Perrone
+CONFIDENCE: high
+CONFIDENCE_REASON: Multiple current sources from the 2025–2026 school year confirm Dr. Perrone is actively serving as superintendent. The district website, state education department records, and recent news articles (February 2026) all identify him as the current superintendent with no indication of administrative leave or transition.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://gazettenet.com/2026/02/12/heartbreaking-choices-for-hampshire-regional-staff-program-cuts-loom-amid-budget-shortfall/
+SOURCE_TYPE_1: news
+SOURCE_DATE_1: 2026-02
+SOURCE_URL_2: https://www.hr-k12.org/en-US/superintendents-office-772072c8
+SOURCE_TYPE_2: district_website
+SOURCE_DATE_2: 2018-01 (undated current page)
+
+============================================================
+LEAID=5009570 | North Country Union Junior High School District, VERMONT | Step 1
+============================================================
+DISTRICT_CONFIRMED: North Country Union Junior High School District  
+SUPERINTENDENT_FULL_NAME: Elaine Collins  
+CONFIDENCE: high  
+CONFIDENCE_REASON: District website (ncsuvt.org, parent supervisory union) unambiguously lists Elaine Collins as Superintendent of Schools, confirmed across multiple pages including staff directory and school listings; recent 2025 testimony verifies she is in her third year (started 2022), with no departure news for 2025-26 [4][2][4][16].  
+UNKNOWN_REASON:  
+SOURCE_URL_1: https://www.ncsuvt.org/superintendent  
+SOURCE_TYPE_1: district_website  
+SOURCE_DATE_1: undated  
+SOURCE_URL_2: https://www.ncsuvt.org/13266_1  
+SOURCE_TYPE_2: district_website  
+SOURCE_DATE_2: undated
+
+============================================================
+LEAID=2712480 | FULDA PUBLIC SCHOOL DISTRICT, MINNESOTA | Step 1
+============================================================
+Based on my search, I found important recent developments regarding Fulda Public School District's superintendent position. [7]
+
+**Michael Pagel** is currently listed as the superintendent of Fulda Public School District for the 2025–2026 school year. [1][5] However, there is a significant recent development: the school board voted on November 10, 2025, to not renew Pagel's 40 percent superintendent contract, with the non-renewal to take effect on June 30, 2026. [7] Despite this board action, Pagel remains in the superintendent position through at least the end of the current contract period.
+
+The official Minnesota Department of Education records confirm Pagel as superintendent, [5] and the district's administration page lists him as "Superintendent/7-12 Principal." [1][6] Given that Pagel is still actively serving in the role for the 2025–2026 school year and the non-renewal decision is future-dated (effective June 30, 2026), he remains the current superintendent.
+
+---
+
+**DISTRICT_CONFIRMED:** Fulda Public School District 0505-01 [5]
+
+**SUPERINTENDENT_FULL_NAME:** Michael Pagel [1][5]
+
+**CONFIDENCE:** medium
+
+**CONFIDENCE_REASON:** Michael Pagel is confirmed as the current superintendent serving in 2025–2026 by multiple authoritative sources (district website, Minnesota Department of Education, MSHSL records). However, confidence is rated medium because the school board voted in November 2025 not to renew his superintendent contract effective June 30, 2026, creating structural uncertainty about whether an interim or acting superintendent may be in place by late February 2026. No news reports indicate an interim superintendent has been appointed or is actively serving as of the search results.
+
+**UNKNOWN_REASON:** 
+
+**SOURCE_URL_1:** https://www.fps.mntm.org/o/fps/page/administration
+
+**SOURCE_TYPE_1:** district_website
+
+**SOURCE_DATE_1:** 2024-02-26
+
+**SOURCE_URL_2:** https://pub.education.mn.gov/MdeOrgView/organization/districtView?districtType=1&districtNumber=505
+
+**SOURCE_TYPE_2:** government
+
+**SOURCE_DATE_2:** 2025-12-31
+
+============================================================
+LEAID=3619860 | MORRIS CENTRAL SCHOOL DISTRICT, NEW YORK | Step 1
+============================================================
+**Jamie Maistros is the superintendent of Morris Central School District for the 2025–2026 school year.** [13][1]
+
+## Confirmation Details
+The district's official website lists Jamie Maistros as Superintendent in its current staff directory, with April Vunk as Principal. [13][1] This matches New York State Education Department (NYSED) records and recent board documents from 2025, including meetings in June, August, and September where she provided reports. [28][25][14][15][17] No news indicates any leadership change; her contract was approved for 2025-2026 in May 2025. [17][21]
+
+DISTRICT_CONFIRMED: Morris Central School District
+SUPERINTENDENT_FULL_NAME: Jamie Maistros
+CONFIDENCE: high
+CONFIDENCE_REASON: District website and NYSED data unambiguously list her as current superintendent; 2025 board minutes and documents confirm her active role in the 2025-26 school year with no transition news.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.morriscsd.org/StaffDirectory.aspx
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: 2026-02
+SOURCE_URL_2: https://data.nysed.gov/profile.php?instid=800000039842
+SOURCE_TYPE_2: government
+SOURCE_DATE_2: 2025-06
+
+============================================================
+LEAID=5002910 | Cambridge School District, VERMONT | Step 1
+============================================================
+DISTRICT_CONFIRMED: Lamoille North Supervisory Union [20][1]
+SUPERINTENDENT_FULL_NAME: Catherine Gallagher
+CONFIDENCE: high
+CONFIDENCE_REASON: Confirmed as superintendent as of February 2026 by state snapshot and district website; active welcome letter for 2025-2026 school year on supervisory union site.[20][1][9]
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://schoolsnapshot.vermont.gov/snapshot?organizationid=e65f5503-673c-4290-8ca6-f3d274b3b935
+SOURCE_TYPE_1: government
+SOURCE_DATE_1: 2026-02
+SOURCE_URL_2: https://www.lnsd.org/departments/superintendents-office
+SOURCE_TYPE_2: district_website
+SOURCE_DATE_2: 2025-08
+
+============================================================
+LEAID=1741190 | Wauconda CUSD 118, ILLINOIS | Step 1
+============================================================
+Based on my research, I have found conflicting information about the superintendent position. The most recent district website sources from February 2026 indicate that **Dr. Todd Leden and Dr. Brian Wegley are serving as Co-Interim Superintendents of Schools** [4][11]. This is the current leadership structure for the 2025–2026 school year.
+
+However, there is evidence of a recent transition: An older welcome message from December 2024 [9] identified Dr. David Wilm as the superintendent, and the Board of Education contact page from September 2025 [3] also listed Dr. David Wilm as superintendent. The most recent update from the district's superintendent page (dated February 12, 2026) [4] confirms the shift to interim co-superintendent leadership, noting that the Board is "supporting the Board's superintendent search process and ensuring a seamless transition for the new superintendent for the 2026-2027 school year."
+
+This indicates that Dr. David Wilm is no longer serving as superintendent and has been replaced by the interim co-superintendents, likely due to his departure or transition.
+
+---
+
+**DISTRICT_CONFIRMED:** Wauconda Community Unit School District 118
+
+**SUPERINTENDENT_FULL_NAME:** Dr. Todd Leden and Dr. Brian Wegley (Co-Interim Superintendents)
+
+**CONFIDENCE:** high
+
+**CONFIDENCE_REASON:** The district's official website from February 12, 2026 (current school year) clearly identifies Dr. Todd Leden and Dr. Brian Wegley as Co-Interim Superintendents of Schools. This is authoritative, current, and directly from the district's primary source.
+
+**UNKNOWN_REASON:** (not applicable)
+
+**SOURCE_URL_1:** https://www.d118.org/departments/superintendent
+
+**SOURCE_TYPE_1:** district_website
+
+**SOURCE_DATE_1:** 2026-02-12
+
+**SOURCE_URL_2:** https://www.d118.org/Home/about-d118
+
+**SOURCE_TYPE_2:** district_website
+
+**SOURCE_DATE_2:** 2026-02-12
+
+============================================================
+LEAID=0635590 | Santa Cruz City Elementary, CALIFORNIA | Step 1
+============================================================
+DISTRICT_CONFIRMED: Santa Cruz City Elementary [3][1]
+SUPERINTENDENT_FULL_NAME: Kris Munro
+CONFIDENCE: high
+CONFIDENCE_REASON: Multiple authoritative sources from 2025, including the district website (sccs.net/superintendent) and Santa Cruz County Office of Education directory (updated Aug 2025), confirm Kris Munro as the currently serving superintendent with no news of departure or transition for the 2025-26 school year.[6][2][11]
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.sccs.net/superintendent
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: 2025-12
+SOURCE_URL_2: https://santacruzcoe.org/schools/santa-cruz-county-school-districts/santa-cruz-city-schools/
+SOURCE_TYPE_2: government
+SOURCE_DATE_2: 2025-08
+
+============================================================
+LEAID=5305340 | Mount Pleasant School District, WASHINGTON | Step 1
+============================================================
+**Cathy Lehmann is the Superintendent/Principal of Mount Pleasant School District in Washougal, WA, for the 2025–2026 school year.** [1][7]
+
+## Leadership Confirmation
+The district's official "Meet Our Staff" page lists Cathy Lehmann as Superintendent \ Principal, with her district email active, confirming her current role as the top leader for this small K-8 district. [1][5]
+This aligns with a 2022 news article noting her appointment to bring stability after prior changes, and no recent news indicates a departure or replacement as of February 2026. [2]
+
+## District Details
+Mount Pleasant School District (NCES LEAID 5305340) is a standalone regular public school district serving about 60 students at one K-8 school in Washougal, WA. [16][2]
+As a very small district, the superintendent often serves dually as principal, which fits Lehmann's listed title. [5]
+
+DISTRICT_CONFIRMED: Mt. Pleasant School District
+SUPERINTENDENT_FULL_NAME: Cathy Lehmann
+CONFIDENCE: high
+CONFIDENCE_REASON: District website explicitly lists her as current Superintendent/Principal with no conflicting recent news; small district structure confirmed.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.mtpleasantschool.org/meet-our-staff
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: 2026-02 (active site)
+SOURCE_URL_2: https://www.camaspostrecord.com/news/2022/aug/18/mt-pleasant-welcomes-new-superintendent/
+SOURCE_TYPE_2: news
+SOURCE_DATE_2: 2022-08
+
+============================================================
+LEAID=5900025 | Turtle Mountain Middle School, BUREAU OF INDIAN EDUCATION | Step 1
+============================================================
+**Dr. Shane Martin is the superintendent of Belcourt School District #7, which includes Turtle Mountain Middle School (also known as Turtle Mountain Community Middle School), for the 2025–2026 school year. [5][9]**
+
+## District Overview
+Turtle Mountain Middle School is part of Belcourt Public School District #7 (NCES LEAID 5900025), a BIE-affiliated tribal school system in Belcourt, ND. [1][13] The district operates multiple schools, including Turtle Mountain Community Elementary, Middle, and High Schools, under joint BIE and tribal administration. [7]
+
+## Leadership Confirmation
+Dr. Shane Martin serves as the District Superintendent, with references to his evaluation and reports in November 2025 board minutes and a January 2026 agenda item. [9][11] A February 2026 public notice mentions principal Brad LaRocque for the middle school but confirms the district-level structure requiring superintendent approval for reassignments. [2] State records list him as the current superintendent with contact details. 
+
+## BIE Context
+As a BIE school within a tribal district, the top leader is the district superintendent, not a BIE regional director or standalone school principal. [3] No news indicates a change for 2025–2026; Martin was active in August 2025 NDHSAA appointment and ongoing board activities. [8][16]
+
+DISTRICT_CONFIRMED: Belcourt School District #7
+SUPERINTENDENT_FULL_NAME: Dr. Shane Martin
+CONFIDENCE: high
+CONFIDENCE_REASON: Multiple 2025-2026 sources (state site, board agendas, public notices) confirm Dr. Shane Martin as serving superintendent with no transition news.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://insights.nd.gov/Education/District/40007
+SOURCE_TYPE_1: government
+SOURCE_DATE_1: 2025-02
+SOURCE_URL_2: https://ndpublicnotices.com/NDLegals/2026/392559-2026-02-16_1003.pdf
+SOURCE_TYPE_2: news
+SOURCE_DATE_2: 2026-02
+
+============================================================
+LEAID=2708190 | EASTERN CARVER COUNTY PUBLIC SCHOOL, MINNESOTA | Step 1
+============================================================
+**Dr. Erin Rathke, Ed.D. is the superintendent of Eastern Carver County Public Schools (District 112) for the 2025–2026 school year.** [4][1]
+
+## Confirmation
+The district's official leadership page lists Dr. Erin Rathke as the current superintendent, with her bio detailing her role and prior positions within the district. [4][1] She was selected in 2024 after serving as interim superintendent, starting July 1, 2024, following Dr. Lisa Sayles-Adams' departure. [1][3]
+
+## Recent Evidence
+Minnesota Department of Education records list her as superintendent with contact details. [4] News and videos from 2025, including a February podcast and October video update, refer to her as the active superintendent. [7][18][10]
+
+DISTRICT_CONFIRMED: Eastern Carver County Public Schools
+SUPERINTENDENT_FULL_NAME: Dr. Erin Rathke
+CONFIDENCE: high
+CONFIDENCE_REASON: District website and MN state education directory unambiguously list her as current superintendent; 2025 news confirms ongoing service in 2025-26 school year.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.district112.org/district/leadership
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: 2025-02
+SOURCE_URL_2: https://pub.education.mn.gov/MdeOrgView/organization/show/307
+SOURCE_TYPE_2: government
+SOURCE_DATE_2: 2026-02
+
+============================================================
+LEAID=5004960 | Jay/Westfield Joint Elementary School District, VERMONT | Step 1
+============================================================
+**Hunter Couture is the top leader (Principal) of Jay/Westfield Joint Elementary School District for the 2025–2026 school year.** [1][4][2]
+
+## Leadership Structure
+This is a small, single-school district (EE-6) and a component of the North Country Supervisory Union (NCSU). NCSU Superintendent Elaine Collins oversees the supervisory union, but the district's top on-site leader is the principal. [10][2][3]
+
+## Confirmation Details
+Vermont Agency of Education lists Hunter Couture as Principal as of February 2, 2026—current for the 2025–2026 school year. NCSU's school directory confirms Hunter Couture as Principal of Jay/Westfield Joint Elementary School. No news indicates changes or a separate superintendent for this joint district. [1][4][2]
+
+DISTRICT_CONFIRMED: Jay/Westfield Joint Elementary School District
+SUPERINTENDENT_FULL_NAME: Hunter Couture
+CONFIDENCE: high
+CONFIDENCE_REASON: Unambiguous listing as current Principal (Feb 2026) on VT state education site and NCSU site for this single-school district; no contrary evidence.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://schoolsnapshot.vermont.gov/snapshot?organizationid=9689606f-e79d-4c5d-b3ec-41132ca05000
+SOURCE_TYPE_1: government
+SOURCE_DATE_1: 2026-02
+SOURCE_URL_2: https://www.ncsuvt.org/13266_1
+SOURCE_TYPE_2: district_website
+SOURCE_DATE_2: undated
+SOURCE_URL_3: https://sites.google.com/ncsuvt.org/ncsu/central-office-staff
+SOURCE_TYPE_3: district_website
+SOURCE_DATE_3: 2025-09
+
+============================================================
+LEAID=4703390 | Perry County, TENNESSEE | Step 1
+============================================================
+**Eric Lomax is the Director of Schools (superintendent) for Perry County Schools in Tennessee for the 2025–2026 school year.** [3][1]
+
+## Official Sources
+The district's central office staff page lists Eric Lomax as Director of Schools and Title IX Coordinator, with his contact email elomax@perrycountyschools.us; no other person holds this top position. [3][1] The district homepage and related county pages also identify him in this role. [5][2]
+
+## Recent Confirmations
+A back-to-school guide from July/August 2025 explicitly names Eric Lomax as the Director of Perry County Schools, aligning with the current school year. [10] No news of departures, resignations, or replacements for him appears in 2025–2026 searches. [16]
+
+DISTRICT_CONFIRMED: Perry County Schools
+SUPERINTENDENT_FULL_NAME: Eric Lomax
+CONFIDENCE: high
+CONFIDENCE_REASON: District website unambiguously lists Eric Lomax as Director of Schools; confirmed by 2025 back-to-school source with no contrary news.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.perrycountyschools.us/page/central-office-staff
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: undated
+SOURCE_URL_2: https://fox17.com/features/back-to-school-2025/back-to-school-kentucky-and-tennessee-schools-contact-and-superintendent-informat ...
+SOURCE_TYPE_2: news
+SOURCE_DATE_2: 2025-07
+
+============================================================
+LEAID=1729100 | Oak Grove SD 68  Bartonville, ILLINOIS | Step 1
+============================================================
+DISTRICT_CONFIRMED: OAK GROVE SD 68 BARTONVILLE
+SUPERINTENDENT_FULL_NAME: Dr. Loren Baele
+CONFIDENCE: high
+CONFIDENCE_REASON: District official website lists Dr. Loren Baele as Superintendent with contact details, and Illinois state education site (irc.isbe.net) confirms "Current District Superintendent: Dr. Loren Baele" as of recent update.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.og68.org/page/administration
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: undated
+SOURCE_URL_2: https://irc.isbe.net/District.aspx?Districtid=48072068002
+SOURCE_TYPE_2: government
+SOURCE_DATE_2: 2024-12[7][8]
+
+============================================================
+LEAID=5007530 | Springfield School District, VERMONT | Step 1
+============================================================
+**Peter Burrows is the superintendent of Springfield School District (VT NCES LEAID 5007530) for the 2025–2026 school year.** [10][4]
+
+## Verification from Sources
+The district's official website (ssdvt.org) lists Peter Burrows as Superintendent in its staff directory and features his welcome message referencing the "2025-2026 Action Plan," confirming his current role during the school year (August 2025–June 2026). [5][2][4] He was appointed as interim superintendent for 2025-2026, effective July 1, 2025, following a board recommendation in March 2025. [1][4]
+
+An older state snapshot from January 2025 lists Sherri Nichols, but current district sources override this. [2][3] No recent news (as of February 2026) indicates any change or departure. [9]
+
+DISTRICT_CONFIRMED: Springfield School District 56
+SUPERINTENDENT_FULL_NAME: Peter Burrows
+CONFIDENCE: high
+CONFIDENCE_REASON: District website staff directory and Superintendent's welcome for 2025-2026 school year unambiguously confirm Peter Burrows as currently serving.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.ssdvt.org/apps/staff/
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: 2026-02
+SOURCE_URL_2: https://www.ssdvt.org/apps/pages/index.jsp?uREC_ID=1549987&type=d
+SOURCE_TYPE_2: district_website
+SOURCE_DATE_2: 2025-09
+
+============================================================
+LEAID=5900132 | Theodore Roosevelt School, BUREAU OF INDIAN EDUCATION | Step 1
+============================================================
+**Leon Ben is the current Chief School Administrator (CSA)/Principal of Theodore Roosevelt School for the 2025–2026 school year.** [1][13]
+
+## Leadership Details
+The school's official staff directory lists Leon Ben as CSA/Principal, the top leadership role for this tribally controlled grant school serving grades 6-8 in Fort Apache, Arizona. [1] This aligns with the NCES classification as a regular public school district (LEA ID 5900132) and BIE guidelines for standalone schools, where the CSA/Principal serves as the primary administrator. [1][19]
+
+## Current Status
+A national search for a new CSA/Principal was launched in late February 2026 with a target start date of June 2026, indicating Leon Ben is serving through the current 2025-2026 school year (ending June 2026). [1][7] No acting or interim leader is mentioned, and the directory appears active for the ongoing year. [1]
+
+DISTRICT_CONFIRMED: Theodore Roosevelt School
+SUPERINTENDENT_FULL_NAME: Leon Ben
+CONFIDENCE: high
+CONFIDENCE_REASON: Official school website staff directory unambiguously lists Leon Ben as current CSA/Principal during 2025-26 school year; active job search for replacement targets June 2026 start.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://trswarriors.com/about/directory/
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: 2026-02
+SOURCE_URL_2: https://aasa-jobs.careerwebsite.com/job/chief-school-administrator-principal-search/82634263/
+SOURCE_TYPE_2: news
+SOURCE_DATE_2: 2026-02
+
+============================================================
+LEAID=1301620 | Dalton Public Schools, GEORGIA | Step 1
+============================================================
+**Dr. Steven Craft is the superintendent of Dalton Public Schools in Georgia for the 2025–2026 school year.** [5][2]
+
+## Confirmation from District Sources
+The official district website lists Dr. Steven Craft as superintendent, with his contact details and a welcome letter referencing recent school years. [5][9][2][1] Organizational charts and staff directories consistently name him in this role. [6][10][1]
+
+## Recent District News
+A January 2026 district announcement highlights Dr. Craft leading the district through growth, with no mention of transition. [4] A February 2026 news item quotes him directly as superintendent approving staff changes effective July 2026. [13] Earlier news from April 2024 confirms he began serving May 16, 2024, succeeding Dr. Tim Scott, with no subsequent changes reported. [2]
+
+DISTRICT_CONFIRMED: Dalton Public Schools
+SUPERINTENDENT_FULL_NAME: Dr. Steven Craft
+CONFIDENCE: high
+CONFIDENCE_REASON: District website and multiple 2025-2026 news articles unambiguously confirm Dr. Craft as the currently serving superintendent with no transition news.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.daltonpublicschools.com/page/superintendent
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: 2025-09
+SOURCE_URL_2: https://www.daltonpublicschools.com/departments/district-administration
+SOURCE_TYPE_2: district_website
+SOURCE_DATE_2: 2026-02
+
+============================================================
+LEAID=2504500 | East Longmeadow, MASSACHUSETTS | Step 1
+============================================================
+**Gordon Smith is the current superintendent of East Longmeadow Public Schools for the 2025–2026 school year (Aug 2025 – Jun 2026). [1][10][1]**
+
+## Leadership Status
+Gordon Smith has served as superintendent since 2010 and remains listed in the official district administration page as of the latest available data. [1][10][1] Although the School Committee selected Dr. Joanne Menard as his successor in January 2026, her contract approval for the 2026–2029 school years indicates a start after June 2026, post-retirement. [3][9][12] District sites still show Smith in the role, with no confirmation of Menard beginning service by February 2026. [2][8]
+
+DISTRICT_CONFIRMED: East Longmeadow Public Schools
+SUPERINTENDENT_FULL_NAME: Gordon Smith
+CONFIDENCE: high
+CONFIDENCE_REASON: District website and recent minutes (Jan 2026) list Gordon Smith as current superintendent during 2025-26 year; successor selected but contract for 2026+ school years.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.eastlongmeadowma.gov/index.aspx?NID=391
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: 2026-02
+SOURCE_URL_2: https://www.eastlongmeadowma.gov/AgendaCenter/ViewFile/Minutes/_01272026-4577
+SOURCE_TYPE_2: district_website
+SOURCE_DATE_2: 2026-01
+SOURCE_URL_3: https://thereminder.com/local-news/hampden-county/east-longmeadow/east-longmeadow-superintendent-search-committee-lands-on-three
+SOURCE_TYPE_3: news
+SOURCE_DATE_3: 2025-12
+
+============================================================
+LEAID=5003390 | Craftsbury Town School District, VERMONT | Step 1
+============================================================
+DISTRICT_CONFIRMED: Craftsbury Town School District
+SUPERINTENDENT_FULL_NAME: Dr. David Baker
+CONFIDENCE: high
+CONFIDENCE_REASON: District is a component of Orleans Southwest Supervisory Union (OSSU); Baker listed as current superintendent on OSSU website with February 2026 newsletter and confirmed serving in Jan 2025 news and state records as of Jan 2025.[1][6][9][1]
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://ossu.org/en-US/superintendents-desk-55c5f43d
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: 2026-02
+SOURCE_URL_2: https://hardwickgazette.org/2025/01/07/supervisory-union-budget-to-increase/
+SOURCE_TYPE_2: news
+SOURCE_DATE_2: 2025-01
+
+============================================================
+LEAID=3600091 | NEW YORK CITY GEOGRAPHIC DISTRICT #13, NEW YORK | Step 1
+============================================================
+**Meghan Dunn is the superintendent of New York City Geographic District #13 for the 2025–2026 school year.** [1][1][3]
+
+## Official Confirmation
+The district's official website lists Meghan Dunn as Superintendent, with her email mdunn6@schools.nyc.gov, alongside Deputy Superintendent Darlene Cameron. [1][1] This is corroborated by the New York City Department of Education's leadership page, explicitly naming her as District 13 Superintendent at 355 Park Place, Brooklyn. [7][2]
+
+## Background
+Meghan Dunn joined District 13 as Deputy Superintendent in March 2020 and assumed the superintendent role thereafter, following prior experience as a teacher and founding principal. [3][3][7][2] Her profile on the district site highlights her commitment to equity and community leadership. [3][3]
+
+## Prior Leadership
+Previous superintendents included Kamar Samuels (until mid-2022) and mentions of Robin Davson in 2022 announcements, but current sources confirm Dunn's ongoing tenure. [4][2][10]
+
+DISTRICT_CONFIRMED: NEW YORK CITY GEOGRAPHIC DISTRICT #13 - BROOKLYN
+SUPERINTENDENT_FULL_NAME: Meghan Dunn
+CONFIDENCE: high
+CONFIDENCE_REASON: Confirmed as currently serving by the official district website staff directory and NYC DOE leadership page, both authoritative sources with recent updates applicable to the 2025-26 school year.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.d13brooklyn.com/staff-directory
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: 2026-02
+SOURCE_URL_2: https://www.schools.nyc.gov/about-us/leadership/district-leadership
+SOURCE_TYPE_2: government
+SOURCE_DATE_2: 2026-02
+
+============================================================
+LEAID=5007470 | South Burlington School District, VERMONT | Step 1
+============================================================
+DISTRICT_CONFIRMED: South Burlington School District
+SUPERINTENDENT_FULL_NAME: Dr. Joseph Clark
+CONFIDENCE: high
+CONFIDENCE_REASON: Multiple district website pages and state records confirm Dr. Joseph (Joe) Clark as superintendent as of 7/01/2025 and actively serving in Feb 2026; appointed permanent effective Jan 1, 2026 through 2030.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://schoolsnapshot.vermont.gov/snapshot?organizationid=d2bedd6c-9048-4b61-b76a-d39c41ebb63c
+SOURCE_TYPE_1: government
+SOURCE_DATE_1: 2025-01
+SOURCE_URL_2: https://www.sbschools.net/article/2647359
+SOURCE_TYPE_2: district_website
+SOURCE_DATE_2: 2026-01
+
+============================================================
+LEAID=2512870 | Whately, MASSACHUSETTS | Step 1
+============================================================
+**Darius E. Modestow is the superintendent of the Whately school district (NCES LEAID 2512870) for the 2025–2026 school year.** [1][1]
+
+## District Overview
+The Whately district (orgcode 03370000) is a regular public school district not part of a supervisory union, primarily serving Whately Elementary School as a small, single-school district within the Frontier Regional and Union 38 (FRSU38) structure. [1][2] It operates under the official website http://www.frsu38.org, which confirms active operations through calendars up to June 2026. [1]
+
+## Leadership Confirmation
+Massachusetts Department of Elementary and Secondary Education (DOE) profiles list Darius E. Modestow as Superintendent with contact 413-665-1155, alongside roles like COVID Lead and Transportation Director. [1][8] Recent news from February and March 2025 quotes him as "superintendent of the Frontier Regional and Union 38 school districts," discussing the district's FY2026 budget during the current school year. [9][17]
+
+## Notes on Structure
+While Whately Elementary lists Principal Kristin Kirton on the district site, the DOE explicitly names Modestow as superintendent for the district, overriding school-level roles per guidelines for small districts. [3] No evidence of departure, interim, or transition exists; a 2025 posting also confirms him. [5]
+
+DISTRICT_CONFIRMED: Whately
+SUPERINTENDENT_FULL_NAME: Darius E. Modestow
+CONFIDENCE: high
+CONFIDENCE_REASON: Unambiguous listing as Superintendent on current MA DOE district profile (03370000) and confirmation as active in 2025 news for FY2026 budget during 2025-26 school year.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://profiles.doe.mass.edu/profiles/general.aspx?topNavId=1&orgcode=03370000&orgtypecode=5&leftNavId=122
+SOURCE_TYPE_1: government
+SOURCE_DATE_1: 2026-02
+SOURCE_URL_2: https://recorder.com/2025/02/20/whately-faces-10-spike-in-elementary-school-budget-amid-special-education-needs-59517993/
+SOURCE_TYPE_2: news
+SOURCE_DATE_2: 2025-02
+
+============================================================
+LEAID=4824530 | JACKSBORO ISD, TEXAS | Step 1
+============================================================
+Based on my research, I have found clear and current information about the superintendent of Jacksboro ISD.
+
+**Brad Burnett** is the superintendent of Jacksboro ISD for the 2025–2026 school year [7]. He has been serving as superintendent since January 2022 and his contract was extended in January 2025 through June 2028 [4]. Burnett has 31 years of experience in education, all with Jacksboro ISD, where he previously served as an agricultural science teacher, high school principal, and assistant superintendent [1].
+
+---
+
+**DISTRICT_CONFIRMED:** Jacksboro Independent School District
+**SUPERINTENDENT_FULL_NAME:** Brad Burnett
+**CONFIDENCE:** high
+**CONFIDENCE_REASON:** Brad Burnett is confirmed as the current superintendent by multiple authoritative sources including the district website staff listing, Texas Tribune database, and recent district news from July 2025 showing him presenting the 2025-2026 compensation plan to the board.
+**UNKNOWN_REASON:** 
+**SOURCE_URL_1:** https://schools.texastribune.org/districts/jacksboro-isd/
+**SOURCE_TYPE_1:** government
+**SOURCE_DATE_1:** 2025-08-17
+**SOURCE_URL_2:** https://www.jacksboroisd.net/article/2320253
+**SOURCE_TYPE_2:** district_website
+**SOURCE_DATE_2:** 2025-07-21
+
+============================================================
+LEAID=0619830 | Kingsburg Joint Union High, CALIFORNIA | Step 1
+============================================================
+Based on my research, I have found conflicting information about who is currently serving as superintendent. The most recent sources provide different names:
+
+**Current Superintendent:** [3][7][8][9] The California Department of Education School Directory (updated August 29, 2024) and the district's official contact pages (kjuhsd.com and kingsburghigh.com) list **Dr. Ryan Phelan** as Superintendent.
+
+However, one source from February 10, 2025 [5] lists **Don Shoemaker** as Superintendent, while older sources from 2023–2024 [14][15][16] also reference Don Shoemaker in that role.
+
+The most authoritative current source is the California Department of Education's School Directory, which shows Dr. Ryan Phelan as the currently serving superintendent with contact information (559) 897-7721, rphelan@kingsburghigh.com [3]. Multiple district-controlled websites (kjuhsd.com and kingsburghigh.com) confirm this [7][8][9].
+
+---
+
+**DISTRICT_CONFIRMED:** Kingsburg Joint Union High School District [3]
+
+**SUPERINTENDENT_FULL_NAME:** Dr. Ryan Phelan [3][7][8][9]
+
+**CONFIDENCE:** medium
+
+**CONFIDENCE_REASON:** The California Department of Education's official School Directory and multiple district websites confirm Dr. Ryan Phelan as superintendent with a current update date of August 29, 2024. However, one recent source from February 2025 lists Don Shoemaker, creating ambiguity about whether a transition occurred between August 2024 and February 2025 that is not yet reflected in official state records.
+
+**UNKNOWN_REASON:** 
+
+**SOURCE_URL_1:** https://www.cde.ca.gov/schooldirectory/details?cdscode=10622570000000
+
+**SOURCE_TYPE_1:** government
+
+**SOURCE_DATE_1:** 2024-08
+
+**SOURCE_URL_2:** https://www.kjuhsd.com/contactus
+
+**SOURCE_TYPE_2:** district_website
+
+**SOURCE_DATE_2:** undated
+
+============================================================
+LEAID=3022800 | Ronan H S, MONTANA | Step 1
+============================================================
+**Mark Johnston is the current superintendent of Ronan School District (which includes Ronan High School, NCES LEAID 3022800) for the 2025–2026 school year.** [1][5][1]
+
+## District Details
+Ronan School District #30 (also called Ronan Public Schools or Ronan K-12) operates as a regular public school district in Ronan, Montana, covering elementary and high school levels, including Ronan High School. It is not part of a supervisory union. The official website is http://www.ronank12.edu. [10][2]
+
+## Current Leadership
+The district staff directory lists Mark Johnston as Superintendent, contacted at 406-676-3390 x7200. He was actively referenced as superintendent in August 2025 during the school year's start. [1][5][12]
+
+## Transition Note
+In November 2025, the Ronan School Board selected Sandra Beal (former curriculum director) as the new superintendent, effective July 1, 2026, replacing Johnston. She has not yet started, so Johnston serves through the 2025–2026 year (ending June 2026). [1][3]
+
+DISTRICT_CONFIRMED: Ronan School District
+SUPERINTENDENT_FULL_NAME: Mark Johnston
+CONFIDENCE: high
+CONFIDENCE_REASON: District website staff directory unambiguously lists Mark Johnston as current Superintendent in Feb 2026; recent news (Aug 2025) confirms him in role, with successor starting post-Jun 2026.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.ronank12.edu/our-district/staff-directory
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: 2026-02
+SOURCE_URL_2: https://leaderadvertiser.com/news/2025/nov/20/ronan-school-board-selects-new-superintendent/
+SOURCE_TYPE_2: news
+SOURCE_DATE_2: 2025-11
+
+============================================================
+LEAID=5000024 | Rivendell Interstate School District, VERMONT | Step 1
+============================================================
+**Randy Gawel is the superintendent of Rivendell Interstate School District for the 2025–2026 school year.** [7][4]
+
+## Confirmation Details
+Randy Gawel began serving as superintendent on July 1, 2025, succeeding interim superintendent Jennifer Botzojorns, aligning perfectly with the 2025–2026 school year (Aug 2025–Jun 2026). [1][4] The district's official website lists him as the current superintendent in its leadership team and Superintendent's Corner, with no reports of departure or interim replacement as of February 2026. [5][7][4]
+
+## Recent Context
+Prior superintendent Barrett Williams resigned in May 2024, leading to Botzojorns' interim role until Gawel's hiring in March 2025. [1] A February 2026 article confirms ongoing district stability under current leadership, mentioning human resources director Brenda Gray but no superintendent change. [2]
+
+DISTRICT_CONFIRMED: Rivendell Interstate School District  
+SUPERINTENDENT_FULL_NAME: Randy Gawel  
+CONFIDENCE: high  
+CONFIDENCE_REASON: District website explicitly states Gawel began July 1, 2025, and lists him as superintendent; hiring announcement from March 2025 confirmed start date within current school year; no subsequent departure news.  
+UNKNOWN_REASON:  
+SOURCE_URL_1: https://www.rivendellschool.org/superintendent  
+SOURCE_TYPE_1: district_website  
+SOURCE_DATE_1: 2026-02 (copyright/footer)  
+SOURCE_URL_2: https://vnews.com/2025/03/11/rivendell-hires-new-superintendent-59718149/  
+SOURCE_TYPE_2: news  
+SOURCE_DATE_2: 2025-03  
+SOURCE_URL_3: https://www.rivendellschool.org/districtofficestaff  
+SOURCE_TYPE_3: district_website  
+SOURCE_DATE_3: 2026-02 (copyright/footer)
+
+============================================================
+LEAID=3813050 | MINTO 20, NORTH DAKOTA | Step 1
+============================================================
+**Shane Robinson is the superintendent of Minto Public School District (also known as Minto 20) for the 2025–2026 school year.** [1][2]
+
+## Confirmation Sources
+The North Dakota state education dashboard explicitly lists Shane Robinson as District Superintendent for 2025-2026, with contact email shane.robinson@mintoschools.com. [1][2] The district's official staff page at mintok12.org names him as Superintendent/Athletic Director. [17][1] NDHSAA school directory also confirms Shane Robinson in the role. [2][10]
+
+No news indicates any leadership change or interim replacement as of February 2026. [1][17]
+
+DISTRICT_CONFIRMED: Minto Public School District
+SUPERINTENDENT_FULL_NAME: Shane Robinson
+CONFIDENCE: high
+CONFIDENCE_REASON: State dashboard confirms him for 2025-2026 school year; district website staff page lists him as current superintendent.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://insights.nd.gov/Education/District/50020
+SOURCE_TYPE_1: government
+SOURCE_DATE_1: 2025-12
+SOURCE_URL_2: https://www.mintok12.org/staff
+SOURCE_TYPE_2: district_website
+SOURCE_DATE_2: undated
+SOURCE_URL_3: 
+SOURCE_TYPE_3: none
+SOURCE_DATE_3:
+
+============================================================
+LEAID=5000449 | West River Valley Union Education District #72A, VERMONT | Step 1
+============================================================
+**Bob Thibault is the superintendent of West River Valley Union Education District #72A for the 2025–2026 school year.** [2][5][8]
+
+## District Context
+West River Valley Union Education District #72A (NCES LEAID 5000449) is a component district within the Windham Central Supervisory Union (WCSU) in Townshend, Vermont. [21][8] Its official website links to windhamcentral.org, and WCSU oversees operations including West River schools like Leland & Gray Union Middle/High School. [2][10]
+
+## Leadership Details
+Bob Thibault has served as WCSU Superintendent since July 2023, with confirmation as current through February 2026 via state records and union sites. [2][5][8] No news indicates a change for 2025–26; recent meetings and newsletters reference him in the role, including superintendent evaluations. [11][15][16]
+
+DISTRICT_CONFIRMED: West River Valley Modified Union Education District #72A
+SUPERINTENDENT_FULL_NAME: Bob Thibault
+CONFIDENCE: high
+CONFIDENCE_REASON: District and union websites list Bob Thibault as Superintendent with no departure news; Vermont state snapshot confirms him as of Feb 2026.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.windhamcentral.org/superintendents-office
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: undated
+SOURCE_URL_2: https://schoolsnapshot.vermont.gov/snapshot?organizationid=851a6fb0-b182-4c1e-9690-e841cfb3c3cd
+SOURCE_TYPE_2: government
+SOURCE_DATE_2: 2026-02
+
+============================================================
+LEAID=0613800 | Fillmore Unified, CALIFORNIA | Step 1
+============================================================
+DISTRICT_CONFIRMED: Fillmore Unified School District
+SUPERINTENDENT_FULL_NAME: Christine Schieferle
+CONFIDENCE: high
+CONFIDENCE_REASON: Multiple district website pages and official communications from 2025-2026 school year (Aug 2025-Jan 2026) unambiguously list Christine Schieferle as the current Superintendent, including welcome letter for 2025-26 and recent messages.[1][8][9]
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.fillmoreusd.org/apps/pages/index.jsp?uREC_ID=362750&type=d&pREC_ID=831856
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: 2025-08
+SOURCE_URL_2: https://www.blog.fillmoreusd.org/fillmore-unified-school-district-blog/dtsn6ef9rtj8phc7z234969nmepknp
+SOURCE_TYPE_2: district_website
+SOURCE_DATE_2: 2026-01
+
+============================================================
+LEAID=0900720 | Chaplin School District, CONNECTICUT | Step 1
+============================================================
+**Andrew Skarzynski is the Superintendent of Schools for Chaplin School District for the 2025–2026 school year.** [1][1]
+
+## Leadership Details
+The district's official website lists Andrew Skarzynski as Superintendent of Schools, with contact email askarzynski@parishhill.org, on the Board of Education information page. [1][1] This is corroborated by Chaplin Board of Education meeting minutes from February and March 2025, where he presented budgets and reports. [7][8] A Connecticut state evaluation plan from October 2024 also names him as Superintendent. [9]
+
+## School-Level Leader
+Kevin Chavez serves as Principal of Chaplin Elementary School, the district's only school. [2][2] He is not the superintendent but provides school-specific reports. [7]
+
+DISTRICT_CONFIRMED: Chaplin School District
+SUPERINTENDENT_FULL_NAME: Andrew Skarzynski
+CONFIDENCE: high
+CONFIDENCE_REASON: District website and town BOE minutes from Feb-Mar 2025 confirm him actively serving and presenting in current school year; no conflicting info.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://chaplinschool.org/board-of-education-information/
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: 2025-04
+SOURCE_URL_2: https://www.chaplinct.org/resources/chaplin_boe_minutes_2-12-25.pdf
+SOURCE_TYPE_2: district_website
+SOURCE_DATE_2: 2025-02
+
+============================================================
+LEAID=3406780 | Hardyston Township School District, NEW JERSEY | Step 1
+============================================================
+**Dr. Michael Ryder is the superintendent of Hardyston Township School District for the 2025–2026 school year.** [9][2]
+
+## Key Evidence
+Dr. Michael Ryder is listed as Superintendent of Schools on the district's website administration page. [9] He appears as "Dr. Michael Ryder" in the roll call of the June 10, 2025, Board of Education reorganization meeting agenda, confirming his active role during the transition to the 2025-2026 year. [1][4] The agenda proposes motions to appoint "the Superintendent of Schools" ( Ryder) as custodian of personnel records and other roles through June 30, 2026, and notes student awards like the "2025 Superintendent’s Roundtable Award," tying to him. [1]
+
+## Leadership Context
+A February 2026 job posting seeks a new superintendent starting July 1, 2026, indicating Ryder serves through June 2026, aligning with the current school year (Aug 2025–Jun 2026). [1] No news of departure or interim replacement found in 2025-2026 sources; district documents presume continuity. [1][4]
+
+DISTRICT_CONFIRMED: Hardyston Township Public School District
+SUPERINTENDENT_FULL_NAME: Dr. Michael Ryder
+CONFIDENCE: high
+CONFIDENCE_REASON: District website and June 2025 BOE reorg agenda unambiguously confirm Dr. Michael Ryder serving into 2025-2026; no conflicting recent evidence despite upcoming vacancy search for July 2026.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.htps.org/middle-school-administrators/
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: undated
+SOURCE_URL_2: https://www.htps.org/wp-content/uploads/2025/06/Agenda-6-10-25-1.pdf
+SOURCE_TYPE_2: district_website
+SOURCE_DATE_2: 2025-06
+
+============================================================
+LEAID=1718600 | Hazel Crest SD 152-5, ILLINOIS | Step 1
+============================================================
+Based on my research, I can confirm the superintendent of Hazel Crest SD 152-5 for the 2025-2026 school year.
+
+Dr. Cynthia Levy is the superintendent of Hazel Crest SD 152-5 (also known as Markham/Hazel Crest School District 152½) for the 2025-2026 school year. [4][7][8][9] She was appointed in May 2024 and officially began serving on July 1, 2024, [1][4] making her the current serving superintendent with no reported departures or leadership changes for the current school year.
+
+---
+
+DISTRICT_CONFIRMED: Hazel Crest SD 152-5
+SUPERINTENDENT_FULL_NAME: Dr. Cynthia Levy
+CONFIDENCE: high
+CONFIDENCE_REASON: Dr. Cynthia Levy is confirmed as the current serving superintendent across multiple authoritative sources (Illinois Report Card, ISBE resources, and recent news articles from 2024-2025) with no reported transitions or departures for the 2025-2026 school year.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.illinoisreportcard.com/District.aspx?Districtid=07016152502
+SOURCE_TYPE_1: government
+SOURCE_DATE_1: 2024-12
+SOURCE_URL_2: https://citizennewspapergroup.com/news/2024/aug/07/new-superintendent-ready-for-2024-2025-school-year/
+SOURCE_TYPE_2: news
+SOURCE_DATE_2: 2024-08
+
+============================================================
+LEAID=3002450 | Augusta H S, MONTANA | Step 1
+============================================================
+Perfect! I found the information. The search results clearly show that **Kim Ramorini** is the superintendent of Augusta Public Schools in Montana. This information comes from the district's official website (augustaschool.org) staff page, published in June 2024, which is the most current source and is from the 2025-26 school year perspective.
+
+The staff page confirms that Kim Ramorini has served as superintendent and principal at Augusta Schools since 2020, with five years of administrative experience and 13 years of teaching experience in northern California.
+
+DISTRICT_CONFIRMED: Augusta H S [also referenced as Augusta Public Schools]
+SUPERINTENDENT_FULL_NAME: Kim Ramorini
+CONFIDENCE: high
+CONFIDENCE_REASON: The superintendent is confirmed on the district's official website staff page (augustaschool.org) dated June 2024, which is current for the 2025-26 school year. Kim Ramorini has served in this role since 2020.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.augustaschool.org/staff
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: 2024-06
+SOURCE_URL_2: https://nces.ed.gov/ccd/districtsearch/district_detail.asp?Search=2&details=1&ID2=3002450&DistrictID=3002450
+SOURCE_TYPE_2: government
+SOURCE_DATE_2: 2023-12
+
+============================================================
+LEAID=5005050 | Lake Region Union High School District #24, VERMONT | Step 1
+============================================================
+**Jacquelyn (Jackie) Ramsay-Tolman is the superintendent of Lake Region Union High School District #24 for the 2025–2026 school year.** [24][28]
+
+## District Context
+Lake Region Union High School District #24 (NCES LEAID 5005050) is a regular public school district in Orleans, Vermont, operating as a component of the Orleans Central Supervisory Union (OCSU, Supervisory Union #034). [9][10] It serves grades 9-12 at one high school (LRUHS). [10] The supervisory union superintendent oversees district operations, including this high school district. [1][17]
+
+## Leadership Confirmation
+Ramsay-Tolman was appointed OCSU superintendent effective July 1, 2025, succeeding retiring superintendent Penny Chamberlin, and is actively serving as of February 2026. [1][17][18][28] OCSU staff directories and recent school announcements (e.g., February 2026 breakfast event) list her in the role. [22][24][28] No departure or interim reports appear for the current year. [12]
+
+## School-Level Leadership
+LRUHS principal is Sharon Gonyaw (appointed March 2025, serving through at least 2025–2026; prior principal Andre Messier noted in older records). [2][3][23] However, for this district, the top leader is the OCSU superintendent per Vermont supervisory union structure. [10]
+
+DISTRICT_CONFIRMED: Lake Region Union High School District #24
+SUPERINTENDENT_FULL_NAME: Jacquelyn Ramsay-Tolman
+CONFIDENCE: high
+CONFIDENCE_REASON: Multiple district websites (lruhs.org, ocsu.org) and recent news (2025-08 to 2026-02) unambiguously confirm Ramsay-Tolman as current OCSU superintendent since July 2025, overseeing this supervisory union component district during 2025-26.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.ocsu.org/staff/
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: 2025-08
+SOURCE_URL_2: https://www.ocsu.org/page/superintendent/
+SOURCE_TYPE_2: district_website
+SOURCE_DATE_2: 2025-07
+
+============================================================
+LEAID=5000434 | Southwest Vermont Union Elementary School District #87, VERMONT | Step 1
+============================================================
+**Tim Payne is the superintendent serving the Southwest Vermont Union Elementary School District #87 for the 2025–2026 school year (Aug 2025 – Jun 2026).** [1][1][8]
+
+## Leadership Context
+Southwest Vermont Union Elementary School District #87 is a component district within the Southwest Vermont Supervisory Union (SVSU), located in Bennington, Vermont. SVSU oversees multiple districts, including SVUESD #87, and the superintendent leads the supervisory union, providing administration for its member districts. Tim Payne assumed the role on July 1, 2025, following James R. Culkeen's retirement on June 30, 2025. [1][3][2]
+
+## Confirmation Evidence
+The official SVSU staff directory lists Tim Payne as Superintendent. District pages for the 2025-2026 school year refer to him as the current superintendent, and he has testified as such in Vermont legislative sessions in 2026. No acting or interim leaders supersede him. [1][10][12]
+
+DISTRICT_CONFIRMED: Southwest Vermont Union Elementary School District #87  
+SUPERINTENDENT_FULL_NAME: Tim Payne  
+CONFIDENCE: high  
+CONFIDENCE_REASON: Multiple current SVSU district website pages (staff directory, reports for 2025-26) and recent 2026 news/legislative testimony unambiguously confirm Tim Payne as the serving SVSU superintendent since July 2025, overseeing SVUESD #87.  
+UNKNOWN_REASON:  
+SOURCE_URL_1: https://www.svsu.org/apps/staff/  
+SOURCE_TYPE_1: district_website  
+SOURCE_DATE_1: 2026-02  
+SOURCE_URL_2: https://www.svsu.org/apps/pages/SuperintendentSearch  
+SOURCE_TYPE_2: district_website  
+SOURCE_DATE_2: 2025-03
+
+============================================================
+LEAID=0603090 | Arena Union Elementary, CALIFORNIA | Step 1
+============================================================
+Based on my research, I have found clear and consistent information about the superintendent of Arena Union Elementary for the 2025-2026 school year.
+
+**Warren Galletti** is the superintendent of Arena Union Elementary School District for the 2025-2026 school year. [1][10][16][18]
+
+The Arena Union Elementary School District is part of a "Common District" structure in California where the elementary school district and the Point Arena Joint Union High School District operate under a common board of trustees and superintendent. [1] Galletti's contact information is listed as P.O. Box 87, Point Arena, CA 95445, phone (707) 882-2803, and email wgalletti@mcn.org. [1] His role as superintendent is confirmed in multiple current sources, including the district's school board page updated December 2025 and official documents from January 2026. [18]
+
+---
+
+**DISTRICT_CONFIRMED:** Arena Union Elementary School District [1]  
+**SUPERINTENDENT_FULL_NAME:** Warren Galletti [1][10][16]  
+**CONFIDENCE:** high  
+**CONFIDENCE_REASON:** Warren Galletti is listed as superintendent on the current district website (updated December 2025), California Department of Education official records, and recent official district documents from January 2026. He has been in the position consistently, with tenure well within the typical 5-6 year average for superintendents.  
+**UNKNOWN_REASON:**  
+**SOURCE_URL_1:** https://pointarenaschools.org/school-board/  
+**SOURCE_TYPE_1:** district_website  
+**SOURCE_DATE_1:** 2025-12  
+**SOURCE_URL_2:** https://www.cde.ca.gov/schooldirectory/details?cdscode=23655570000000  
+**SOURCE_TYPE_2:** government  
+**SOURCE_DATE_2:** 2019-09 (but listing confirmed in current 2025-26 documents)
+
+============================================================
+LEAID=5000402 | Addison Central Unified Union School District #55, VERMONT | Step 1
+============================================================
+Based on my research, I found multiple sources confirming the superintendent. However, I notice a discrepancy between two names appearing in the search results. Let me clarify by checking the most recent district information.
+
+The current superintendent for Addison Central Unified Union School District #55 for the 2025–2026 school year is **Dr. Wendy Baker** [10][14]. Dr. Baker began serving as superintendent on July 1, 2024 [1], and she continues to serve in this role during the 2025–2026 school year. Multiple authoritative sources confirm her current status, including the district's official superintendent page updated in December 2025 [10], the Vermont Annual Snapshot dated February 2, 2026 [7], and the Vermont Superintendents Association directory [14]. Recent communications from February 2026 also reference her as the active superintendent [15].
+
+However, I note that one search result (web:6) references "Jim Peiffer" as superintendent in messages dated January and September 2025. This appears to be from a different district's website (addisoncsd.org, which differs from the official acsdvt.org domain), so that information is not applicable to Addison Central Unified Union School District #55.
+
+---
+
+DISTRICT_CONFIRMED: Addison Central Unified Union School District #55
+SUPERINTENDENT_FULL_NAME: Dr. Wendy Baker
+CONFIDENCE: high
+CONFIDENCE_REASON: Dr. Wendy Baker is confirmed as the current superintendent by multiple authoritative sources from the 2025–2026 school year, including the district's official website (updated December 2025), the Vermont Annual Snapshot (February 2, 2026), and the Vermont Superintendents Association directory. She began serving July 1, 2024, and is actively leading the district as of February 2026.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.acsdvt.org/district-link/superintendent
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: 2025-12
+SOURCE_URL_2: https://schoolsnapshot.vermont.gov/snapshot?organizationid=3a7cac15-309d-4f1f-ab0c-8513b360ddbf
+SOURCE_TYPE_2: government
+SOURCE_DATE_2: 2026-02
+
+============================================================
+LEAID=5900078 | Choctaw Central Middle School, BUREAU OF INDIAN EDUCATION | Step 1
+============================================================
+DISTRICT_CONFIRMED: Choctaw Central Middle School [20]
+SUPERINTENDENT_FULL_NAME: Shannon Smith
+CONFIDENCE: high
+CONFIDENCE_REASON: The official district website explicitly lists Shannon Smith as Principal of Choctaw Central Middle School, which serves as the top leader for this single-school BIE district (NCES LEAID 5900078). No conflicting or more recent information found; district sites presumed current for 2025-2026 school year [5][1].
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.choctawtribalschools.com/choctawcentralmiddle
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: undated
+SOURCE_URL_2: https://www.choctawtribalschools.com/ccmsfaculty
+SOURCE_TYPE_2: district_website
+SOURCE_DATE_2: undated
+
+============================================================
+LEAID=3901565 | Valley STEM+ME2 Academy, OHIO | Step 1
+============================================================
+Based on my research, I have found clear and current information about Valley STEM+ME2 Academy's leadership.
+
+## Superintendent Information
+
+**Dr. Mara Banfield** is the superintendent of Valley STEM+ME2 Academy for the 2025–2026 school year. [28] She also serves as the STEM Superintendent and MCCTC (Mahoning County Career and Technical Center) Career Tech Director. [28] Dr. Banfield's position has been consistent since at least 2022, and multiple current sources from 2025 confirm she continues in this role. [10][23][28]
+
+## District Context
+
+Valley STEM+ME2 Academy is located within the Mahoning County Career and Technical Center in Canfield, Ohio and operates as a distinct school district serving students in grades 9–10. [1][2] The school has 218 students and operates as a regular public school district (not part of a supervisory union), as you noted. [2][8]
+
+---
+
+DISTRICT_CONFIRMED: Valley STEM+ME2 Academy School District
+SUPERINTENDENT_FULL_NAME: Dr. Mara Banfield
+CONFIDENCE: high
+CONFIDENCE_REASON: Dr. Banfield is confirmed as Valley STEM+ME2 Academy superintendent in authoritative district website sources dated August 2025 and May 2025, and continues to be referenced in that role in current materials from the 2025–2026 school year.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://mahoningctc.com/high-school/administration/
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: 2025-08
+SOURCE_URL_2: https://www.vindy.com/news/business-news/2025/05/canfield-stem-academy-receives-20k-grant/
+SOURCE_TYPE_2: news
+SOURCE_DATE_2: 2025-05
+
+============================================================
+LEAID=5900050 | Laguna Middle School, BUREAU OF INDIAN EDUCATION | Step 1
+============================================================
+DISTRICT_CONFIRMED: Pueblo of Laguna Department of Education
+SUPERINTENDENT_FULL_NAME: Petra Solimon
+CONFIDENCE: medium
+CONFIDENCE_REASON: Staff handbook adopted June 2025 lists Petra Solimon as Superintendent effective July 1, 2025, for 2025-26; school sites list Jude Garcia as current LMS Principal with messages from 2025-26 school year. Structural uncertainty as Laguna MS is part of tribal system led by Superintendent, but NCES lists as standalone LEA; principal vacancy posted March 2025.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://content.myconnectsuite.com/api/documents/476054070a2f432592e18c437cb690b9.pdf
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: 2025-06
+SOURCE_URL_2: https://lms.lagunaed.net/
+SOURCE_TYPE_2: district_website
+SOURCE_DATE_2: 2025-10
+SOURCE_URL_3: https://pueblolagunadoe.schoolinsites.com
+SOURCE_TYPE_3: district_website
+SOURCE_DATE_3: 2025-12[3][10][1][2]
+
+============================================================
+LEAID=5000397 | Lamoille North Modified Union School District #058B, VERMONT | Step 1
+============================================================
+**Catherine Gallagher, M.Ed., is the Superintendent of Schools for Lamoille North Supervisory Union, overseeing the Lamoille North Modified Union School District #058B for the 2025–2026 school year.** [1][1][2][2]
+
+## Leadership Context
+As a component district of the Lamoille North Supervisory Union (LNSU), this modified union school district shares the supervisory union's top leader. Catherine Gallagher issued a welcome letter dated August 15, 2025, explicitly for the 2025–2026 school year and continues to be listed on official sites. [1][1] Vermont Agency of Education records confirm her as superintendent as of February 2, 2026. [2][2]
+
+## District Details
+The district, located in Hyde Park, VT (NCES LEAID 5000397), operates schools like Hyde Park Elementary under LNSU governance. [5] No evidence indicates a change in leadership or an acting superintendent for 2025–2026; she appears in recent board documents and org charts. [9][14]
+
+DISTRICT_CONFIRMED: Lamoille North Modified Union School District #058B  
+SUPERINTENDENT_FULL_NAME: Catherine Gallagher  
+CONFIDENCE: high  
+CONFIDENCE_REASON: Confirmed by district website welcome letter for 2025-26 school year (Aug 2025) and state education snapshot as of Feb 2026, with no transition news.  
+UNKNOWN_REASON:  
+SOURCE_URL_1: https://www.lnsd.org/departments/superintendents-office  
+SOURCE_TYPE_1: district_website  
+SOURCE_DATE_1: 2025-08  
+SOURCE_URL_2: https://schoolsnapshot.vermont.gov/snapshot?organizationid=e65f5503-673c-4290-8ca6-f3d274b3b935  
+SOURCE_TYPE_2: government  
+SOURCE_DATE_2: 2026-02
+
+============================================================
+LEAID=0103210 | Tallapoosa County, ALABAMA | Step 1
+============================================================
+**Casey D. Davis is the superintendent of Tallapoosa County Schools for the 2025–2026 school year.** [1][7][12]
+
+## District Confirmation
+The official district website lists Casey D. Davis as Superintendent in the administration section, with details on his background and prior roles within the district. This page appears active and current, referencing recent events like the 2026 school calendar. Dr. Penny Johnson serves as Deputy Superintendent. [1][6]
+
+## Evidence from Sources
+District staff directories confirm Davis as the top leader, with no announcements of changes or interim leadership during the current school year. News from July 2025 mentions a new deputy but no superintendent transition. Older videos reference past leaders like Raymond Porter, but current district pages supersede them. [1][2][12]
+
+DISTRICT_CONFIRMED: Tallapoosa County Schools
+SUPERINTENDENT_FULL_NAME: Casey D. Davis
+CONFIDENCE: high
+CONFIDENCE_REASON: Unambiguous listing as Superintendent on the official district administration page, active in Feb 2026 with no contrary news from the 2025-26 school year.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.tallapoosak12.org/our-district/administration
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: 2026-02
+SOURCE_URL_2: https://www.tallapoosak12.org
+SOURCE_TYPE_2: district_website
+SOURCE_DATE_2: 2026-01
+
+============================================================
+LEAID=3904461 | Orrville City, OHIO | Step 1
+============================================================
+**Dr. David Toth is the superintendent of Orrville City Schools for the 2025–2026 school year.** [4][1]
+
+## Current Role Confirmation
+Dr. David Toth is listed as the current superintendent on the official district website's superintendent page and staff directory. [4][5][1][2] District communications, including a February 2026 article on state funding signed by him and a September 2025 newsletter, confirm his active leadership during the school year. [6][13][1]
+
+## Tenure and Future Plans
+He began serving on August 1, 2024, replacing interim superintendent Brett Lanz. [1] A January 2026 board notice states Dr. Toth plans to retire effective April 1, 2026, and seek re-employment afterward, with a meeting scheduled for March 3, 2026—no changes have occurred as of late February 2026. [2]
+
+DISTRICT_CONFIRMED: Orrville City Schools  
+SUPERINTENDENT_FULL_NAME: Dr. David Toth  
+CONFIDENCE: high  
+CONFIDENCE_REASON: Multiple district website pages and recent 2025-2026 news confirm Dr. Toth as the currently serving superintendent.  
+UNKNOWN_REASON:  
+SOURCE_URL_1: https://www.orrvilleschools.org/page/superintendent  
+SOURCE_TYPE_1: district_website  
+SOURCE_DATE_1: 2026-02  
+SOURCE_URL_2: https://www.orrvilleschools.org/o/ocs/page/board-of-education  
+SOURCE_TYPE_2: district_website  
+SOURCE_DATE_2: 2026-01
+
+============================================================
+LEAID=5000412 | Caledonia Cooperative Unified School District #78, VERMONT | Step 1
+============================================================
+**Matthew Foster is the superintendent of Caledonia Cooperative Unified School District #78 for the 2025–2026 school year.** [5][1]
+
+## District Structure
+Caledonia Cooperative Unified School District #78 is a regular public school district in Danville, Vermont (NCES LEAID 5000412), functioning as a component of the Caledonia Central Supervisory Union (CCSU). [1][3] In Vermont supervisory unions, the superintendent oversees administration for member districts like this one, including Caledonia Co-op #78. [2][11]
+
+## Leadership Confirmation
+Matt Foster (full name: Matthew Foster) serves as the current superintendent of CCSU, explicitly confirmed as of February 2, 2026—during the 2025–2026 school year—by Vermont state records. [1][5] News from December 2025 refers to him as Superintendent Matt Foster with no mention of transitions. [9] The district website links to CCSU's site, where he is listed as the serving superintendent. [16]
+
+DISTRICT_CONFIRMED: Caledonia Cooperative Unified School District #78  
+SUPERINTENDENT_FULL_NAME: Matthew Foster  
+CONFIDENCE: high  
+CONFIDENCE_REASON: Unambiguous confirmation from Vermont Agency of Education snapshot dated Feb 2026 (current school year) and district-affiliated site; recent news (Dec 2025) affirms ongoing service with no transition evidence.  
+UNKNOWN_REASON:  
+SOURCE_URL_1: https://schoolsnapshot.vermont.gov/snapshot?organizationid=eab08afb-5d0d-475c-872b-5c634856de32  
+SOURCE_TYPE_1: government  
+SOURCE_DATE_1: 2026-02  
+SOURCE_URL_2: https://www.ccsuvt.net/superintendents  
+SOURCE_TYPE_2: district_website  
+SOURCE_DATE_2: undated  
+SOURCE_URL_3: https://vtdigger.org/2025/12/04/new-legal-opinion-complicates-saturday-vote-on-shuttering-high-school-grades-in-danville/  
+SOURCE_TYPE_3: news  
+SOURCE_DATE_3: 2025-12 [9]
+
+============================================================
+LEAID=2604350 | Beaver Island Community School, MICHIGAN | Step 1
+============================================================
+**Wil Cwikiel is the Superintendent/Principal of Beaver Island Community School for the 2025–2026 school year.** [1][2][1]
+
+## Official District Sources
+The district's official website lists Wil Cwikiel as Superintendent/Principal, with his contact wilc@beaverisland.k12.mi.us prominently featured on the homepage and school board page. [1][2][4][1][2] The board page includes 2025 meeting schedules through June 2025 and lists him in the 2024-2025 leadership section without mention of changes. [2][13]
+
+## Recent Confirmations
+An August 2025 news article quotes Wil Cwikiel as principal of the district discussing teacher recruitment challenges. [10] A 2025-26 Charlevoix-Emmet ISD directory confirms him as Principal/Superintendent. [13] No sources indicate a leadership change, departure, or new hire for 2025-26. [16]
+
+DISTRICT_CONFIRMED: Beaver Island Community School  
+SUPERINTENDENT_FULL_NAME: Wil Cwikiel  
+CONFIDENCE: high  
+CONFIDENCE_REASON: District website actively lists him as Superintendent/Principal; confirmed in 2025 news and regional ISD directory for current year with no transition reports.  
+UNKNOWN_REASON:  
+SOURCE_URL_1: https://www.beaverisland.k12.mi.us  
+SOURCE_TYPE_1: district_website  
+SOURCE_DATE_1: 2025-12 (news items)  
+SOURCE_URL_2: https://www.beaverisland.k12.mi.us/page/school-board-members24  
+SOURCE_TYPE_2: district_website  
+SOURCE_DATE_2: undated
+
+============================================================
+LEAID=3700421 | Catamount School, NORTH CAROLINA | Step 1
+============================================================
+Based on my research, I have found clear information about the leadership structure of The Catamount School for the 2025–2026 school year.
+
+The Catamount School is a laboratory school operated by Western Carolina University in partnership with Jackson County Public Schools. [10] **Kim Winter**, Dean of WCU's College of Education and Allied Professions, serves as **superintendent for TCS** [10], making her the top leader of the school. [10] Sarah Tatham serves as Principal. [10]
+
+However, there is structural ambiguity regarding whether Kim Winter's position as superintendent is held in her university role (Dean) or in a primary K-12 leadership capacity. According to your guidance, individuals whose primary roles include "Dean" of a university college should be excluded if their title is primarily university-based. Winter is listed as "dean of WCU's College of Education and Allied Professions and superintendent for TCS," indicating her superintendent title is secondary to her university dean role. [10]
+
+Given this ambiguity, **Sarah Tatham**, whose primary title is **Principal of The Catamount School**, is the most appropriate answer as the top K-12 leader whose role is dedicated to leading the school itself. [9][10]
+
+---
+
+DISTRICT_CONFIRMED: Catamount School (operates under partnership of Western Carolina University and Jackson County Public Schools)
+SUPERINTENDENT_FULL_NAME: Sarah Tatham (Principal)
+CONFIDENCE: medium
+CONFIDENCE_REASON: Sarah Tatham is the Principal of The Catamount School, the top K-12 leader with exclusive focus on school operations. Kim Winter also holds a "superintendent" title for TCS, but her primary role is Dean of a university college, creating structural ambiguity about whether the correct reporting leader is at the school or system level.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.wcu.edu/stories/posts/the-catamount-school-celebrates-academic-growth-rising-enrollment.aspx
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: 2026-01
+SOURCE_URL_2: https://www.wcu.edu/learn/departments-schools-colleges/ceap/catamount-school/
+SOURCE_TYPE_2: district_website
+SOURCE_DATE_2: 2026-02
+
+============================================================
+LEAID=5000423 | Rochester Stockbridge Unified School District #81, VERMONT | Step 1
+============================================================
+Based on my research, I have found clear confirmation of the superintendent for Rochester Stockbridge Unified School District for the 2025–2026 school year.
+
+## Key Findings
+
+Rochester Stockbridge Unified School District is part of the White River Valley Supervisory Union (WRVSU), and the supervisory union's superintendent serves all component districts, including Rochester Stockbridge Unified. [1][13]
+
+**Jamie Kinnarney** is the Superintendent of Schools for the White River Valley Supervisory Union and therefore serves Rochester Stockbridge Unified School District. [13][4] This is confirmed by multiple recent sources, including a YouTube recording from May 12, 2025 (the RSUD annual reorganization meeting) where Kinnarney is identified as "the superintendent of schools," [4] and official legislative testimony from January 2026 confirming the role. [10]
+
+The district website lists community letters from Superintendent Jamie Kinnarney for the 2025-2026 school year, further confirming current service in this role. [13]
+
+---
+
+**DISTRICT_CONFIRMED:** Rochester Stockbridge Unified District
+**SUPERINTENDENT_FULL_NAME:** Jamie Kinnarney
+**CONFIDENCE:** high
+**CONFIDENCE_REASON:** Multiple authoritative sources confirm Jamie Kinnarney as Superintendent of Schools for White River Valley Supervisory Union, which governs Rochester Stockbridge Unified District. A May 2025 RSUD board meeting recording and official district website (2025–26 materials) confirm current service.
+**UNKNOWN_REASON:** 
+**SOURCE_URL_1:** https://www.youtube.com/watch?v=JLpDhcTmbIo
+**SOURCE_TYPE_1:** news
+**SOURCE_DATE_1:** 2025-05
+**SOURCE_URL_2:** https://wrvsu.org/en-US/departments
+**SOURCE_TYPE_2:** district_website
+**SOURCE_DATE_2:** 2025-06 (inferred from current content listing 2025-26 letters)
+
+============================================================
+LEAID=3022260 | Reed Point H S, MONTANA | Step 1
+============================================================
+**Heather Jarrett is the superintendent of Reed Point School District (NCES LEAID 3022260) for the 2025–2026 school year.** [17][3][2]
+
+## Current Confirmation
+Heather Jarrett is listed as superintendent on the district's official faculty and staff page, updated as recently as February 2026, and on Stillwater County's schools directory with her district email (hjarrett@reedpoint.k12.mt.us). [17][2][3] Recent state documents and cooperative boards from 2025 also confirm her in the role, with no news of departure or replacement. [2][6][7]
+
+## District Context
+This small, independent district operates Reed Point Elementary and High School, where the superintendent often handles principal duties. [15][8] Listings appear in Montana Office of Public Instruction resources and county records as current. [3][7]
+
+DISTRICT_CONFIRMED: Reed Point School District  
+SUPERINTENDENT_FULL_NAME: Heather Jarrett  
+CONFIDENCE: high  
+CONFIDENCE_REASON: Confirmed as superintendent on district website (faculty page, 2026 update) and county directory, plus multiple 2025 state/board mentions with no transition news.  
+UNKNOWN_REASON:  
+SOURCE_URL_1: https://www.reedpoint.k12.mt.us/faculty-staff  
+SOURCE_TYPE_1: district_website  
+SOURCE_DATE_1: 2026-02  
+SOURCE_URL_2: https://www.stillwatercountymt.gov/DocumentCenter/View/926/Schools-Directory  
+SOURCE_TYPE_2: government  
+SOURCE_DATE_2: undated
+
+============================================================
+LEAID=3413890 | River Edge School District, NEW JERSEY | Step 1
+============================================================
+**Dr. Nicholas A. Bernice is the superintendent of River Edge School District in New Jersey for the 2025–2026 school year.** [1][13]
+
+## Appointment Details
+Dr. Bernice was appointed by the River Edge Board of Education, starting July 1, 2024, following a comprehensive search.[1][1] Previously the 2024 New Jersey Superintendent of the Year from Ringwood Public Schools, he now leads as the top educational official.[1]
+
+## Current Confirmation
+District staff listings and the superintendent's office page confirm him in the role.[2][5] State records from 2023–2024 and a January 2025 financial report list Dr. Nicholas Bernice as superintendent.[13][16] A February 2026 source also identifies him as superintendent, discussing ongoing board activities like NJSLA results and budgets.[9]
+
+## Earlier Context
+Prior acting superintendent Lisa Bernardo served before his appointment, noted in older records, but no evidence shows departure during 2025–2026.[4][7]
+
+DISTRICT_CONFIRMED: River Edge School District  
+SUPERINTENDENT_FULL_NAME: Dr. Nicholas A. Bernice  
+CONFIDENCE: high  
+CONFIDENCE_REASON: District website announces his July 2024 start; confirmed in 2025 state financial report and 2026 meeting summaries with no departure news.  
+UNKNOWN_REASON:  
+SOURCE_URL_1: https://www.riveredgeschools.org/article/1645431  
+SOURCE_TYPE_1: district_website  
+SOURCE_DATE_1: 2024-06  
+SOURCE_URL_2: https://www.nj.gov/education/finance/fp/acfr/search/24/4410.pdf  
+SOURCE_TYPE_2: government  
+SOURCE_DATE_2: 2025-01
+
+============================================================
+LEAID=3408490 | Lenape Regional High School District, NEW JERSEY | Step 1
+============================================================
+**Matthew D. Webb is the superintendent of the Lenape Regional High School District for the 2025–2026 school year.** [1][7][1]
+
+## Leadership Transition
+The Lenape Regional High School District (LRHSD) Board of Education unanimously approved Matthew Webb, previously the assistant superintendent, as the new superintendent on July 23, 2025, effective September 1, 2025, succeeding Dr. Carol Birnbohm upon her retirement. [1][1] This change occurred before the 2025–2026 school year (August 2025–June 2026), and district administration pages list Webb in the role as of October 2025. [7][1]
+
+## Confirmation
+District board highlights from January 2026 do not indicate any further changes, supporting Webb's ongoing service. [2] Older documents like the 2025-2026 student handbook list Birnbohm but predate the transition. [5]
+
+DISTRICT_CONFIRMED: Lenape Regional High School District
+SUPERINTENDENT_FULL_NAME: Matthew D. Webb
+CONFIDENCE: high
+CONFIDENCE_REASON: District website unambiguously lists Matthew D. Webb as Superintendent of Schools on current administration page; board announcement confirms his appointment effective Sept. 1, 2025 (within 2025-26 year) with no subsequent departure news.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://www.lrhsd.org/our-district/district-administration
+SOURCE_TYPE_1: district_website
+SOURCE_DATE_1: 2025-10
+SOURCE_URL_2: https://www.lrhsd.org/our-district/board-of-education/board-highlights/july-23-2025
+SOURCE_TYPE_2: district_website
+SOURCE_DATE_2: 2025-07
+
+============================================================
+LEAID=5000438 | Mountain View Union Elementary School District #94, VERMONT | Step 1
+============================================================
+**David Baker is the superintendent of the Orleans Southwest Supervisory Union, which oversees the Mountain View Union Elementary School District #94 as a component district.[6][2]**
+
+## Leadership Structure
+Mountain View Union Elementary School District #94 (Hardwick, VT) is a component of the Orleans Southwest Supervisory Union (OSSU), and Vermont supervisory unions provide centralized leadership including the superintendent for their member districts.[6][8] David Baker serves as OSSU Superintendent, referenced in current district resources and state records for the 2025-26 school year.[1][1] No separate superintendent is listed for MVU itself; school-level leaders include principals like William Deiss (Hardwick Elementary).[2]
+
+## Recent Confirmation
+Vermont Agency of Education records list David Baker as OSSU Superintendent as of January 28, 2025.[2] A February 2025 news article confirms Baker sharing updates on MVU matters, indicating ongoing service.[8] District staff pages and newsletters also name Dr. David Baker as Superintendent.[1]
+
+DISTRICT_CONFIRMED: Mountain View Union Elementary School District
+SUPERINTENDENT_FULL_NAME: David Baker
+CONFIDENCE: high
+CONFIDENCE_REASON: Confirmed by VT state snapshot (Jan 2025), OSSU staff page, and Feb 2025 news as current OSSU Superintendent overseeing MVU; no contrary evidence of change for 2025-26.
+UNKNOWN_REASON: 
+SOURCE_URL_1: https://schoolsnapshot.vermont.gov/snapshot?organizationid=86c67122-b0b2-4997-8a96-aed4ab4e19e8
+SOURCE_TYPE_1: government
+SOURCE_DATE_1: 2025-01
+SOURCE_URL_2: https://ossu.org/en-US/staff
+SOURCE_TYPE_2: district_website
+SOURCE_DATE_2: undated
+SOURCE_URL_3: https://hardwickgazette.org/2025/02/11/mvu-configuration-facilities-school-based-health-care-get-attention/
+SOURCE_TYPE_3: news
+SOURCE_DATE_3: 2025-02
+
+============================================================
+LEAID=4101800 | Bandon SD 54, OREGON | Step 1
+============================================================
+**Shauna Schmerer is the superintendent of Bandon SD 54 for the 2025–2026 school year.** [1][2][4]
+
+## Leadership Confirmation
+The official district website lists Shauna Schmerer as Superintendent and Homeless Liaison/Civil Rights Coordinator, with her contact email sschmerer@bandon.k12.or.us, alongside other administrators like principals and directors. [1][2][4] This appears on both the homepage and dedicated administration page, indicating current status as of February 2026. [1][2]
+
+## Recent Developments
+News from December 2025 and January 2026 reports ongoing complaints and investigations into Schmerer, including a contract amendment approved by the board and hiring of a private investigator, but no removal, resignation, or replacement. [1][3][17] A February 2026 article notes the board dismissing further complaints against her, confirming she remains in the role. [10] Earlier sites listing "Doug Ardiana" as superintendent appear outdated or erroneous, as current district pages and 2025-2026 news consistently name Schmerer. [8]
+
+DISTRICT_CONFIRMED: Bandon School District #54  
+SUPERINTENDENT_FULL_NAME: Shauna Schmerer  
+CONFIDENCE: high  
+CONFIDENCE_REASON: District website currently lists her as superintendent; recent 2026 news confirms ongoing tenure amid complaints but no leadership change for 2025-26 year.  
+UNKNOWN_REASON:  
+SOURCE_URL_1: https://bandon.k12.or.us/administration/  
+SOURCE_TYPE_1: district_website  
+SOURCE_DATE_1: 2026-02 (current as of Feb 2026)  
+SOURCE_URL_2: https://bandon.k12.or.us/  
+SOURCE_TYPE_2: district_website  
+SOURCE_DATE_2: 2026-02 (current as of Feb 2026)
+
