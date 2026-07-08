@@ -12,6 +12,8 @@ This dataset identifies the superintendent (or equivalent top administrator) for
 
 The dataset is constructed programmatically using a four-model AI pipeline that searches the web for each district, extracts structured information, and independently verifies findings. Each record includes the superintendent's name, two source URLs, eight evidence-quality indicators, confidence ratings, and AI-generated justifications from three independent models. The data were generated during March–April 2026 and reflect the superintendent serving for the majority of the 2025–2026 school year.
 
+> **Accuracy-weighted estimated overall accuracy: 99.0% to 99.9%.** Weighting each record's validated accuracy by its share of national K–12 enrollment, the estimated overall accuracy of the dataset is 99.0%–99.9%. Larger districts — which enroll the most students and thus dominate the enrollment-weighted estimate — are the most reliably identified (see Sections 3 and 4.2).
+
 ---
 
 ## 1. Universe and Sample Frame
