@@ -1,5 +1,5 @@
 # Data Description: The Broad Center Superintendent Research Dataset: U.S. Public School Superintendents, 2025–2026
-**Version:** June 2026  
+**Version:** July 2026  
 **File:** `superintendents_2025-2026_processed.xlsx`  
 **Observations:** 13,195 school districts  
 **Unit of observation:** School district–school year
